@@ -1,0 +1,16 @@
+
+mode: G
+name: Voynich Quantum Layer
+activation:
+  required_token: 3SCT
+  plan: null
+  allow_without_plan: true
+  max_sessions: 3
+launch:
+  seamless: true
+  trigger_on_token_payment: true
+payment_flow:
+  sct_unit_per_activation: 3
+  per_session_limit: 3
+  renew_prompt: "3テーマの鑑定が終了しました。続けて鑑定を行いますか？（はい / いいえ）"
+  stripe_fallback: true

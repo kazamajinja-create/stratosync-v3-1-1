@@ -1,0 +1,46 @@
+{
+  "release_version": "v1.0",
+  "built_at": "2026-02-18",
+  "files": [
+    {
+      "name": "integrated_case.v1.0.json",
+      "sha256": "9885e66593aa81b94a7e94277d49a9e8e6dc7f58ada1193d1646e830e7e85f87",
+      "source_path": "/mnt/data/stratosync_release_complete_v1_0/integrated_case.v1.0.json"
+    },
+    {
+      "name": "report_exec_v1.0.md",
+      "sha256": "fa03a89a8df2848e6f11b06793c3afbfc9612ffab87e70384bf528a384690c17",
+      "source_path": "/mnt/data/stratosync_release_complete_v1_0/report_exec_v1.0.md"
+    },
+    {
+      "name": "STRATOSYNC_Executive_Report_v1.0.pdf",
+      "sha256": "1d7a0f72a760c5e2995a94e6bc99e6039bddacae31d23d8e83087cbe2f58da40",
+      "source_path": "/mnt/data/stratosync_release_complete_v1_0/STRATOSYNC_Executive_Report_v1.0.pdf"
+    },
+    {
+      "name": "report_people.md",
+      "sha256": "af27b5d0919aef50fdaeced8cf3f141aaa096aca055e47eb704e56846223a6c6",
+      "source_path": "/mnt/data/stratosync_demo_v1/report_people.md"
+    },
+    {
+      "name": "audit_trace.json",
+      "sha256": "816d73c504f0719bc2c4cc277449e7398e04d1e25c6f6e2428ad2ef3e1b3e4e5",
+      "source_path": "/mnt/data/stratosync_demo_v1/audit_trace.json"
+    },
+    {
+      "name": "manifest.json",
+      "sha256": "61f6d3b51419007ed15847b20a0cb9a700c935f8af42f047efe893be7edfbe8a",
+      "source_path": "/mnt/data/stratosync_demo_v1/manifest.json"
+    },
+    {
+      "name": "MODE6_7_STRATEGIC_SYNTHESIS_SPEC_v1.md",
+      "sha256": "ba60f4df919ba6cf72b8db1bd1d9aec6cd78b3795bc7403ae09b87c257c252d0",
+      "source_path": "/mnt/data/stratosync_demo_v1/MODE6_7_STRATEGIC_SYNTHESIS_SPEC_v1.md"
+    },
+    {
+      "name": "STRATOSYNC_MASTER_ARCHITECTURE_v0.2.md",
+      "sha256": "8da94aa8112317076660edaed3a5713084eef0ce82fd6d5dd0f342bd14f84e2b",
+      "source_path": "/mnt/data/STRATOSYNC_MASTER_ARCHITECTURE_v0.2.md"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "template_pack_id": "TemplatePack_JP_SilverCare_v1_0",
+  "industry": "SilverCare",
+  "locale": "ja-JP",
+  "version": "1.0",
+  "description": "介護法人/高齢者ケア事業向けテンプレ（医療/歯科テンプレ構造に準拠）。稼働率・人件費比率・離職・夜勤負荷・介護度構成・報酬改定露出・採用依存・現金余力を統合し、Mode1/3/4/6/7のレポート出力に最適化。",
+  "assets": {
+    "qcs_module_path": "TEMPLATE_PACKS/INDUSTRY_MODULES/qcs_silvercare_module_v1_0",
+    "sample_data_path": "TEMPLATE_PACKS/SAMPLE_DATA/sample_kpi_silvercare_corp_v1_0.json"
+  },
+  "role_catalog": [
+    {
+      "role_id": "Corp_Director",
+      "org_unit": "Executive",
+      "role_name": "理事長/代表",
+      "required_vector": {
+        "risk_taking": 55,
+        "analytical_depth": 75,
+        "speed_vs_deliberation": 55,
+        "authority_orientation": 65,
+        "autonomy_need": 55,
+        "structure_preference": 70,
+        "emotional_reactivity": 35
+      }
+    },
+    {
+      "role_id": "Facility_Manager",
+      "org_unit": "FacilityOps",
+      "role_name": "施設長",
+      "required_vector": {
+        "risk_taking": 45,
+        "analytical_depth": 65,
+        "speed_vs_deliberation": 60,
+        "authority_orientation": 60,
+        "autonomy_need": 50,
+        "structure_preference": 85,
+        "emotional_reactivity": 40
+      }
+    },
+    {
+      "role_id": "Head_Nurse",
+      "org_unit": "ClinicalOps",
+      "role_name": "看護師長",
+      "required_vector": {
+        "risk_taking": 35,
+        "analytical_depth": 60,
+        "speed_vs_deliberation": 55,
+        "authority_orientation": 55,
+        "autonomy_need": 45,
+        "structure_preference": 90,
+        "emotional_reactivity": 45
+      }
+    },
+    {
+      "role_id": "Care_Lead",
+      "org_unit": "CareOps",
+      "role_name": "介護リーダー",
+      "required_vector": {
+        "risk_taking": 40,
+        "analytical_depth": 55,
+        "speed_vs_deliberation": 60,
+        "authority_orientation": 55,
+        "autonomy_need": 50,
+        "structure_preference": 85,
+        "emotional_reactivity": 50
+      }
+    },
+    {
+      "role_id": "HR_Staffing",
+      "org_unit": "HR",
+      "role_name": "採用/人事",
+      "required_vector": {
+        "risk_taking": 45,
+        "analytical_depth": 65,
+        "speed_vs_deliberation": 55,
+        "authority_orientation": 55,
+        "autonomy_need": 55,
+        "structure_preference": 80,
+        "emotional_reactivity": 40
+      }
+    }
+  ],
+  "scenario_demands": {
+    "S-A": {
+      "risk_taking": 60,
+      "analytical_depth": 70,
+      "speed_vs_deliberation": 60,
+      "authority_orientation": 65,
+      "autonomy_need": 55,
+      "structure_preference": 70,
+      "emotional_reactivity": 35
+    },
+    "S-B": {
+      "risk_taking": 50,
+      "analytical_depth": 75,
+      "speed_vs_deliberation": 50,
+      "authority_orientation": 60,
+      "autonomy_need": 50,
+      "structure_preference": 80,
+      "emotional_reactivity": 30
+    },
+    "S-C": {
+      "risk_taking": 45,
+      "analytical_depth": 65,
+      "speed_vs_deliberation": 55,
+      "authority_orientation": 55,
+      "autonomy_need": 55,
+      "structure_preference": 85,
+      "emotional_reactivity": 40
+    },
+    "S-D": {
+      "risk_taking": 40,
+      "analytical_depth": 70,
+      "speed_vs_deliberation": 45,
+      "authority_orientation": 65,
+      "autonomy_need": 45,
+      "structure_preference": 90,
+      "emotional_reactivity": 35
+    },
+    "S-E": {
+      "risk_taking": 35,
+      "analytical_depth": 70,
+      "speed_vs_deliberation": 50,
+      "authority_orientation": 55,
+      "autonomy_need": 50,
+      "structure_preference": 95,
+      "emotional_reactivity": 30
+    }
+  },
+  "weights": {
+    "decision_vector": {
+      "risk_taking": 0.14285714285714285,
+      "analytical_depth": 0.14285714285714285,
+      "speed_vs_deliberation": 0.14285714285714285,
+      "authority_orientation": 0.14285714285714285,
+      "autonomy_need": 0.14285714285714285,
+      "structure_preference": 0.14285714285714285,
+      "emotional_reactivity": 0.14285714285714285
+    }
+  }
+}

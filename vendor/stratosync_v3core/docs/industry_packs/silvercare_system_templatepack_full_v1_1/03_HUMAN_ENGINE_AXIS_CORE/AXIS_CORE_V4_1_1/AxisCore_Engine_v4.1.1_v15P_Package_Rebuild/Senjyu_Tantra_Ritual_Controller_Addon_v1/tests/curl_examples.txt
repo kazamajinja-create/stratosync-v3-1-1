@@ -1,0 +1,31 @@
+# 成人＆同意あり、Explicit要求（管理側ON時のみ有効化）
+curl -X POST http://localhost:8000/rituals/plan   -H "Content-Type: application/json"   -d '{
+    "pair_context": {
+      "adult_confirmed": true,
+      "mutual_consent": true,
+      "boundaries": ["口使用可","手使用可","痛みNG"],
+      "health_flags": [],
+      "goals": ["チャクラ活性","信頼深化"],
+      "birth_yyyymmdd": "19800622"
+    },
+    "scores": {
+      "overall": 82,
+      "kundalini": 84,
+      "scores": {"grounding":85,"prana":83,"polarity":80,"comms":78,"consent":88,"sacred":82}
+    },
+    "mode": "explicit"
+  }'
+
+# 未成年、または同意なし → Liteに自動ダウングレード
+curl -X POST http://localhost:8000/rituals/plan   -H "Content-Type: application/json"   -d '{
+    "pair_context": {
+      "adult_confirmed": false,
+      "mutual_consent": false,
+      "boundaries": [],
+      "health_flags": [],
+      "goals": [],
+      "birth_yyyymmdd": "20100401"
+    },
+    "scores": {"overall": 70, "kundalini": 70, "scores": {}},
+    "mode": "explicit"
+  }'

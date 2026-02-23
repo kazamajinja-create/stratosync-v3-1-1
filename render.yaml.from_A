@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: stratosync-v3-1-1
+    env: docker
+    plan: starter
+    autoDeploy: true
+    healthCheckPath: /health

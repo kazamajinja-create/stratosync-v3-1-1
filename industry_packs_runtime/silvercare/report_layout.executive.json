@@ -1,0 +1,80 @@
+{
+  "title": "STRATOSYNC — Executive Report (SilverCare)",
+  "sections": [
+    {
+      "heading": "施設運営の全体状態 (Core)",
+      "items": [
+        {
+          "label": "System State",
+          "path": "outputs.system_state",
+          "fmt": "str"
+        },
+        {
+          "label": "Synchronization Score S",
+          "path": "outputs.synchronization_score",
+          "fmt": "float2"
+        },
+        {
+          "label": "Δ-Index",
+          "path": "outputs.delta_index",
+          "fmt": "float2"
+        }
+      ]
+    },
+    {
+      "heading": "RCL (収束インテリジェンス)",
+      "items": [
+        {
+          "label": "BEI (Branch Explosion)",
+          "path": "outputs.rcl.branch_explosion.bei_score",
+          "fmt": "float2"
+        },
+        {
+          "label": "BEI Level",
+          "path": "outputs.rcl.branch_explosion.risk_level",
+          "fmt": "str"
+        },
+        {
+          "label": "ECE Confidence",
+          "path": "outputs.rcl.convergence.confidence_score",
+          "fmt": "float2"
+        },
+        {
+          "label": "RSM Residual Index",
+          "path": "outputs.rcl.residual.residual_index",
+          "fmt": "float3"
+        },
+        {
+          "label": "RSM Anomaly",
+          "path": "outputs.rcl.residual.anomaly_flag",
+          "fmt": "bool"
+        }
+      ]
+    },
+    {
+      "heading": "入力サマリー (Case)",
+      "items": [
+        {
+          "label": "Company Size",
+          "path": "inputs.context.company_size",
+          "fmt": "int"
+        },
+        {
+          "label": "Departments",
+          "path": "inputs.context.departments",
+          "fmt": "int"
+        },
+        {
+          "label": "Decision Makers",
+          "path": "inputs.context.decision_makers",
+          "fmt": "int"
+        },
+        {
+          "label": "Locations",
+          "path": "inputs.context.locations",
+          "fmt": "int"
+        }
+      ]
+    }
+  ]
+}

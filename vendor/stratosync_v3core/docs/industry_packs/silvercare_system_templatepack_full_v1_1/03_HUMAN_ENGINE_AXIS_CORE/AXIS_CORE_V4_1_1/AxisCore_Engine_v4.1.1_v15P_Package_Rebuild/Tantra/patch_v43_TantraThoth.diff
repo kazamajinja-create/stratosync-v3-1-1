@@ -1,0 +1,15 @@
+--- old/modeDE.py
++++ new/modeDE.py
+@@
+ class ModeDE:
+     def __init__(self):
+-        self.submodules = []
++        self.submodules = ["TantraModule", "ThothOracle"]
++
++    def integrate_tantra(self, act_type):
++        from tantra_module import TantraModule
++        return TantraModule().analyze(act_type)
++
++    def consult_thoth(self, question):
++        from thoth_oracle import ThothOracle
++        return ThothOracle().consult(question)

@@ -1,0 +1,764 @@
+{
+  "case_id": "DEMO-JP-FOODSVC-001",
+  "template_pack": "JP_FoodService_SME_v0.1",
+  "created_at": "2026-02-18",
+  "versions": {
+    "qcs_core": "QCS-Core_v2.9",
+    "axis_core": "AXIS-Core_v4.1.1",
+    "translator": "HDA-Translator_v0.2",
+    "spec_version": "v1.0",
+    "manifest_sha256": "e806880000d8f0d1d23084151b45d05b8e9b24e0c45b2390e0bb4d065e86b67f",
+    "release_version": "v1.0",
+    "spec_base_version": "v0.2",
+    "mode6_method": "Mode6_v1.demo",
+    "mode7_method": "Mode7_v1.demo",
+    "built_at": "2026-02-18"
+  },
+  "inputs": {
+    "business_intake": {
+      "company_name": "HanaBite Foods Co., Ltd.",
+      "industry": "Food service / multi-store (SME)",
+      "annual_revenue_jpy": 520000000,
+      "gross_margin_pct": 58,
+      "stores": 6,
+      "employees": 42,
+      "key_risks": [
+        "key-person dependency on founder",
+        "store manager churn",
+        "quality variance by store"
+      ],
+      "goal_12m": "Stabilize ops and scale to 10 stores without margin collapse.",
+      "constraints": {
+        "capex_limit_jpy": 40000000,
+        "hiring_limit": 8
+      }
+    },
+    "people_intake": [
+      {
+        "person_id": "P001",
+        "name": "Founder/CEO",
+        "role": "CEO",
+        "intake_text": "急拡大より品質を守りたい。だが挑戦もしたい。決断は速いが後で悩むこともある。"
+      },
+      {
+        "person_id": "P002",
+        "name": "COO",
+        "role": "COO",
+        "intake_text": "現場の標準化と数字の整合を最優先。慎重で段取り重視。"
+      },
+      {
+        "person_id": "P003",
+        "name": "Sales Lead",
+        "role": "SalesLead",
+        "intake_text": "攻めの提案で新規を取りたい。スピード感が大事。裁量が欲しい。"
+      },
+      {
+        "person_id": "P004",
+        "name": "HR/People Ops",
+        "role": "HROps",
+        "intake_text": "離職を減らし、衝突を減らす。丁寧な対話と仕組み化。"
+      }
+    ],
+    "inputs_sha256": "ef8e99638f219757ec61451efbd308a145f5e89e7fd2bccbd7313d8ca35a9a19"
+  },
+  "business_model": {
+    "revenue_stability_index": 62,
+    "growth_sustainability_index": 58,
+    "market_dependency_index": 44,
+    "key_person_dependency_index": 78,
+    "finance_risk_heatmap": {
+      "cashflow": 55,
+      "margin": 48,
+      "labor_cost": 72,
+      "churn": 60
+    },
+    "notes": [
+      "Founder dependency is high; scale will amplify variance.",
+      "Store-level operational consistency is the main constraint."
+    ]
+  },
+  "human_profiles": [
+    {
+      "person_id": "P001",
+      "role": "CEO",
+      "context": {
+        "phase": "scale",
+        "country": "JP"
+      },
+      "decision_vector": {
+        "risk_taking": 72,
+        "analytical_depth": 48,
+        "speed_vs_deliberation": 78,
+        "authority_orientation": 70,
+        "autonomy_need": 62,
+        "structure_preference": 55,
+        "emotional_reactivity": 58
+      },
+      "bias_flags": [
+        "Speed_Bias_Tendency"
+      ],
+      "risk_posture_index": 60.85,
+      "decision_stability_score": 66.4,
+      "versions": {
+        "qcs_core": "QCS-Core_v2.9",
+        "axis_core": "AXIS-Core_v4.1.1",
+        "translator": "HDA-Translator_v0.2",
+        "spec_version": "v0.2"
+      }
+    },
+    {
+      "person_id": "P002",
+      "role": "COO",
+      "context": {
+        "phase": "scale",
+        "country": "JP"
+      },
+      "decision_vector": {
+        "risk_taking": 38,
+        "analytical_depth": 82,
+        "speed_vs_deliberation": 36,
+        "authority_orientation": 64,
+        "autonomy_need": 44,
+        "structure_preference": 86,
+        "emotional_reactivity": 34
+      },
+      "bias_flags": [
+        "Change_Resistance"
+      ],
+      "risk_posture_index": 28.8,
+      "decision_stability_score": 83.2,
+      "versions": {
+        "qcs_core": "QCS-Core_v2.9",
+        "axis_core": "AXIS-Core_v4.1.1",
+        "translator": "HDA-Translator_v0.2",
+        "spec_version": "v0.2"
+      }
+    },
+    {
+      "person_id": "P003",
+      "role": "SalesLead",
+      "context": {
+        "phase": "growth",
+        "country": "JP"
+      },
+      "decision_vector": {
+        "risk_taking": 84,
+        "analytical_depth": 44,
+        "speed_vs_deliberation": 88,
+        "authority_orientation": 42,
+        "autonomy_need": 80,
+        "structure_preference": 32,
+        "emotional_reactivity": 60
+      },
+      "bias_flags": [
+        "High_Overconfidence",
+        "Volatility_Seeking"
+      ],
+      "risk_posture_index": 71.0,
+      "decision_stability_score": 54.4,
+      "versions": {
+        "qcs_core": "QCS-Core_v2.9",
+        "axis_core": "AXIS-Core_v4.1.1",
+        "translator": "HDA-Translator_v0.2",
+        "spec_version": "v0.2"
+      }
+    },
+    {
+      "person_id": "P004",
+      "role": "HROps",
+      "context": {
+        "phase": "stabilize",
+        "country": "JP"
+      },
+      "decision_vector": {
+        "risk_taking": 46,
+        "analytical_depth": 66,
+        "speed_vs_deliberation": 52,
+        "authority_orientation": 40,
+        "autonomy_need": 58,
+        "structure_preference": 74,
+        "emotional_reactivity": 48
+      },
+      "bias_flags": [],
+      "risk_posture_index": 40.3,
+      "decision_stability_score": 97.6,
+      "versions": {
+        "qcs_core": "QCS-Core_v2.9",
+        "axis_core": "AXIS-Core_v4.1.1",
+        "translator": "HDA-Translator_v0.2",
+        "spec_version": "v0.2"
+      }
+    }
+  ],
+  "org_model": {
+    "role_requirements": {
+      "StoreOpsManager": {
+        "risk_taking": 45,
+        "analytical_depth": 60,
+        "speed_vs_deliberation": 55,
+        "authority_orientation": 55,
+        "autonomy_need": 55,
+        "structure_preference": 80,
+        "emotional_reactivity": 45
+      },
+      "GrowthInitiativeLead": {
+        "risk_taking": 75,
+        "analytical_depth": 55,
+        "speed_vs_deliberation": 75,
+        "authority_orientation": 40,
+        "autonomy_need": 75,
+        "structure_preference": 35,
+        "emotional_reactivity": 55
+      },
+      "FinanceControlLead": {
+        "risk_taking": 30,
+        "analytical_depth": 85,
+        "speed_vs_deliberation": 40,
+        "authority_orientation": 60,
+        "autonomy_need": 45,
+        "structure_preference": 90,
+        "emotional_reactivity": 30
+      },
+      "PeopleStabilityLead": {
+        "risk_taking": 40,
+        "analytical_depth": 65,
+        "speed_vs_deliberation": 50,
+        "authority_orientation": 45,
+        "autonomy_need": 55,
+        "structure_preference": 75,
+        "emotional_reactivity": 45
+      }
+    },
+    "weights": {
+      "risk_taking": 0.14285714285714285,
+      "analytical_depth": 0.14285714285714285,
+      "speed_vs_deliberation": 0.14285714285714285,
+      "authority_orientation": 0.14285714285714285,
+      "autonomy_need": 0.14285714285714285,
+      "structure_preference": 0.14285714285714285,
+      "emotional_reactivity": 0.14285714285714285
+    },
+    "org_units": [
+      "HQ",
+      "StoreOps",
+      "Sales",
+      "People"
+    ],
+    "pressure_baseline": {
+      "HQ": 0.55,
+      "StoreOps": 0.72,
+      "Sales": 0.6,
+      "People": 0.5
+    },
+    "role_fit_scores": {
+      "P001": {
+        "StoreOpsManager": 82.57,
+        "GrowthInitiativeLead": 88.71,
+        "FinanceControlLead": 70.43,
+        "PeopleStabilityLead": 79.71
+      },
+      "P002": {
+        "StoreOpsManager": 87.86,
+        "GrowthInitiativeLead": 67.14,
+        "FinanceControlLead": 96.0,
+        "PeopleStabilityLead": 87.86
+      },
+      "P003": {
+        "StoreOpsManager": 73.0,
+        "GrowthInitiativeLead": 93.14,
+        "FinanceControlLead": 59.43,
+        "PeopleStabilityLead": 73.0
+      },
+      "P004": {
+        "StoreOpsManager": 94.71,
+        "GrowthInitiativeLead": 82.0,
+        "FinanceControlLead": 83.71,
+        "PeopleStabilityLead": 97.0
+      }
+    },
+    "friction_map": {
+      "P001": {
+        "StoreOpsManager": {
+          "HQ": 0.478,
+          "StoreOps": 0.584,
+          "Sales": 0.509,
+          "People": 0.446
+        },
+        "GrowthInitiativeLead": {
+          "HQ": 0.407,
+          "StoreOps": 0.506,
+          "Sales": 0.436,
+          "People": 0.379
+        },
+        "FinanceControlLead": {
+          "HQ": 0.617,
+          "StoreOps": 0.724,
+          "Sales": 0.65,
+          "People": 0.582
+        },
+        "PeopleStabilityLead": {
+          "HQ": 0.511,
+          "StoreOps": 0.619,
+          "Sales": 0.543,
+          "People": 0.478
+        }
+      },
+      "P002": {
+        "StoreOpsManager": {
+          "HQ": 0.417,
+          "StoreOps": 0.517,
+          "Sales": 0.446,
+          "People": 0.388
+        },
+        "GrowthInitiativeLead": {
+          "HQ": 0.652,
+          "StoreOps": 0.757,
+          "Sales": 0.685,
+          "People": 0.617
+        },
+        "FinanceControlLead": {
+          "HQ": 0.329,
+          "StoreOps": 0.413,
+          "Sales": 0.353,
+          "People": 0.306
+        },
+        "PeopleStabilityLead": {
+          "HQ": 0.417,
+          "StoreOps": 0.517,
+          "Sales": 0.446,
+          "People": 0.388
+        }
+      },
+      "P003": {
+        "StoreOpsManager": {
+          "HQ": 0.588,
+          "StoreOps": 0.697,
+          "Sales": 0.622,
+          "People": 0.554
+        },
+        "GrowthInitiativeLead": {
+          "HQ": 0.359,
+          "StoreOps": 0.449,
+          "Sales": 0.384,
+          "People": 0.334
+        },
+        "FinanceControlLead": {
+          "HQ": 0.728,
+          "StoreOps": 0.823,
+          "Sales": 0.759,
+          "People": 0.695
+        },
+        "PeopleStabilityLead": {
+          "HQ": 0.588,
+          "StoreOps": 0.697,
+          "Sales": 0.622,
+          "People": 0.554
+        }
+      },
+      "P004": {
+        "StoreOpsManager": {
+          "HQ": 0.342,
+          "StoreOps": 0.429,
+          "Sales": 0.367,
+          "People": 0.318
+        },
+        "GrowthInitiativeLead": {
+          "HQ": 0.484,
+          "StoreOps": 0.591,
+          "Sales": 0.516,
+          "People": 0.453
+        },
+        "FinanceControlLead": {
+          "HQ": 0.464,
+          "StoreOps": 0.57,
+          "Sales": 0.495,
+          "People": 0.434
+        },
+        "PeopleStabilityLead": {
+          "HQ": 0.319,
+          "StoreOps": 0.4,
+          "Sales": 0.342,
+          "People": 0.296
+        }
+      }
+    },
+    "hotspots": [
+      {
+        "person_id": "P003",
+        "role_candidate": "FinanceControlLead",
+        "org_unit": "StoreOps",
+        "friction_prob": 0.823,
+        "note": "High mismatch × high pressure baseline"
+      },
+      {
+        "person_id": "P003",
+        "role_candidate": "FinanceControlLead",
+        "org_unit": "Sales",
+        "friction_prob": 0.759,
+        "note": "High mismatch × high pressure baseline"
+      },
+      {
+        "person_id": "P002",
+        "role_candidate": "GrowthInitiativeLead",
+        "org_unit": "StoreOps",
+        "friction_prob": 0.757,
+        "note": "High mismatch × high pressure baseline"
+      },
+      {
+        "person_id": "P003",
+        "role_candidate": "FinanceControlLead",
+        "org_unit": "HQ",
+        "friction_prob": 0.728,
+        "note": "High mismatch × high pressure baseline"
+      },
+      {
+        "person_id": "P001",
+        "role_candidate": "FinanceControlLead",
+        "org_unit": "StoreOps",
+        "friction_prob": 0.724,
+        "note": "High mismatch × high pressure baseline"
+      },
+      {
+        "person_id": "P003",
+        "role_candidate": "StoreOpsManager",
+        "org_unit": "StoreOps",
+        "friction_prob": 0.697,
+        "note": "High mismatch × high pressure baseline"
+      },
+      {
+        "person_id": "P003",
+        "role_candidate": "PeopleStabilityLead",
+        "org_unit": "StoreOps",
+        "friction_prob": 0.697,
+        "note": "High mismatch × high pressure baseline"
+      },
+      {
+        "person_id": "P003",
+        "role_candidate": "FinanceControlLead",
+        "org_unit": "People",
+        "friction_prob": 0.695,
+        "note": "High mismatch × high pressure baseline"
+      }
+    ],
+    "dependency": {
+      "StoreOpsManager": 0.102,
+      "GrowthInitiativeLead": 0.104,
+      "FinanceControlLead": 0.186,
+      "PeopleStabilityLead": 0.126
+    },
+    "coefficients": {
+      "a": 3.0,
+      "b": 2.0,
+      "c": 3.0,
+      "d0": -2.0
+    }
+  },
+  "scenarios": [
+    {
+      "scenario_id": "S-A",
+      "name": "Scale Fast (10 stores in 12m)",
+      "capex_jpy": 40000000,
+      "hire": 8,
+      "policy": "Aggressive expansion",
+      "assumptions": {
+        "growth_rate": 0.24,
+        "churn": 0.12,
+        "hiring_speed": 0.75
+      },
+      "metrics_raw": {
+        "delta_ebitda_jpy": 7488000,
+        "risk_raw": 75,
+        "orgload_raw": 0.582,
+        "align_raw": 62
+      },
+      "scorecard": {
+        "finance": 100.0,
+        "risk": 0.0,
+        "orgload": 0.0,
+        "align": 62
+      },
+      "composite_score": 44.3,
+      "scenario_model": {
+        "pareto_member": true
+      }
+    },
+    {
+      "scenario_id": "S-B",
+      "name": "Stabilize then Scale (8 stores)",
+      "capex_jpy": 25000000,
+      "hire": 6,
+      "policy": "Standardize first",
+      "assumptions": {
+        "growth_rate": 0.16,
+        "churn": 0.08,
+        "hiring_speed": 0.55
+      },
+      "metrics_raw": {
+        "delta_ebitda_jpy": 4992000,
+        "risk_raw": 55,
+        "orgload_raw": 0.531,
+        "align_raw": 78
+      },
+      "scorecard": {
+        "finance": 50.0,
+        "risk": 57.14,
+        "orgload": 50.5,
+        "align": 78
+      },
+      "composite_score": 56.11,
+      "scenario_model": {
+        "pareto_member": true
+      }
+    },
+    {
+      "scenario_id": "S-C",
+      "name": "Optimize Margin (6 stores)",
+      "capex_jpy": 12000000,
+      "hire": 3,
+      "policy": "Margin & retention focus",
+      "assumptions": {
+        "growth_rate": 0.1,
+        "churn": 0.06,
+        "hiring_speed": 0.4
+      },
+      "metrics_raw": {
+        "delta_ebitda_jpy": 2496000,
+        "risk_raw": 40,
+        "orgload_raw": 0.481,
+        "align_raw": 70
+      },
+      "scorecard": {
+        "finance": 0.0,
+        "risk": 100.0,
+        "orgload": 100.0,
+        "align": 70
+      },
+      "composite_score": 60.5,
+      "scenario_model": {
+        "pareto_member": true
+      }
+    }
+  ],
+  "scenario_model": {
+    "weights": {
+      "alpha": 0.35,
+      "beta": 0.25,
+      "gamma": 0.25,
+      "delta": 0.15
+    },
+    "normalization": {
+      "finance": {
+        "method": "minmax",
+        "min": 2496000,
+        "max": 7488000
+      },
+      "risk": {
+        "method": "minmax",
+        "min": 40,
+        "max": 75,
+        "inverted": true
+      },
+      "orgload": {
+        "method": "minmax",
+        "min": 0.481,
+        "max": 0.582,
+        "inverted": true
+      }
+    },
+    "pareto_frontier": [
+      "S-A",
+      "S-B",
+      "S-C"
+    ],
+    "switch_points": []
+  },
+  "artifacts": [
+    {
+      "artifact_id": "report_exec_md",
+      "type": "report_exec_md",
+      "sha256": "cfef7939d4fb774bbb4b6af08d31bd6dfd05e6fd1300023838e4dd774700b948",
+      "path": "report_exec.md"
+    },
+    {
+      "artifact_id": "report_people_md",
+      "type": "report_people_md",
+      "sha256": "af27b5d0919aef50fdaeced8cf3f141aaa096aca055e47eb704e56846223a6c6",
+      "path": "report_people.md"
+    },
+    {
+      "artifact_id": "exec_pdf",
+      "type": "report_exec_pdf",
+      "sha256": "ba832b06c28269790f3676bc3999e000409875e4ef22348f30768c49e1fc3e2d",
+      "path": "STRATOSYNC_Executive_Report_v1.pdf"
+    },
+    {
+      "artifact_id": "audit_trace",
+      "type": "audit_json",
+      "sha256": "816d73c504f0719bc2c4cc277449e7398e04d1e25c6f6e2428ad2ef3e1b3e4e5",
+      "path": "audit_trace.json"
+    },
+    {
+      "artifact_id": "manifest",
+      "type": "manifest_json",
+      "sha256": "61f6d3b51419007ed15847b20a0cb9a700c935f8af42f047efe893be7edfbe8a",
+      "path": "manifest.json"
+    },
+    {
+      "artifact_id": "mode6_7_spec",
+      "type": "spec_md",
+      "sha256": "ba60f4df919ba6cf72b8db1bd1d9aec6cd78b3795bc7403ae09b87c257c252d0",
+      "path": "MODE6_7_STRATEGIC_SYNTHESIS_SPEC_v1.md"
+    },
+    {
+      "artifact_id": "master_arch",
+      "type": "spec_md",
+      "sha256": "8da94aa8112317076660edaed3a5713084eef0ce82fd6d5dd0f342bd14f84e2b",
+      "path": "STRATOSYNC_MASTER_ARCHITECTURE_v0.2.md"
+    },
+    {
+      "artifact_id": "human_schema",
+      "type": "schema_json",
+      "sha256": "0ba11e13939433394d4efbee18d95658a8e45cf1d2097a92f1d913cb9ad762dd",
+      "path": "human_profile.schema.json"
+    },
+    {
+      "artifact_id": "case_schema",
+      "type": "schema_json",
+      "sha256": "a234909e9d6114e4883bf289031f2c10c32a78710b0d2417dc0a433f5133cb97",
+      "path": "integrated_case.schema.json"
+    },
+    {
+      "artifact_id": "mode2_spec",
+      "type": "spec_md",
+      "sha256": "d660e370ef802d1450652920dfe6c0ee6ecbc2875c16079cee259cb8b5864383",
+      "path": "MODE2_HUMAN_SPEC_v0.2.md"
+    },
+    {
+      "artifact_id": "translator_spec",
+      "type": "spec_md",
+      "sha256": "2158747b5f9fc4dfacd0433a82fc0aa3db2f31c320d0faec4d5740c8e9d47018",
+      "path": "HDA_TRANSLATOR_SPEC_v0.2.md"
+    },
+    {
+      "artifact_id": "mode3_spec",
+      "type": "spec_md",
+      "sha256": "4148ca5e7e3f085d56fa36707229357a47db5c9edbef0147b490deec36030049",
+      "path": "MODE3_ORG_DYNAMICS_SPEC_v0.2.md"
+    },
+    {
+      "artifact_id": "mode4_spec",
+      "type": "spec_md",
+      "sha256": "4e5a427a522edeb00041350e9af4bc058c6e94c5178c34cfc527bdc9175d4e58",
+      "path": "MODE4_SCENARIO_SPEC_v0.2.md"
+    },
+    {
+      "artifact_id": "spec_manifest",
+      "type": "manifest_json",
+      "sha256": "48791bd57ff01479df7f642e3914aadcf2f6177f7f10992c801def9b41586305",
+      "path": "MANIFEST_v0.2.json"
+    }
+  ],
+  "audit": {
+    "normalization": {
+      "finance": {
+        "method": "minmax",
+        "min": 2496000,
+        "max": 7488000
+      },
+      "risk": {
+        "method": "minmax",
+        "min": 40,
+        "max": 75,
+        "inverted": true
+      },
+      "orgload": {
+        "method": "minmax",
+        "min": 0.481,
+        "max": 0.582,
+        "inverted": true
+      }
+    },
+    "trace": [
+      {
+        "step": "Mode2",
+        "note": "Synthetic decision vectors inserted for demo; in production derived via HDA-Translator."
+      },
+      {
+        "step": "Mode3",
+        "note": "RoleFit via weighted L1 distance; FrictionProb via logistic model with baseline pressure."
+      },
+      {
+        "step": "Mode4",
+        "note": "Criteria normalized; Pareto computed; switch points via growth_rate scan."
+      }
+    ],
+    "consent": {
+      "people_data": "synthetic_demo",
+      "use_for_training": false,
+      "notes": "Replace with client consent metadata in production."
+    }
+  },
+  "mode6_alignment": {
+    "strategy_person_fit": {
+      "S-A": 91.71,
+      "S-B": 84.71,
+      "S-C": 75.43
+    },
+    "leadership_stretch_indicator": {
+      "S-A": 8.29,
+      "S-B": 15.29,
+      "S-C": 24.57
+    },
+    "organizational_resilience_index": 66.62,
+    "components": {
+      "mean_friction_0_1": 0.5061,
+      "dependency_index_0_1": 0.186,
+      "avg_decision_stability_score": 74.8,
+      "volatility_index_0_1": 0.252
+    },
+    "method_version": "Mode6_v1.demo"
+  },
+  "mode7_synthesis": {
+    "executive_health_score": 64.74,
+    "components": {
+      "business_stability": 60.0,
+      "org_resilience": 66.62,
+      "leadership_stability": 74.8,
+      "scenario_optimality": 60.5,
+      "best_scenario": "S-C"
+    },
+    "recommended_actions_90d": [
+      {
+        "priority": "P1",
+        "theme": "標準化（StoreOps）",
+        "action": "店舗運用の標準手順を2週間で固定し、チェックリスト運用を開始（全店舗）。",
+        "why": "StoreOpsの圧力が高く、摩擦が増幅しやすい。"
+      },
+      {
+        "priority": "P1",
+        "theme": "属人依存の低減",
+        "action": "高依存ロール「FinanceControlLead」の代替要員を1名指名し、週次で引継ぎ・意思決定ログを蓄積。",
+        "why": "単一障害点（SPOF）を減らす。"
+      },
+      {
+        "priority": "P2",
+        "theme": "戦略選択の条件化",
+        "action": "基本戦略は S-C を採用。ただし成長率・採用速度の条件レンジを定義し、逸脱時はシナリオ切替。",
+        "why": "Mode4の分岐思想を実務に落とす。"
+      },
+      {
+        "priority": "P2",
+        "theme": "摩擦ホットスポット対処",
+        "action": "StoreOpsでの摩擦確率が高い候補配置（P003→FinanceControlLead）は、配置前に役割境界と裁量を明文化。",
+        "why": "摩擦の“条件”を先に潰す。"
+      },
+      {
+        "priority": "P3",
+        "theme": "意思決定リズムの統一",
+        "action": "経営会議の意思決定テンプレ（前提/選択肢/リスク/反証）を導入し、バイアス検知を定例化。",
+        "why": "判断の再現性と学習速度を上げる。"
+      }
+    ],
+    "method_version": "Mode7_v1.demo"
+  }
+}

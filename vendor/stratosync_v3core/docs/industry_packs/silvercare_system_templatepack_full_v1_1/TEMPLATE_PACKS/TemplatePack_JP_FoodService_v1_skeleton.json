@@ -1,0 +1,91 @@
+{
+  "template_pack_id": "JP_FoodService_v1_skeleton",
+  "industry": "FoodService",
+  "locale": "ja-JP",
+  "version": "v1.0",
+  "description": "業界テンプレ雛形（飲食・多店舗向け）",
+  "role_catalog": [
+    {
+      "role_id": "StoreOps_Manager",
+      "org_unit": "StoreOps",
+      "role_name": "店舗運営責任者",
+      "required_vector": {
+        "risk_taking": 45,
+        "analytical_depth": 60,
+        "speed_vs_deliberation": 55,
+        "authority_orientation": 55,
+        "autonomy_need": 50,
+        "structure_preference": 80,
+        "emotional_reactivity": 40
+      }
+    },
+    {
+      "role_id": "Marketing_Growth",
+      "org_unit": "Marketing",
+      "role_name": "マーケ成長担当",
+      "required_vector": {
+        "risk_taking": 70,
+        "analytical_depth": 55,
+        "speed_vs_deliberation": 75,
+        "authority_orientation": 45,
+        "autonomy_need": 65,
+        "structure_preference": 35,
+        "emotional_reactivity": 55
+      }
+    },
+    {
+      "role_id": "Finance_Controller",
+      "org_unit": "Finance",
+      "role_name": "財務管理責任者",
+      "required_vector": {
+        "risk_taking": 35,
+        "analytical_depth": 85,
+        "speed_vs_deliberation": 40,
+        "authority_orientation": 50,
+        "autonomy_need": 45,
+        "structure_preference": 90,
+        "emotional_reactivity": 30
+      }
+    }
+  ],
+  "scenario_demands": {
+    "S-A": {
+      "risk_taking": 85,
+      "analytical_depth": 50,
+      "speed_vs_deliberation": 85,
+      "authority_orientation": 60,
+      "autonomy_need": 70,
+      "structure_preference": 40,
+      "emotional_reactivity": 55
+    },
+    "S-B": {
+      "risk_taking": 60,
+      "analytical_depth": 70,
+      "speed_vs_deliberation": 60,
+      "authority_orientation": 55,
+      "autonomy_need": 55,
+      "structure_preference": 75,
+      "emotional_reactivity": 45
+    },
+    "S-C": {
+      "risk_taking": 45,
+      "analytical_depth": 80,
+      "speed_vs_deliberation": 45,
+      "authority_orientation": 50,
+      "autonomy_need": 50,
+      "structure_preference": 85,
+      "emotional_reactivity": 40
+    }
+  },
+  "weights": {
+    "decision_vector": {
+      "risk_taking": 0.1429,
+      "analytical_depth": 0.1429,
+      "speed_vs_deliberation": 0.1429,
+      "authority_orientation": 0.1429,
+      "autonomy_need": 0.1429,
+      "structure_preference": 0.1429,
+      "emotional_reactivity": 0.1429
+    }
+  }
+}

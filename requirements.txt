@@ -1,0 +1,13 @@
+fastapi
+jinja2
+matplotlib
+numpy
+psycopg2-binary
+pydantic
+python-dotenv
+python-multipart
+reportlab
+sqlalchemy>=2.0
+stripe
+uvicorn
+uvicorn[standard]

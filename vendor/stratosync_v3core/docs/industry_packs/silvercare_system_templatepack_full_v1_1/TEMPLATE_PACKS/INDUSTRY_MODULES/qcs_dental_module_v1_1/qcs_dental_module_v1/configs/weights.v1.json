@@ -1,0 +1,38 @@
+{
+  "DRS": {
+    "shock_profit_residual": 0.2,
+    "oop_shock_sensitivity": 0.15,
+    "fixed_cost_ratio": 0.2,
+    "cash_runway_months": 0.2,
+    "depr_burden_ratio": 0.15,
+    "unit_utilization": 0.1
+  },
+  "DDI": {
+    "new_patient_rate_trend": 0.2,
+    "cancel_rate": 0.15,
+    "review_rating_trend": 0.2,
+    "rev_per_staff_trend": 0.15,
+    "competitor_change": 0.15,
+    "goal_gap_proxy": 0.15
+  },
+  "DeRS": {
+    "owner_dependency_ratio": 0.3,
+    "hygienist_retention_rate": 0.25,
+    "standardization_level": 0.15,
+    "delegation_level": 0.15,
+    "succession_readiness": 0.15
+  },
+  "SCI": {
+    "kpi_visibility": 0.25,
+    "meeting_structure": 0.2,
+    "role_clarity": 0.2,
+    "data_sharing_frequency": 0.15,
+    "initiative_tracking": 0.2
+  },
+  "GLOBAL": {
+    "DRS": 0.35,
+    "DDI": 0.25,
+    "DeRS": 0.2,
+    "SCI": 0.2
+  }
+}

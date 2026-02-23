@@ -1,0 +1,14 @@
+{
+  "engine": "Q-WAY",
+  "version": "1.0",
+  "edition": "16Ring Omega",
+  "type": "non-decision quantum engine",
+  "modes": ["normal", "omega"],
+  "principles": [
+    "multi-observer",
+    "probabilistic",
+    "uncertainty-preserving",
+    "non-collapse",
+    "memoryless"
+  ]
+}

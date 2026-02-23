@@ -1,0 +1,34 @@
+{
+  "clinic_profile": {
+    "clinic_name": "Sample Internal Clinic",
+    "region": "JP-Kanto",
+    "period_start": "2026-01-01",
+    "period_end": "2026-03-31"
+  },
+  "kpis": {
+    "patients_per_day": 85,
+    "avg_receipt_unit": 8500,
+    "self_pay_ratio": 0.12,
+    "revisit_rate": 0.68,
+    "monthly_growth_rate": -0.01,
+    "fixed_cost_ratio": 0.62,
+    "labor_cost_ratio": 0.45,
+    "cash_runway_months": 5,
+    "reimbursement_revision_risk": 0.4,
+    "depreciation_ratio": 0.06,
+    "area_population_trend": -0.5,
+    "competitor_change": 1,
+    "referral_rate_trend": -0.02,
+    "cancel_rate": 0.05,
+    "physician_dependency_ratio": 0.72,
+    "nurse_retention_rate": 0.82,
+    "standardization_level": 2,
+    "delegation_level": 2,
+    "succession_readiness": 1,
+    "kpi_visibility": 2,
+    "meeting_structure": 2,
+    "role_clarity": 3,
+    "data_sharing": 2,
+    "initiative_tracking": 2
+  }
+}

@@ -1,0 +1,1 @@
+Internal use. Structure may be public; weight/threshold files can be moved server-side for proprietary control.

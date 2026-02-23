@@ -1,0 +1,95 @@
+{
+  "template_pack_id": "JP_MedicalClinic_v1",
+  "industry": "MedicalClinic",
+  "locale": "ja-JP",
+  "version": "v1.0",
+  "description": "医科クリニック向けテンプレ（雛形）",
+  "assets": {
+    "qcs_module_path": "TEMPLATE_PACKS/INDUSTRY_MODULES/qcs_medical_basic_v1",
+    "sample_data_path": "TEMPLATE_PACKS/SAMPLE_DATA/sample_kpi_medical_clinic_v1.json"
+  },
+  "role_catalog": [
+    {
+      "role_id": "Clinic_Director",
+      "org_unit": "Executive",
+      "role_name": "院長",
+      "required_vector": {
+        "risk_taking": 55,
+        "analytical_depth": 80,
+        "speed_vs_deliberation": 55,
+        "authority_orientation": 65,
+        "autonomy_need": 60,
+        "structure_preference": 70,
+        "emotional_reactivity": 35
+      }
+    },
+    {
+      "role_id": "Head_Nurse",
+      "org_unit": "ClinicalOps",
+      "role_name": "看護師長",
+      "required_vector": {
+        "risk_taking": 40,
+        "analytical_depth": 65,
+        "speed_vs_deliberation": 55,
+        "authority_orientation": 60,
+        "autonomy_need": 45,
+        "structure_preference": 85,
+        "emotional_reactivity": 40
+      }
+    },
+    {
+      "role_id": "Reception_Admin",
+      "org_unit": "Admin",
+      "role_name": "受付/事務",
+      "required_vector": {
+        "risk_taking": 35,
+        "analytical_depth": 55,
+        "speed_vs_deliberation": 60,
+        "authority_orientation": 50,
+        "autonomy_need": 40,
+        "structure_preference": 90,
+        "emotional_reactivity": 45
+      }
+    }
+  ],
+  "scenario_demands": {
+    "S-A": {
+      "risk_taking": 65,
+      "analytical_depth": 75,
+      "speed_vs_deliberation": 60,
+      "authority_orientation": 65,
+      "autonomy_need": 55,
+      "structure_preference": 70,
+      "emotional_reactivity": 35
+    },
+    "S-B": {
+      "risk_taking": 55,
+      "analytical_depth": 80,
+      "speed_vs_deliberation": 50,
+      "authority_orientation": 60,
+      "autonomy_need": 50,
+      "structure_preference": 80,
+      "emotional_reactivity": 30
+    },
+    "S-C": {
+      "risk_taking": 45,
+      "analytical_depth": 85,
+      "speed_vs_deliberation": 45,
+      "authority_orientation": 55,
+      "autonomy_need": 45,
+      "structure_preference": 90,
+      "emotional_reactivity": 28
+    }
+  },
+  "weights": {
+    "decision_vector": {
+      "risk_taking": 0.142857,
+      "analytical_depth": 0.142857,
+      "speed_vs_deliberation": 0.142857,
+      "authority_orientation": 0.142857,
+      "autonomy_need": 0.142857,
+      "structure_preference": 0.142857,
+      "emotional_reactivity": 0.142857
+    }
+  }
+}

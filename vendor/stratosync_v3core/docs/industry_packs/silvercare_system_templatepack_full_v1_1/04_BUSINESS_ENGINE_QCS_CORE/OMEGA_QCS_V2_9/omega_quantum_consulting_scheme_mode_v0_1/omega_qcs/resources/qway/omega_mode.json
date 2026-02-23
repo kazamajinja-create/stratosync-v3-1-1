@@ -1,0 +1,8 @@
+{
+  "mode": "omega",
+  "decision_output": false,
+  "recommendation": false,
+  "action_prompt": false,
+  "intentional_silence": true,
+  "ring_closure_rule": "no_full_closure"
+}

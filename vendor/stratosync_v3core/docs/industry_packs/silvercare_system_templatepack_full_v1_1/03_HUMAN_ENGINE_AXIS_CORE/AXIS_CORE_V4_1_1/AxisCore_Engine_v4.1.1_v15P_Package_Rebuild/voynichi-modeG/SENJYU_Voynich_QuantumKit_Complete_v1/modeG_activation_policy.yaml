@@ -1,0 +1,3 @@
+requires: 3_SCT
+included_in_subscription: false
+allow_if: has_3sct == true

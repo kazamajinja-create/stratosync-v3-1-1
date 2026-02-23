@@ -1,0 +1,37 @@
+{
+  "clinic_profile": {
+    "clinic_name": "Sample Dental Clinic",
+    "region": "JP-Kanto",
+    "period_start": "2025-12-01",
+    "period_end": "2026-01-31",
+    "notes": "demo"
+  },
+  "kpis": {
+    "visits_per_day": 55,
+    "avg_ticket_ins": 6200,
+    "avg_ticket_oop": 38000,
+    "oop_ratio": 0.38,
+    "new_patient_rate": 0.14,
+    "ltv_oop": 92000,
+    "unit_utilization": 0.72,
+    "depr_burden_ratio": 0.07,
+    "fixed_cost_ratio": 0.62,
+    "cash_runway_months": 5.5,
+    "booking_fill_rate": 0.82,
+    "cancel_rate": 0.06,
+    "rev_per_staff": 980000,
+    "competitor_change": 1,
+    "review_rating_trend": -0.03,
+    "hygienist_retention_rate": 0.78,
+    "owner_dependency_ratio": 0.62,
+    "rev_growth_mom": -0.01,
+    "standardization_level": 2.5,
+    "delegation_level": 2.0,
+    "succession_readiness": 1.5,
+    "kpi_visibility": 2.5,
+    "meeting_structure": 2.0,
+    "role_clarity": 2.5,
+    "data_sharing_frequency": 2.0,
+    "initiative_tracking": 2.0
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "project_id": "demo:alpha",
+  "override_state": "FREEZE",
+  "reason": "Manual governance lock for contract amendment window",
+  "expires_at": "2026-03-01T00:00:00Z"
+}

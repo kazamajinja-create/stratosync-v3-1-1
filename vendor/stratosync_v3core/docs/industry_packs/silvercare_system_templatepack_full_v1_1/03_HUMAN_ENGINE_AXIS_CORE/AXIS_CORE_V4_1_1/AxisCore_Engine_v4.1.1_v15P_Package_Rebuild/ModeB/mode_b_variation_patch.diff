@@ -1,0 +1,10 @@
+
+diff --git a/mode_b_output.py b/mode_b_output.py
+index abcdef1..1234567 100644
+--- a/mode_b_output.py
++++ b/mode_b_output.py
+@@
++from mode_b_response import generate_response
++
++def generate_mode_b_output(user_profile, style='random'):
++    return generate_response(user_profile, style)

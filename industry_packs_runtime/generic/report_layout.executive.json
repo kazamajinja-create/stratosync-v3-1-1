@@ -1,0 +1,20 @@
+{
+  "title": "STRATOSYNC — Executive Report (Generic)",
+  "sections": [
+    {
+      "heading": "Core Metrics",
+      "items": [
+        {"label": "Synchronization Score S", "path": "outputs.synchronization_score", "fmt": "float2"},
+        {"label": "Delta Index", "path": "outputs.delta_index", "fmt": "float2"},
+        {"label": "System State", "path": "outputs.system_state", "fmt": "str"}
+      ]
+    },
+    {
+      "heading": "RCL Summary",
+      "items": [
+        {"label": "BEI Score", "path": "outputs.rcl.branch_explosion.bei_score", "fmt": "float2"},
+        {"label": "ECE Confidence", "path": "outputs.rcl.convergence.confidence_score", "fmt": "float2"}
+      ]
+    }
+  ]
+}

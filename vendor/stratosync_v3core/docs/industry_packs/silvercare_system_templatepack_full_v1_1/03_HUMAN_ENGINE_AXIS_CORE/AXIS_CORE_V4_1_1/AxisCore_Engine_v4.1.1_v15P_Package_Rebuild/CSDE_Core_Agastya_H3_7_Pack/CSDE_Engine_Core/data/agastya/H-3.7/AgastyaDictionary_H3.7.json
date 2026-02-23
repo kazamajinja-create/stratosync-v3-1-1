@@ -1,0 +1,34 @@
+{
+  "AgastyaDictionary": {
+    "version": "H-3.7",
+    "description": "三層構造によるカルマ・予言・法典辞書群。魂署名から葉番号を導出し、詩的言語と象徴コードで運命を展開する。",
+    "structure": [
+      {
+        "layer": "KarmaLeaf",
+        "file": "karma_leaf_dict.json",
+        "purpose": "過去・現在・未来カルマの因果構造を解析"
+      },
+      {
+        "layer": "ProphecyLeaf",
+        "file": "prophecy_leaf_dict.json",
+        "purpose": "時代・魂周期・集合意識の未来予言を解析"
+      },
+      {
+        "layer": "DharmaLeaf",
+        "file": "dharma_leaf_dict.json",
+        "purpose": "魂の使命・法則・宇宙意識との契約コードを解釈"
+      }
+    ],
+    "integration": {
+      "engine": "CSDE_Engine_Core",
+      "seed_reference": "SoulSignature.hash",
+      "decode_method": "ResonantHash -> VerseMapping -> Translation -> Integration",
+      "output_format": "Mode H Prophetic Text",
+      "compatible_modes": [
+        "Mode D (Source Oracle)",
+        "Mode E (Spirit Resonance)",
+        "Mode B (Interpretive Narrative)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Omega QCS Financials Input Schema",
+  "type": "object",
+  "required": [
+    "period",
+    "currency",
+    "pl",
+    "bs",
+    "cf"
+  ],
+  "properties": {
+    "period": {
+      "type": "string"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "pl": {
+      "type": "object",
+      "required": [
+        "revenue",
+        "cogs",
+        "sg_and_a"
+      ],
+      "properties": {
+        "revenue": {
+          "type": "number"
+        },
+        "cogs": {
+          "type": "number"
+        },
+        "sg_and_a": {
+          "type": "number"
+        },
+        "operating_income": {
+          "type": "number"
+        },
+        "ordinary_income": {
+          "type": "number"
+        },
+        "net_income": {
+          "type": "number"
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "bs": {
+      "type": "object",
+      "required": [
+        "total_assets",
+        "total_liabilities",
+        "net_assets"
+      ],
+      "properties": {
+        "cash": {
+          "type": "number"
+        },
+        "accounts_receivable": {
+          "type": "number"
+        },
+        "inventory": {
+          "type": "number"
+        },
+        "fixed_assets": {
+          "type": "number"
+        },
+        "total_assets": {
+          "type": "number"
+        },
+        "interest_bearing_debt": {
+          "type": "number"
+        },
+        "total_liabilities": {
+          "type": "number"
+        },
+        "net_assets": {
+          "type": "number"
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "cf": {
+      "type": "object",
+      "required": [
+        "operating_cf",
+        "investing_cf",
+        "financing_cf"
+      ],
+      "properties": {
+        "operating_cf": {
+          "type": "number"
+        },
+        "investing_cf": {
+          "type": "number"
+        },
+        "financing_cf": {
+          "type": "number"
+        },
+        "net_cf": {
+          "type": "number"
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "derived": {
+      "type": "object",
+      "properties": {
+        "top_revenue_ratio": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "fixed_cost_ratio": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "variance": {
+          "type": "number",
+          "minimum": 0
+        },
+        "cf_pattern": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

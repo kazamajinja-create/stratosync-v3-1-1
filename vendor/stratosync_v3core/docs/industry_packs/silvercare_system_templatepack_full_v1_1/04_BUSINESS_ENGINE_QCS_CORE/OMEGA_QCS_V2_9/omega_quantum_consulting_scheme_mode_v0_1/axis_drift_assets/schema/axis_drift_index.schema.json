@@ -1,0 +1,321 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AXIS Drift Index Assessment",
+  "type": "object",
+  "required": [
+    "meta",
+    "inputs",
+    "features",
+    "scores",
+    "classification",
+    "report"
+  ],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": [
+        "assessment_id",
+        "created_at",
+        "version",
+        "language"
+      ],
+      "properties": {
+        "assessment_id": {
+          "type": "string"
+        },
+        "created_at": {
+          "type": "string",
+          "description": "ISO8601 datetime"
+        },
+        "version": {
+          "type": "string"
+        },
+        "language": {
+          "type": "string",
+          "enum": [
+            "ja",
+            "en"
+          ]
+        },
+        "client": {
+          "type": "object"
+        }
+      }
+    },
+    "inputs": {
+      "type": "object",
+      "required": [
+        "quant",
+        "text"
+      ],
+      "properties": {
+        "quant": {
+          "type": "object",
+          "description": "0-4 answers for Q1..Q20",
+          "additionalProperties": false,
+          "properties": {
+            "Q1": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 4
+            },
+            "Q2": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 4
+            },
+            "Q3": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 4
+            },
+            "Q4": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 4
+            },
+            "Q5": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 4
+            },
+            "Q6": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 4
+            },
+            "Q7": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 4
+            },
+            "Q8": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 4
+            },
+            "Q9": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 4
+            },
+            "Q10": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 4
+            },
+            "Q11": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 4
+            },
+            "Q12": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 4
+            },
+            "Q13": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 4
+            },
+            "Q14": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 4
+            },
+            "Q15": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 4
+            },
+            "Q16": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 4
+            },
+            "Q17": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 4
+            },
+            "Q18": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 4
+            },
+            "Q19": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 4
+            },
+            "Q20": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 4
+            }
+          },
+          "required": [
+            "Q1",
+            "Q2",
+            "Q3",
+            "Q4",
+            "Q5",
+            "Q6",
+            "Q7",
+            "Q8",
+            "Q9",
+            "Q10",
+            "Q11",
+            "Q12",
+            "Q13",
+            "Q14",
+            "Q15",
+            "Q16",
+            "Q17",
+            "Q18",
+            "Q19",
+            "Q20"
+          ]
+        },
+        "text": {
+          "type": "object",
+          "required": [
+            "T1_business_overview",
+            "T2_offers",
+            "T3_posts"
+          ],
+          "properties": {
+            "T1_business_overview": {
+              "type": "string",
+              "minLength": 50,
+              "maxLength": 2000
+            },
+            "T2_offers": {
+              "type": "string",
+              "minLength": 20,
+              "maxLength": 4000
+            },
+            "T3_posts": {
+              "type": "array",
+              "minItems": 3,
+              "maxItems": 10,
+              "items": {
+                "type": "object",
+                "required": [
+                  "source_type",
+                  "content"
+                ],
+                "properties": {
+                  "source_type": {
+                    "type": "string",
+                    "enum": [
+                      "paste",
+                      "url"
+                    ]
+                  },
+                  "content": {
+                    "type": "string",
+                    "minLength": 10,
+                    "maxLength": 8000
+                  }
+                }
+              }
+            },
+            "attachments": {
+              "type": "array"
+            }
+          }
+        }
+      }
+    },
+    "features": {
+      "type": "object",
+      "required": [
+        "derived",
+        "evidence"
+      ],
+      "properties": {
+        "derived": {
+          "type": "object"
+        },
+        "evidence": {
+          "type": "array"
+        }
+      }
+    },
+    "scores": {
+      "type": "object",
+      "required": [
+        "core_fixity",
+        "market_dependency_stability",
+        "horizontal_spread_stability",
+        "energy_erosion_stability",
+        "axis_coherence",
+        "total"
+      ],
+      "properties": {
+        "core_fixity": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 20
+        },
+        "market_dependency_stability": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 20
+        },
+        "horizontal_spread_stability": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 20
+        },
+        "energy_erosion_stability": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 20
+        },
+        "axis_coherence": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 20
+        },
+        "total": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        }
+      }
+    },
+    "classification": {
+      "type": "object",
+      "required": [
+        "label",
+        "confidence",
+        "rationale"
+      ],
+      "properties": {
+        "label": {
+          "type": "string",
+          "enum": [
+            "stable",
+            "exploration",
+            "mild_drift",
+            "reaction_driven"
+          ]
+        },
+        "confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "rationale": {
+          "type": "string"
+        }
+      }
+    },
+    "report": {
+      "type": "object"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "kind": "agent",
+  "meta": {
+    "industry_id": "legal",
+    "title": "legal Agent Brief",
+    "language": "ja"
+  },
+  "sections": [
+    {
+      "id": "actions",
+      "title": "優先アクション",
+      "blocks": [
+        {
+          "type": "bullets",
+          "data_path": "outputs.mode7.priority_actions"
+        }
+      ]
+    },
+    {
+      "id": "rcl",
+      "title": "Convergence Layer",
+      "blocks": [
+        {
+          "type": "rcl_summary",
+          "data_path": "outputs.rcl"
+        }
+      ]
+    }
+  ]
+}

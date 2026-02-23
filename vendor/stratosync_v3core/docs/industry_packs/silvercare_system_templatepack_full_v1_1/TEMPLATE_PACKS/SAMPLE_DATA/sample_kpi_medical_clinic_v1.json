@@ -1,0 +1,37 @@
+{
+  "industry": "MedicalClinic",
+  "period_months": 12,
+  "monthly_revenue": [
+    8200000,
+    8300000,
+    8150000,
+    8450000,
+    8600000,
+    8750000,
+    8900000,
+    9050000,
+    9200000,
+    9100000,
+    9300000,
+    9500000
+  ],
+  "monthly_patients": [
+    980,
+    995,
+    970,
+    1020,
+    1040,
+    1060,
+    1080,
+    1105,
+    1120,
+    1110,
+    1130,
+    1150
+  ],
+  "top_referral_share": 0.18,
+  "top_doctor_revenue_share": 0.42,
+  "fixed_cost_ratio": 0.58,
+  "cash_months": 4.5,
+  "notes": "Sample data (demo)"
+}

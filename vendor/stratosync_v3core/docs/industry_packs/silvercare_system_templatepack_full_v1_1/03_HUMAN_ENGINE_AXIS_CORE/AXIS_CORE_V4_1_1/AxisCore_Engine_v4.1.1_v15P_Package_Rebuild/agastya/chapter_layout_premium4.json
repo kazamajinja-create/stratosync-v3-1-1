@@ -1,0 +1,14 @@
+{
+  "sections": [
+    "agastia_text",
+    "vedic_annotation",
+    "izumidama_quantum",
+    "story"
+  ],
+  "titles": {
+    "agastia_text": "〔第一層：アガスティア本文〕",
+    "vedic_annotation": "〔第二層：精密ヴェーダ補注〕",
+    "izumidama_quantum": "〔第三層：泉珠量子観測〕",
+    "story": "〔第四層：物語的解説（ストーリーモード）〕"
+  }
+}

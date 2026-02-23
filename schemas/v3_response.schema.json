@@ -1,0 +1,43 @@
+{
+  "properties": {
+    "evaluation_id": {
+      "title": "Evaluation Id",
+      "type": "string"
+    },
+    "project_id": {
+      "title": "Project Id",
+      "type": "string"
+    },
+    "version": {
+      "title": "Version",
+      "type": "string"
+    },
+    "timestamp": {
+      "title": "Timestamp",
+      "type": "string"
+    },
+    "inputs": {
+      "title": "Inputs",
+      "type": "object"
+    },
+    "outputs": {
+      "title": "Outputs",
+      "type": "object"
+    },
+    "audit": {
+      "title": "Audit",
+      "type": "object"
+    }
+  },
+  "required": [
+    "evaluation_id",
+    "project_id",
+    "version",
+    "timestamp",
+    "inputs",
+    "outputs",
+    "audit"
+  ],
+  "title": "V3AnalyzeResponse",
+  "type": "object"
+}

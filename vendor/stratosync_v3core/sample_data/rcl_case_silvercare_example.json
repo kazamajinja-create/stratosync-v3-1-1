@@ -1,0 +1,34 @@
+{
+  "case_id": "SILVERCARE_DEMO_001",
+  "industry_template": "silvercare",
+  "context": {
+    "company_size": 120,
+    "departments": 6,
+    "decision_makers": 2,
+    "locations": 3
+  },
+  "degrees_of_freedom": {
+    "strategy_options": 4,
+    "affected_departments": 3,
+    "uncertainty_index": 0.62,
+    "change_scope": 0.55
+  },
+  "data_coverage": {
+    "financial": 0.9,
+    "human": 0.6,
+    "organization": 0.7,
+    "market": 0.5
+  },
+  "kpi_timeseries": [
+    {"month": "2025-01", "revenue": 12000000, "profit": 1800000, "other": {}},
+    {"month": "2025-02", "revenue": 11800000, "profit": 1600000, "other": {}}
+  ],
+  "interventions": [
+    {"date": "2025-02", "type": "staff_reallocation", "meta": {}},
+    {"date": "2025-03", "type": "marketing_campaign", "meta": {}}
+  ],
+  "mode_outputs": {
+    "entropy": 0.2,
+    "hints": {"friction_drop": true}
+  }
+}

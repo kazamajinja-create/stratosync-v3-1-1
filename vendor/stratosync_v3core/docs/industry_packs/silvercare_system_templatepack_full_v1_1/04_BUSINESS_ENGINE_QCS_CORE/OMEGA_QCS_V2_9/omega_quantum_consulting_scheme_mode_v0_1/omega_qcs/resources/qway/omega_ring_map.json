@@ -1,0 +1,24 @@
+{
+  "ring_count": 16,
+  "layers": ["Internal", "Relational", "Environmental", "Meaning"],
+  "rings": [
+    {"id":1,"name":"Body","layer":"Internal"},
+    {"id":2,"name":"Emotion","layer":"Internal"},
+    {"id":3,"name":"Cognition","layer":"Internal"},
+    {"id":4,"name":"Intuition","layer":"Internal"},
+    {"id":5,"name":"Relationship","layer":"Relational"},
+    {"id":6,"name":"Role","layer":"Relational"},
+    {"id":7,"name":"Expectation","layer":"Relational"},
+    {"id":8,"name":"Responsibility","layer":"Relational"},
+    {"id":9,"name":"Time","layer":"Environmental"},
+    {"id":10,"name":"Money","layer":"Environmental"},
+    {"id":11,"name":"Space","layer":"Environmental"},
+    {"id":12,"name":"Constraint","layer":"Environmental"},
+    {"id":13,"name":"Value","layer":"Meaning"},
+    {"id":14,"name":"Purpose","layer":"Meaning"},
+    {"id":15,"name":"Identity","layer":"Meaning"},
+    {"id":16,"name":"Narrative","layer":"Meaning"}
+  ],
+  "state_types": ["open","stable","soft_closing"],
+  "omega_rule": "no_ring_fully_closed"
+}

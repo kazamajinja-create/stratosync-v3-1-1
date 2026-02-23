@@ -1,0 +1,95 @@
+{
+  "template_pack_id": "JP_DentalClinic_v1_1",
+  "industry": "DentalClinic",
+  "locale": "ja-JP",
+  "version": "v1.1",
+  "description": "歯科クリニック向けテンプレ（雛形）",
+  "assets": {
+    "qcs_module_path": "TEMPLATE_PACKS/INDUSTRY_MODULES/qcs_dental_module_v1_1",
+    "sample_data_path": "TEMPLATE_PACKS/SAMPLE_DATA/sample_kpi_dental_clinic_v1_1.json"
+  },
+  "role_catalog": [
+    {
+      "role_id": "Dental_Director",
+      "org_unit": "Executive",
+      "role_name": "院長",
+      "required_vector": {
+        "risk_taking": 55,
+        "analytical_depth": 78,
+        "speed_vs_deliberation": 55,
+        "authority_orientation": 65,
+        "autonomy_need": 60,
+        "structure_preference": 70,
+        "emotional_reactivity": 32
+      }
+    },
+    {
+      "role_id": "Dental_Hygienist_Lead",
+      "org_unit": "ClinicalOps",
+      "role_name": "主任衛生士",
+      "required_vector": {
+        "risk_taking": 40,
+        "analytical_depth": 70,
+        "speed_vs_deliberation": 55,
+        "authority_orientation": 55,
+        "autonomy_need": 45,
+        "structure_preference": 85,
+        "emotional_reactivity": 38
+      }
+    },
+    {
+      "role_id": "Front_Desk",
+      "org_unit": "Admin",
+      "role_name": "受付",
+      "required_vector": {
+        "risk_taking": 35,
+        "analytical_depth": 55,
+        "speed_vs_deliberation": 60,
+        "authority_orientation": 50,
+        "autonomy_need": 40,
+        "structure_preference": 90,
+        "emotional_reactivity": 45
+      }
+    }
+  ],
+  "scenario_demands": {
+    "S-A": {
+      "risk_taking": 60,
+      "analytical_depth": 75,
+      "speed_vs_deliberation": 60,
+      "authority_orientation": 62,
+      "autonomy_need": 55,
+      "structure_preference": 72,
+      "emotional_reactivity": 34
+    },
+    "S-B": {
+      "risk_taking": 52,
+      "analytical_depth": 80,
+      "speed_vs_deliberation": 52,
+      "authority_orientation": 58,
+      "autonomy_need": 50,
+      "structure_preference": 82,
+      "emotional_reactivity": 30
+    },
+    "S-C": {
+      "risk_taking": 45,
+      "analytical_depth": 85,
+      "speed_vs_deliberation": 45,
+      "authority_orientation": 55,
+      "autonomy_need": 45,
+      "structure_preference": 90,
+      "emotional_reactivity": 28
+    }
+  },
+  "weights": {
+    "decision_vector": {
+      "risk_taking": 0.142857,
+      "analytical_depth": 0.142857,
+      "speed_vs_deliberation": 0.142857,
+      "authority_orientation": 0.142857,
+      "autonomy_need": 0.142857,
+      "structure_preference": 0.142857,
+      "emotional_reactivity": 0.142857
+    }
+  }
+}

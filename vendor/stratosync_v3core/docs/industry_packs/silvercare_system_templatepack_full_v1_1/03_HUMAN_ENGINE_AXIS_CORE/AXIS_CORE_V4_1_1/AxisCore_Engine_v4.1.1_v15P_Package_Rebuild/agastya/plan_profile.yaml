@@ -1,0 +1,24 @@
+plan: premium   # lite | standard | premium
+
+layers:
+  agastia:
+    chapters:
+      lite: 50
+    chars_per_chapter:
+      lite: [250, 350]
+      standard: [400, 600]
+      premium: [900, 1200]
+    tone: "holy_formal"
+
+  vedic:
+    enabled: {lite: true, standard: true, premium: true}
+    depth:   {lite: "major_timeline", standard: "maha_antara", premium: "maha_antara_pratyantara"}
+
+  izumidama_quantum:
+    enabled: {lite: true, standard: true, premium: true}
+    detail:  {lite: "one_line", standard: "chapter_tail", premium: "chapter_section"}
+    collapse_threshold: 0.65
+
+  story:
+    enabled: {lite: false, standard: "decadal", premium: "per_chapter"}
+    style: "narrative_poetic"

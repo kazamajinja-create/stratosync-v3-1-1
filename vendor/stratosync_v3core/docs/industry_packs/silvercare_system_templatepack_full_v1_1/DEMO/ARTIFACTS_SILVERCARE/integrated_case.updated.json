@@ -1,0 +1,850 @@
+{
+  "case_id": "DEMO-JP-SILVERCARE-001",
+  "template_pack": {
+    "template_pack_id": "TemplatePack_JP_SilverCare_v1_0",
+    "version": "1.0"
+  },
+  "created_at": "2026-02-18",
+  "versions": {
+    "qcs_core": "QCS-Core_v2.9",
+    "axis_core": "AXIS-Core_v4.1.1",
+    "translator": "HDA-Translator_v0.2",
+    "spec_version": "v1.0",
+    "manifest_sha256": "e806880000d8f0d1d23084151b45d05b8e9b24e0c45b2390e0bb4d065e86b67f",
+    "release_version": "v1.0",
+    "spec_base_version": "v0.2",
+    "mode6_method": "Mode6_v1.runner_demo.templatepack",
+    "mode7_method": "Mode7_v1.runner_demo.templatepack",
+    "built_at": "2026-02-18",
+    "template_pack_id": "TemplatePack_JP_SilverCare_v1_0",
+    "template_pack_version": "1.0",
+    "mode1_method": "Mode1_v0.demo_from_sample_kpi",
+    "sample_data_path": "TEMPLATE_PACKS/SAMPLE_DATA/sample_kpi_silvercare_corp_v1_0.json",
+    "mode3_method": "Mode3_v0.demo_from_templatepack",
+    "mode4_method": "Mode4_v0.demo_composite_from_mode1_3",
+    "runner_built_at": "2026-02-18"
+  },
+  "inputs": {
+    "entity": {
+      "name": "サンプル介護法人A",
+      "type": "CareMultiSite",
+      "sites": 3,
+      "employees": 120
+    },
+    "kpi": {
+      "occupancy_rate": 92.0,
+      "labor_cost_ratio": 63.0,
+      "turnover_rate": 18.0,
+      "night_shift_coverage": 78.0,
+      "care_level_mix_index": 55.0,
+      "medical_linkage_index": 60.0,
+      "recruitment_dependency_index": 70.0,
+      "reimbursement_revision_exposure": 50.0,
+      "cash_buffer_months": 3.5
+    },
+    "notes": "SilverCare demo case generated for TemplatePack v1.0"
+  },
+  "business_model": {
+    "revenue_stability_index": 0.0,
+    "growth_sustainability_index": 50.0,
+    "market_dependency_index": 80.0,
+    "key_person_dependency_index": 50.0,
+    "finance_risk_heatmap": {
+      "cashflow": 55,
+      "margin": 48,
+      "labor_cost": 72,
+      "churn": 60
+    },
+    "notes": [
+      "Founder dependency is high; scale will amplify variance.",
+      "Store-level operational consistency is the main constraint."
+    ],
+    "financial_risk_index": 51.0,
+    "schema_refs": {
+      "qcs_module_path": "TEMPLATE_PACKS/INDUSTRY_MODULES/qcs_silvercare_module_v1_0",
+      "sample_data_path": "TEMPLATE_PACKS/SAMPLE_DATA/sample_kpi_silvercare_corp_v1_0.json"
+    }
+  },
+  "human_profiles": [
+    {
+      "person_id": "P001",
+      "role": "CEO",
+      "context": {
+        "phase": "scale",
+        "country": "JP"
+      },
+      "decision_vector": {
+        "risk_taking": 72,
+        "analytical_depth": 48,
+        "speed_vs_deliberation": 78,
+        "authority_orientation": 70,
+        "autonomy_need": 62,
+        "structure_preference": 55,
+        "emotional_reactivity": 58
+      },
+      "bias_flags": [
+        "Speed_Bias_Tendency"
+      ],
+      "risk_posture_index": 60.85,
+      "decision_stability_score": 66.4,
+      "versions": {
+        "qcs_core": "QCS-Core_v2.9",
+        "axis_core": "AXIS-Core_v4.1.1",
+        "translator": "HDA-Translator_v0.2",
+        "spec_version": "v0.2"
+      }
+    },
+    {
+      "person_id": "P002",
+      "role": "COO",
+      "context": {
+        "phase": "scale",
+        "country": "JP"
+      },
+      "decision_vector": {
+        "risk_taking": 38,
+        "analytical_depth": 82,
+        "speed_vs_deliberation": 36,
+        "authority_orientation": 64,
+        "autonomy_need": 44,
+        "structure_preference": 86,
+        "emotional_reactivity": 34
+      },
+      "bias_flags": [
+        "Change_Resistance"
+      ],
+      "risk_posture_index": 28.8,
+      "decision_stability_score": 83.2,
+      "versions": {
+        "qcs_core": "QCS-Core_v2.9",
+        "axis_core": "AXIS-Core_v4.1.1",
+        "translator": "HDA-Translator_v0.2",
+        "spec_version": "v0.2"
+      }
+    },
+    {
+      "person_id": "P003",
+      "role": "SalesLead",
+      "context": {
+        "phase": "growth",
+        "country": "JP"
+      },
+      "decision_vector": {
+        "risk_taking": 84,
+        "analytical_depth": 44,
+        "speed_vs_deliberation": 88,
+        "authority_orientation": 42,
+        "autonomy_need": 80,
+        "structure_preference": 32,
+        "emotional_reactivity": 60
+      },
+      "bias_flags": [
+        "High_Overconfidence",
+        "Volatility_Seeking"
+      ],
+      "risk_posture_index": 71.0,
+      "decision_stability_score": 54.4,
+      "versions": {
+        "qcs_core": "QCS-Core_v2.9",
+        "axis_core": "AXIS-Core_v4.1.1",
+        "translator": "HDA-Translator_v0.2",
+        "spec_version": "v0.2"
+      }
+    },
+    {
+      "person_id": "P004",
+      "role": "HROps",
+      "context": {
+        "phase": "stabilize",
+        "country": "JP"
+      },
+      "decision_vector": {
+        "risk_taking": 46,
+        "analytical_depth": 66,
+        "speed_vs_deliberation": 52,
+        "authority_orientation": 40,
+        "autonomy_need": 58,
+        "structure_preference": 74,
+        "emotional_reactivity": 48
+      },
+      "bias_flags": [],
+      "risk_posture_index": 40.3,
+      "decision_stability_score": 97.6,
+      "versions": {
+        "qcs_core": "QCS-Core_v2.9",
+        "axis_core": "AXIS-Core_v4.1.1",
+        "translator": "HDA-Translator_v0.2",
+        "spec_version": "v0.2"
+      }
+    }
+  ],
+  "org_model": {
+    "role_requirements": {
+      "StoreOpsManager": {
+        "risk_taking": 45,
+        "analytical_depth": 60,
+        "speed_vs_deliberation": 55,
+        "authority_orientation": 55,
+        "autonomy_need": 55,
+        "structure_preference": 80,
+        "emotional_reactivity": 45
+      },
+      "GrowthInitiativeLead": {
+        "risk_taking": 75,
+        "analytical_depth": 55,
+        "speed_vs_deliberation": 75,
+        "authority_orientation": 40,
+        "autonomy_need": 75,
+        "structure_preference": 35,
+        "emotional_reactivity": 55
+      },
+      "FinanceControlLead": {
+        "risk_taking": 30,
+        "analytical_depth": 85,
+        "speed_vs_deliberation": 40,
+        "authority_orientation": 60,
+        "autonomy_need": 45,
+        "structure_preference": 90,
+        "emotional_reactivity": 30
+      },
+      "PeopleStabilityLead": {
+        "risk_taking": 40,
+        "analytical_depth": 65,
+        "speed_vs_deliberation": 50,
+        "authority_orientation": 45,
+        "autonomy_need": 55,
+        "structure_preference": 75,
+        "emotional_reactivity": 45
+      },
+      "Corp_Director": {
+        "risk_taking": 55,
+        "analytical_depth": 75,
+        "speed_vs_deliberation": 55,
+        "authority_orientation": 65,
+        "autonomy_need": 55,
+        "structure_preference": 70,
+        "emotional_reactivity": 35
+      },
+      "Facility_Manager": {
+        "risk_taking": 45,
+        "analytical_depth": 65,
+        "speed_vs_deliberation": 60,
+        "authority_orientation": 60,
+        "autonomy_need": 50,
+        "structure_preference": 85,
+        "emotional_reactivity": 40
+      },
+      "Head_Nurse": {
+        "risk_taking": 35,
+        "analytical_depth": 60,
+        "speed_vs_deliberation": 55,
+        "authority_orientation": 55,
+        "autonomy_need": 45,
+        "structure_preference": 90,
+        "emotional_reactivity": 45
+      },
+      "Care_Lead": {
+        "risk_taking": 40,
+        "analytical_depth": 55,
+        "speed_vs_deliberation": 60,
+        "authority_orientation": 55,
+        "autonomy_need": 50,
+        "structure_preference": 85,
+        "emotional_reactivity": 50
+      },
+      "HR_Staffing": {
+        "risk_taking": 45,
+        "analytical_depth": 65,
+        "speed_vs_deliberation": 55,
+        "authority_orientation": 55,
+        "autonomy_need": 55,
+        "structure_preference": 80,
+        "emotional_reactivity": 40
+      }
+    },
+    "weights": {
+      "risk_taking": 0.14285714285714285,
+      "analytical_depth": 0.14285714285714285,
+      "speed_vs_deliberation": 0.14285714285714285,
+      "authority_orientation": 0.14285714285714285,
+      "autonomy_need": 0.14285714285714285,
+      "structure_preference": 0.14285714285714285,
+      "emotional_reactivity": 0.14285714285714285
+    },
+    "org_units": [
+      "HQ",
+      "StoreOps",
+      "Sales",
+      "People"
+    ],
+    "pressure_baseline": {
+      "HQ": 0.55,
+      "StoreOps": 0.72,
+      "Sales": 0.6,
+      "People": 0.5
+    },
+    "role_fit_scores": {
+      "P001": {
+        "StoreOpsManager": 82.57,
+        "GrowthInitiativeLead": 88.71,
+        "FinanceControlLead": 70.43,
+        "PeopleStabilityLead": 79.71
+      },
+      "P002": {
+        "StoreOpsManager": 87.86,
+        "GrowthInitiativeLead": 67.14,
+        "FinanceControlLead": 96.0,
+        "PeopleStabilityLead": 87.86
+      },
+      "P003": {
+        "StoreOpsManager": 73.0,
+        "GrowthInitiativeLead": 93.14,
+        "FinanceControlLead": 59.43,
+        "PeopleStabilityLead": 73.0
+      },
+      "P004": {
+        "StoreOpsManager": 94.71,
+        "GrowthInitiativeLead": 82.0,
+        "FinanceControlLead": 83.71,
+        "PeopleStabilityLead": 97.0
+      }
+    },
+    "friction_map": {
+      "P001": {
+        "COO": {
+          "Unknown": 0.378
+        },
+        "SalesLead": {
+          "Unknown": 0.2356
+        },
+        "HROps": {
+          "Unknown": 0.283
+        }
+      },
+      "P002": {
+        "CEO": {
+          "Unknown": 0.378
+        },
+        "SalesLead": {
+          "Unknown": 0.5724
+        },
+        "HROps": {
+          "Unknown": 0.2596
+        }
+      }
+    },
+    "hotspots": [
+      {
+        "person_id": "P003",
+        "role_candidate": "FinanceControlLead",
+        "org_unit": "StoreOps",
+        "friction_prob": 0.823,
+        "note": "High mismatch × high pressure baseline"
+      },
+      {
+        "person_id": "P003",
+        "role_candidate": "FinanceControlLead",
+        "org_unit": "Sales",
+        "friction_prob": 0.759,
+        "note": "High mismatch × high pressure baseline"
+      },
+      {
+        "person_id": "P002",
+        "role_candidate": "GrowthInitiativeLead",
+        "org_unit": "StoreOps",
+        "friction_prob": 0.757,
+        "note": "High mismatch × high pressure baseline"
+      },
+      {
+        "person_id": "P003",
+        "role_candidate": "FinanceControlLead",
+        "org_unit": "HQ",
+        "friction_prob": 0.728,
+        "note": "High mismatch × high pressure baseline"
+      },
+      {
+        "person_id": "P001",
+        "role_candidate": "FinanceControlLead",
+        "org_unit": "StoreOps",
+        "friction_prob": 0.724,
+        "note": "High mismatch × high pressure baseline"
+      },
+      {
+        "person_id": "P003",
+        "role_candidate": "StoreOpsManager",
+        "org_unit": "StoreOps",
+        "friction_prob": 0.697,
+        "note": "High mismatch × high pressure baseline"
+      },
+      {
+        "person_id": "P003",
+        "role_candidate": "PeopleStabilityLead",
+        "org_unit": "StoreOps",
+        "friction_prob": 0.697,
+        "note": "High mismatch × high pressure baseline"
+      },
+      {
+        "person_id": "P003",
+        "role_candidate": "FinanceControlLead",
+        "org_unit": "People",
+        "friction_prob": 0.695,
+        "note": "High mismatch × high pressure baseline"
+      }
+    ],
+    "dependency": {
+      "StoreOpsManager": 0.102,
+      "GrowthInitiativeLead": 0.104,
+      "FinanceControlLead": 0.186,
+      "PeopleStabilityLead": 0.126
+    },
+    "coefficients": {
+      "a": 3.0,
+      "b": 2.0,
+      "c": 3.0,
+      "d0": -2.0
+    },
+    "leadership_gap_index": 1.48,
+    "succession_risk_indicator": 50.0,
+    "friction_probability_map": {
+      "nursing_vs_care": 68,
+      "fulltime_vs_parttime": 55,
+      "veteran_vs_junior": 60,
+      "field_vs_hq": 52,
+      "nightshift_imbalance": 22.0
+    },
+    "role_fit": {
+      "P001": {
+        "StoreOpsManager": 95.79,
+        "GrowthInitiativeLead": 97.31,
+        "FinanceControlLead": 87.15,
+        "PeopleStabilityLead": 94.42,
+        "Corp_Director": 95.8,
+        "Facility_Manager": 95.0,
+        "Head_Nurse": 92.93,
+        "Care_Lead": 95.25,
+        "HR_Staffing": 95.19
+      },
+      "P002": {
+        "StoreOpsManager": 97.36,
+        "GrowthInitiativeLead": 83.59,
+        "FinanceControlLead": 99.72,
+        "PeopleStabilityLead": 97.53,
+        "Corp_Director": 97.82,
+        "Facility_Manager": 97.96,
+        "Head_Nurse": 97.74,
+        "Care_Lead": 96.47,
+        "HR_Staffing": 97.96
+      },
+      "P003": {
+        "StoreOpsManager": 88.9,
+        "GrowthInitiativeLead": 99.45,
+        "FinanceControlLead": 76.76,
+        "PeopleStabilityLead": 88.34,
+        "Corp_Director": 89.1,
+        "Facility_Manager": 87.11,
+        "Head_Nurse": 84.03,
+        "Care_Lead": 87.71,
+        "HR_Staffing": 88.22
+      },
+      "P004": {
+        "StoreOpsManager": 99.31,
+        "GrowthInitiativeLead": 93.27,
+        "FinanceControlLead": 96.0,
+        "PeopleStabilityLead": 99.82,
+        "Corp_Director": 98.11,
+        "Facility_Manager": 98.65,
+        "Head_Nurse": 98.19,
+        "Care_Lead": 98.66,
+        "HR_Staffing": 99.29
+      }
+    }
+  },
+  "scenarios": [
+    {
+      "scenario_id": "S-A",
+      "scenario_name": "拠点拡大",
+      "composite_score": 63.23,
+      "components": {
+        "biz_base": 39.4,
+        "org_load": 68.64,
+        "human_fit": 91.71,
+        "risk_balance": 100.0
+      }
+    },
+    {
+      "scenario_id": "S-B",
+      "scenario_name": "医療連携強化",
+      "composite_score": 60.83,
+      "components": {
+        "biz_base": 39.4,
+        "org_load": 68.64,
+        "human_fit": 84.71,
+        "risk_balance": 90.0
+      }
+    },
+    {
+      "scenario_id": "S-C",
+      "scenario_name": "採用投資",
+      "composite_score": 58.48,
+      "components": {
+        "biz_base": 39.4,
+        "org_load": 68.64,
+        "human_fit": 75.43,
+        "risk_balance": 85.0
+      }
+    }
+  ],
+  "scenario_model": {
+    "weights": {
+      "alpha": 0.35,
+      "beta": 0.25,
+      "gamma": 0.25,
+      "delta": 0.15
+    },
+    "normalization": {
+      "finance": {
+        "method": "minmax",
+        "min": 2496000,
+        "max": 7488000
+      },
+      "risk": {
+        "method": "minmax",
+        "min": 40,
+        "max": 75,
+        "inverted": true
+      },
+      "orgload": {
+        "method": "minmax",
+        "min": 0.481,
+        "max": 0.582,
+        "inverted": true
+      }
+    },
+    "pareto_frontier": [
+      "S-A",
+      "S-B",
+      "S-C"
+    ],
+    "switch_points": [],
+    "best_scenario_id": "S-B",
+    "best_score": 78,
+    "notes": "Conditions-based branching (not prediction).",
+    "demands": {
+      "S-A": {
+        "risk_taking": 60,
+        "analytical_depth": 70,
+        "speed_vs_deliberation": 60,
+        "authority_orientation": 65,
+        "autonomy_need": 55,
+        "structure_preference": 70,
+        "emotional_reactivity": 35
+      },
+      "S-B": {
+        "risk_taking": 50,
+        "analytical_depth": 75,
+        "speed_vs_deliberation": 50,
+        "authority_orientation": 60,
+        "autonomy_need": 50,
+        "structure_preference": 80,
+        "emotional_reactivity": 30
+      },
+      "S-C": {
+        "risk_taking": 45,
+        "analytical_depth": 65,
+        "speed_vs_deliberation": 55,
+        "authority_orientation": 55,
+        "autonomy_need": 55,
+        "structure_preference": 85,
+        "emotional_reactivity": 40
+      },
+      "S-D": {
+        "risk_taking": 40,
+        "analytical_depth": 70,
+        "speed_vs_deliberation": 45,
+        "authority_orientation": 65,
+        "autonomy_need": 45,
+        "structure_preference": 90,
+        "emotional_reactivity": 35
+      },
+      "S-E": {
+        "risk_taking": 35,
+        "analytical_depth": 70,
+        "speed_vs_deliberation": 50,
+        "authority_orientation": 55,
+        "autonomy_need": 50,
+        "structure_preference": 95,
+        "emotional_reactivity": 30
+      }
+    }
+  },
+  "artifacts": [
+    {
+      "artifact_id": "report_exec_md",
+      "type": "report_exec_md",
+      "sha256": "cfef7939d4fb774bbb4b6af08d31bd6dfd05e6fd1300023838e4dd774700b948",
+      "path": "report_exec.md"
+    },
+    {
+      "artifact_id": "report_people_md",
+      "type": "report_people_md",
+      "sha256": "af27b5d0919aef50fdaeced8cf3f141aaa096aca055e47eb704e56846223a6c6",
+      "path": "report_people.md"
+    },
+    {
+      "artifact_id": "exec_pdf",
+      "type": "report_exec_pdf",
+      "sha256": "ba832b06c28269790f3676bc3999e000409875e4ef22348f30768c49e1fc3e2d",
+      "path": "STRATOSYNC_Executive_Report_v1.pdf"
+    },
+    {
+      "artifact_id": "audit_trace",
+      "type": "audit_json",
+      "sha256": "816d73c504f0719bc2c4cc277449e7398e04d1e25c6f6e2428ad2ef3e1b3e4e5",
+      "path": "audit_trace.json"
+    },
+    {
+      "artifact_id": "manifest",
+      "type": "manifest_json",
+      "sha256": "61f6d3b51419007ed15847b20a0cb9a700c935f8af42f047efe893be7edfbe8a",
+      "path": "manifest.json"
+    },
+    {
+      "artifact_id": "mode6_7_spec",
+      "type": "spec_md",
+      "sha256": "ba60f4df919ba6cf72b8db1bd1d9aec6cd78b3795bc7403ae09b87c257c252d0",
+      "path": "MODE6_7_STRATEGIC_SYNTHESIS_SPEC_v1.md"
+    },
+    {
+      "artifact_id": "master_arch",
+      "type": "spec_md",
+      "sha256": "8da94aa8112317076660edaed3a5713084eef0ce82fd6d5dd0f342bd14f84e2b",
+      "path": "STRATOSYNC_MASTER_ARCHITECTURE_v0.2.md"
+    },
+    {
+      "artifact_id": "human_schema",
+      "type": "schema_json",
+      "sha256": "0ba11e13939433394d4efbee18d95658a8e45cf1d2097a92f1d913cb9ad762dd",
+      "path": "human_profile.schema.json"
+    },
+    {
+      "artifact_id": "case_schema",
+      "type": "schema_json",
+      "sha256": "a234909e9d6114e4883bf289031f2c10c32a78710b0d2417dc0a433f5133cb97",
+      "path": "integrated_case.schema.json"
+    },
+    {
+      "artifact_id": "mode2_spec",
+      "type": "spec_md",
+      "sha256": "d660e370ef802d1450652920dfe6c0ee6ecbc2875c16079cee259cb8b5864383",
+      "path": "MODE2_HUMAN_SPEC_v0.2.md"
+    },
+    {
+      "artifact_id": "translator_spec",
+      "type": "spec_md",
+      "sha256": "2158747b5f9fc4dfacd0433a82fc0aa3db2f31c320d0faec4d5740c8e9d47018",
+      "path": "HDA_TRANSLATOR_SPEC_v0.2.md"
+    },
+    {
+      "artifact_id": "mode3_spec",
+      "type": "spec_md",
+      "sha256": "4148ca5e7e3f085d56fa36707229357a47db5c9edbef0147b490deec36030049",
+      "path": "MODE3_ORG_DYNAMICS_SPEC_v0.2.md"
+    },
+    {
+      "artifact_id": "mode4_spec",
+      "type": "spec_md",
+      "sha256": "4e5a427a522edeb00041350e9af4bc058c6e94c5178c34cfc527bdc9175d4e58",
+      "path": "MODE4_SCENARIO_SPEC_v0.2.md"
+    },
+    {
+      "artifact_id": "spec_manifest",
+      "type": "manifest_json",
+      "sha256": "48791bd57ff01479df7f642e3914aadcf2f6177f7f10992c801def9b41586305",
+      "path": "MANIFEST_v0.2.json"
+    }
+  ],
+  "audit": {
+    "normalization": {
+      "finance": {
+        "method": "minmax",
+        "min": 2496000,
+        "max": 7488000
+      },
+      "risk": {
+        "method": "minmax",
+        "min": 40,
+        "max": 75,
+        "inverted": true
+      },
+      "orgload": {
+        "method": "minmax",
+        "min": 0.481,
+        "max": 0.582,
+        "inverted": true
+      }
+    },
+    "trace": [
+      {
+        "step": "Mode2",
+        "note": "Synthetic decision vectors inserted for demo; in production derived via HDA-Translator."
+      },
+      {
+        "step": "Mode3",
+        "note": "RoleFit via weighted L1 distance; FrictionProb via logistic model with baseline pressure."
+      },
+      {
+        "step": "Mode4",
+        "note": "Criteria normalized; Pareto computed; switch points via growth_rate scan."
+      }
+    ],
+    "consent": {
+      "people_data": "synthetic_demo",
+      "use_for_training": false,
+      "notes": "Replace with client consent metadata in production."
+    }
+  },
+  "mode6_alignment": {
+    "strategy_person_fit": {
+      "S-A": 85.43,
+      "S-B": 78.29,
+      "S-C": 80.43,
+      "S-D": 76.14,
+      "S-E": 74.0
+    },
+    "leadership_stretch_indicator": {
+      "S-A": 14.57,
+      "S-B": 21.71,
+      "S-C": 19.57,
+      "S-D": 23.86,
+      "S-E": 26.0
+    },
+    "organizational_resilience_index": 72.82,
+    "components": {
+      "mean_friction_0_1": 0.3511,
+      "dependency_index_0_1": 0.186,
+      "avg_decision_stability_score": 74.8,
+      "volatility_index_0_1": 0.252,
+      "weights_decision_vector": {
+        "risk_taking": 0.142857,
+        "analytical_depth": 0.142857,
+        "speed_vs_deliberation": 0.142857,
+        "authority_orientation": 0.142857,
+        "autonomy_need": 0.142857,
+        "structure_preference": 0.142857,
+        "emotional_reactivity": 0.142857
+      }
+    },
+    "method_version": "Mode6_v1.runner_demo.templatepack"
+  },
+  "mode7_synthesis": {
+    "executive_health_score": 56.47,
+    "components": {
+      "business_stability": 25.0,
+      "org_resilience": 72.82,
+      "leadership_stability": 74.8,
+      "scenario_optimality": 63.23,
+      "best_scenario": "S-A"
+    },
+    "method_version": "Mode7_v1.runner_demo.templatepack"
+  },
+  "weights": {
+    "decision_vector": {
+      "risk_taking": 0.14285714285714285,
+      "analytical_depth": 0.14285714285714285,
+      "speed_vs_deliberation": 0.14285714285714285,
+      "authority_orientation": 0.14285714285714285,
+      "autonomy_need": 0.14285714285714285,
+      "structure_preference": 0.14285714285714285,
+      "emotional_reactivity": 0.14285714285714285
+    }
+  },
+  "mode1_business": {
+    "revenue_stability_index": 0.0,
+    "growth_sustainability_index": 50.0,
+    "market_dependency_index": 80.0,
+    "key_person_dependency_index": 50.0,
+    "financial_risk_index": 51.0,
+    "method_version": "Mode1_v0.demo_from_sample_kpi"
+  },
+  "mode3_org": {
+    "role_fit": {
+      "P001": {
+        "StoreOpsManager": 95.79,
+        "GrowthInitiativeLead": 97.31,
+        "FinanceControlLead": 87.15,
+        "PeopleStabilityLead": 94.42,
+        "Corp_Director": 95.8,
+        "Facility_Manager": 95.0,
+        "Head_Nurse": 92.93,
+        "Care_Lead": 95.25,
+        "HR_Staffing": 95.19
+      },
+      "P002": {
+        "StoreOpsManager": 97.36,
+        "GrowthInitiativeLead": 83.59,
+        "FinanceControlLead": 99.72,
+        "PeopleStabilityLead": 97.53,
+        "Corp_Director": 97.82,
+        "Facility_Manager": 97.96,
+        "Head_Nurse": 97.74,
+        "Care_Lead": 96.47,
+        "HR_Staffing": 97.96
+      },
+      "P003": {
+        "StoreOpsManager": 88.9,
+        "GrowthInitiativeLead": 99.45,
+        "FinanceControlLead": 76.76,
+        "PeopleStabilityLead": 88.34,
+        "Corp_Director": 89.1,
+        "Facility_Manager": 87.11,
+        "Head_Nurse": 84.03,
+        "Care_Lead": 87.71,
+        "HR_Staffing": 88.22
+      },
+      "P004": {
+        "StoreOpsManager": 99.31,
+        "GrowthInitiativeLead": 93.27,
+        "FinanceControlLead": 96.0,
+        "PeopleStabilityLead": 99.82,
+        "Corp_Director": 98.11,
+        "Facility_Manager": 98.65,
+        "Head_Nurse": 98.19,
+        "Care_Lead": 98.66,
+        "HR_Staffing": 99.29
+      }
+    },
+    "friction_map": {
+      "P001": {
+        "COO": {
+          "Unknown": 0.378
+        },
+        "SalesLead": {
+          "Unknown": 0.2356
+        },
+        "HROps": {
+          "Unknown": 0.283
+        }
+      },
+      "P002": {
+        "CEO": {
+          "Unknown": 0.378
+        },
+        "SalesLead": {
+          "Unknown": 0.5724
+        },
+        "HROps": {
+          "Unknown": 0.2596
+        }
+      }
+    },
+    "leadership_gap_index": 1.48,
+    "succession_risk_indicator": 50.0,
+    "method_version": "Mode3_v0.demo_from_templatepack"
+  },
+  "mode4_scenarios": {
+    "best_scenario_id": "S-A",
+    "best_score": 63.23,
+    "mean_score": 60.85,
+    "method_version": "Mode4_v0.demo_composite_from_mode1_3"
+  }
+}

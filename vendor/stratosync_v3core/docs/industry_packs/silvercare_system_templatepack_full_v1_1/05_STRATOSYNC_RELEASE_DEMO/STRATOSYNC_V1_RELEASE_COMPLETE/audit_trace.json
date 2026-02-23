@@ -1,0 +1,14 @@
+[
+  {
+    "step": "Mode2",
+    "note": "Synthetic decision vectors inserted for demo; in production derived via HDA-Translator."
+  },
+  {
+    "step": "Mode3",
+    "note": "RoleFit via weighted L1 distance; FrictionProb via logistic model with baseline pressure."
+  },
+  {
+    "step": "Mode4",
+    "note": "Criteria normalized; Pareto computed; switch points via growth_rate scan."
+  }
+]

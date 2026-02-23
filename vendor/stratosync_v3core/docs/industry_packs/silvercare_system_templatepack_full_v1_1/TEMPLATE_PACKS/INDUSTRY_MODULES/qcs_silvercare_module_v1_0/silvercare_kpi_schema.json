@@ -1,0 +1,105 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SilverCare KPI Input Schema v1.0",
+  "type": "object",
+  "required": [
+    "entity",
+    "kpi"
+  ],
+  "properties": {
+    "entity": {
+      "type": "object",
+      "required": [
+        "name",
+        "type"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "CareCorporation",
+            "CareFacility",
+            "CareMultiSite"
+          ]
+        },
+        "sites": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "employees": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "kpi": {
+      "type": "object",
+      "required": [
+        "occupancy_rate",
+        "labor_cost_ratio",
+        "turnover_rate",
+        "night_shift_coverage",
+        "care_level_mix_index"
+      ],
+      "properties": {
+        "occupancy_rate": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "稼働率(%)"
+        },
+        "labor_cost_ratio": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "人件費比率(%)"
+        },
+        "turnover_rate": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "離職率(%)"
+        },
+        "night_shift_coverage": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "夜勤カバー率(%)"
+        },
+        "care_level_mix_index": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "介護度構成リスク(0=安定, 100=高リスク)"
+        },
+        "medical_linkage_index": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "医療連携強度"
+        },
+        "recruitment_dependency_index": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "採用依存度(採用が止まると崩れる度合い)"
+        },
+        "reimbursement_revision_exposure": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "報酬改定露出度"
+        },
+        "cash_buffer_months": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 24,
+          "description": "現金余力(月)"
+        }
+      }
+    }
+  }
+}

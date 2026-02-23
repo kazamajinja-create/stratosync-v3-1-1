@@ -1,0 +1,19 @@
+{
+  "entity": {
+    "name": "サンプル介護法人A",
+    "type": "CareMultiSite",
+    "sites": 3,
+    "employees": 120
+  },
+  "kpi": {
+    "occupancy_rate": 92.0,
+    "labor_cost_ratio": 63.0,
+    "turnover_rate": 18.0,
+    "night_shift_coverage": 78.0,
+    "care_level_mix_index": 55.0,
+    "medical_linkage_index": 60.0,
+    "recruitment_dependency_index": 70.0,
+    "reimbursement_revision_exposure": 50.0,
+    "cash_buffer_months": 3.5
+  }
+}

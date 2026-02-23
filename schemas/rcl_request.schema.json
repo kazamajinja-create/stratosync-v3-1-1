@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "STRATOSYNC RCLRequest",
+  "type": "object",
+  "required": [
+    "case_id",
+    "industry_template",
+    "context",
+    "degrees_of_freedom",
+    "data_coverage"
+  ],
+  "properties": {
+    "case_id": {"type": "string"},
+    "industry_template": {"type": "string"},
+    "context": {
+      "type": "object",
+      "required": ["company_size", "departments", "decision_makers", "locations"],
+      "properties": {
+        "company_size": {"type": "integer", "minimum": 1},
+        "departments": {"type": "integer", "minimum": 1},
+        "decision_makers": {"type": "integer", "minimum": 1},
+        "locations": {"type": "integer", "minimum": 1}
+      }
+    },
+    "degrees_of_freedom": {
+      "type": "object",
+      "required": ["strategy_options", "affected_departments", "uncertainty_index", "change_scope"],
+      "properties": {
+        "strategy_options": {"type": "integer", "minimum": 1},
+        "affected_departments": {"type": "integer", "minimum": 0},
+        "uncertainty_index": {"type": "number", "minimum": 0, "maximum": 1},
+        "change_scope": {"type": "number", "minimum": 0, "maximum": 1}
+      }
+    },
+    "data_coverage": {
+      "type": "object",
+      "required": ["financial", "human", "organization", "market"],
+      "properties": {
+        "financial": {"type": "number", "minimum": 0, "maximum": 1},
+        "human": {"type": "number", "minimum": 0, "maximum": 1},
+        "organization": {"type": "number", "minimum": 0, "maximum": 1},
+        "market": {"type": "number", "minimum": 0, "maximum": 1}
+      }
+    },
+    "kpi_timeseries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["month"],
+        "properties": {
+          "month": {"type": "string"},
+          "revenue": {"type": "number"},
+          "profit": {"type": "number"},
+          "other": {"type": "object"}
+        }
+      }
+    },
+    "interventions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["date", "type"],
+        "properties": {
+          "date": {"type": "string"},
+          "type": {"type": "string"},
+          "meta": {"type": "object"}
+        }
+      }
+    },
+    "mode_outputs": {"type": "object"}
+  }
+}

@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: stratosync-v3-1-1
+    runtime: docker
+    plan: standard
+    region: singapore
+    envVars:
+      - key: ENV
+        value: production
+      # Zero-config demo mode (no-code): billing disabled by default.
+      - key: ENABLE_BILLING
+        value: "0"
+      # Optional: set API_KEY if you want to protect endpoints.
+      # - key: API_KEY
+      #   generateValue: true

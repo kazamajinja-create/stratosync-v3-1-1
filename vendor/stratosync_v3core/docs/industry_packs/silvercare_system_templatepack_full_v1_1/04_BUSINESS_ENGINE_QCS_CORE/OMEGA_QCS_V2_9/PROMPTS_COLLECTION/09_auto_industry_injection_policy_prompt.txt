@@ -1,0 +1,17 @@
+【自動業界ポリシー：外部注入（Auto Industry Injection Policy）】
+目的：industry_keyに応じて、外部市場データ注入（M,C,R_ext→12変数）の戦略と感度マトリクスを自動選択する。
+
+基本方針（監査説明向け・保守的）
+- agriculture / finance / healthcare / manufacturing など「規制・外生ショック支配」→ Strategy B（Shock Gating）
+- saas / ai / ecommerce / consulting など「競合速度支配」→ Strategy C（Relative Advantage）
+- その他 → Strategy A（線形マトリクス）
+
+入力
+- industry_key
+- 競合速度 proxy（必要なら 0-1）
+- 外部係数 M,C,R_ext（0-4）
+
+出力（推奨禁止）
+- 選択された戦略（A/B/C）と理由
+- 調整された感度マトリクスの要点（どの変数のC/M/Rが上がったか）
+- Top5影響変数（外部注入の結果）

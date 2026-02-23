@@ -1,0 +1,43 @@
+{
+  "title": "STRATOSYNC — Agent Brief (SilverCare)",
+  "sections": [
+    {
+      "heading": "次のヒアリング (ECE)",
+      "items": [
+        {
+          "label": "Next Best Questions",
+          "path": "outputs.rcl.convergence.next_best_questions",
+          "fmt": "str",
+          "default": "-"
+        }
+      ]
+    },
+    {
+      "heading": "二重原因候補 (TCD)",
+      "items": [
+        {
+          "label": "Ambiguity Flag",
+          "path": "outputs.rcl.twin_cause.ambiguity_flag",
+          "fmt": "bool"
+        },
+        {
+          "label": "Possible Causes",
+          "path": "outputs.rcl.twin_cause.possible_causes",
+          "fmt": "str",
+          "default": "-"
+        }
+      ]
+    },
+    {
+      "heading": "残差監視 (RSM)",
+      "items": [
+        {
+          "label": "Residual Notes",
+          "path": "outputs.rcl.residual.residual_notes",
+          "fmt": "str",
+          "default": "-"
+        }
+      ]
+    }
+  ]
+}

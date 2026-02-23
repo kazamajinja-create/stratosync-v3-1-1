@@ -1,0 +1,1 @@
+# Core overlay quantum logic placeholder

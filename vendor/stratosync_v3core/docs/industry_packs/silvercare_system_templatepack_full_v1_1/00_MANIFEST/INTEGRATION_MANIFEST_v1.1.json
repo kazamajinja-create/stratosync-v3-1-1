@@ -1,0 +1,2212 @@
+{
+  "package": "STRATOSYNC_SYSTEM_v1.1",
+  "built_at": "2026-02-18",
+  "dependency_map": {
+    "system": "STRATOSYNC_SYSTEM_v1.1",
+    "built_at": "2026-02-18",
+    "components": {
+      "STRATOSYNC_Unified_Architecture_v1.1": {
+        "path": "01_ARCHITECTURE/STRATOSYNC_UNIFIED_ARCH_V1_1"
+      },
+      "STRATOSYNC_v1.0_Release_Complete": {
+        "path": "05_STRATOSYNC_RELEASE_DEMO/STRATOSYNC_V1_RELEASE_COMPLETE"
+      },
+      "AXIS_Core_v4.1.1": {
+        "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1"
+      },
+      "Omega_QCS_v2.9": {
+        "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9"
+      }
+    },
+    "runtime_flow": [
+      "Mode1 (Business Engine / QCS)",
+      "Mode2 (Human Engine / AXIS Translator)",
+      "Mode3 (Org Dynamics)",
+      "Mode4 (Scenario)",
+      "Mode6 (Alignment)",
+      "Mode7 (Executive Synthesis)"
+    ]
+  },
+  "files": [
+    {
+      "path": "00_MANIFEST/INTEGRATION_MANIFEST_v1.1.json",
+      "bytes": 108843,
+      "sha256": "cd2ff7698879db5bdf7c04f5192d507d53a24d18d442db672e1343dd682ad3c9"
+    },
+    {
+      "path": "01_ARCHITECTURE/STRATOSYNC_UNIFIED_ARCH_V1_1/STRATOSYNC_DEPENDENCY_DIAGRAM_v1.1.md",
+      "bytes": 995,
+      "sha256": "231218dd6b67f7f484b521449a6d94cb650ef963f0d28c22f06202f28db191f3"
+    },
+    {
+      "path": "01_ARCHITECTURE/STRATOSYNC_UNIFIED_ARCH_V1_1/STRATOSYNC_UNIFIED_ARCHITECTURE_v1.1.md",
+      "bytes": 1672,
+      "sha256": "3e5e5afdd962e2662d2a9833c4d06a1a62d65722f8b7f10c8fd0b48c5c67e8d2"
+    },
+    {
+      "path": "01_ARCHITECTURE/STRATOSYNC_UNIFIED_ARCH_V1_1/UNIFIED_MANIFEST_v1.1.json",
+      "bytes": 400,
+      "sha256": "9142346b68a579ada2947a478f96b1e901ec4d60851da96b9a42215819ad8ec3"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/.app 2/core/oracle/Thoth_Oracle_Output_JP.pdf",
+      "bytes": 2244,
+      "sha256": "a93815c2bb861d7ff1f7ee6036b4c29d85e9e1fafb9847ba99a17dc9c84a906d"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/.app 2/core/oracle/readme_oracle_instructions.txt",
+      "bytes": 1057,
+      "sha256": "05b250a2f28f990c4d99ead766f183ab587e4e53b89bf49b99eb0e439b537683"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/.app 2/core/oracle/thoth_oracle_engine.py",
+      "bytes": 3141,
+      "sha256": "c5e1f8280a14d74169e60e6babf9bd6b4a4098079fcfd5728ac44b63e9e89156"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/.app 2/core/oracle/thoth_oracle_output.yaml",
+      "bytes": 1806,
+      "sha256": "8d6f439a6e030bd4b9ad0a8b1c3b288e8464a87bda83d7df28103cc7dd9e95a4"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/.app 3/core/oracle/Thoth_Oracle_Output_JP.pdf",
+      "bytes": 2244,
+      "sha256": "a93815c2bb861d7ff1f7ee6036b4c29d85e9e1fafb9847ba99a17dc9c84a906d"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/.app 3/core/oracle/readme_oracle_instructions.txt",
+      "bytes": 1057,
+      "sha256": "05b250a2f28f990c4d99ead766f183ab587e4e53b89bf49b99eb0e439b537683"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/.app 3/core/oracle/thoth_oracle_engine.py",
+      "bytes": 3141,
+      "sha256": "c5e1f8280a14d74169e60e6babf9bd6b4a4098079fcfd5728ac44b63e9e89156"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/.app 3/core/oracle/thoth_oracle_output.yaml",
+      "bytes": 1806,
+      "sha256": "8d6f439a6e030bd4b9ad0a8b1c3b288e8464a87bda83d7df28103cc7dd9e95a4"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/.app/core/oracle/Thoth_Oracle_Output_JP.pdf",
+      "bytes": 2244,
+      "sha256": "a93815c2bb861d7ff1f7ee6036b4c29d85e9e1fafb9847ba99a17dc9c84a906d"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/.app/core/oracle/readme_oracle_instructions.txt",
+      "bytes": 1057,
+      "sha256": "05b250a2f28f990c4d99ead766f183ab587e4e53b89bf49b99eb0e439b537683"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/.app/core/oracle/thoth_oracle_engine.py",
+      "bytes": 3141,
+      "sha256": "c5e1f8280a14d74169e60e6babf9bd6b4a4098079fcfd5728ac44b63e9e89156"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/.app/core/oracle/thoth_oracle_output.yaml",
+      "bytes": 1806,
+      "sha256": "8d6f439a6e030bd4b9ad0a8b1c3b288e8464a87bda83d7df28103cc7dd9e95a4"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/CSDE_Core_Agastya_H3_7_Pack/CSDE_Engine_Core/csde/agastya_loader.py",
+      "bytes": 1042,
+      "sha256": "7937f1d52d02ff910e7f79942adff4bf0511b14f2df94e7d162bb02789908539"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/CSDE_Core_Agastya_H3_7_Pack/CSDE_Engine_Core/data/agastya/H-3.7/AgastyaDictionary_H3.7.json",
+      "bytes": 1166,
+      "sha256": "e894592ae0b32dd9072d784f85a229bbb7c0963535ca08c72cb2f86929904445"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/CSDE_Core_Agastya_H3_7_Pack/CSDE_Engine_Core/data/agastya/H-3.7/dharma_leaf_dict.json",
+      "bytes": 466,
+      "sha256": "f06f97773de93e3c58a2d41d803c05dade0d668ee4838d9de194e8552a949591"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/CSDE_Core_Agastya_H3_7_Pack/CSDE_Engine_Core/data/agastya/H-3.7/karma_leaf_dict.json",
+      "bytes": 1079,
+      "sha256": "66fb413e151ec11635afa93b42bd0323599442abf2fc5f8bd8d2f31fe82ab49b"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/CSDE_Core_Agastya_H3_7_Pack/CSDE_Engine_Core/data/agastya/H-3.7/prophecy_leaf_dict.json",
+      "bytes": 510,
+      "sha256": "97429f8f186ec0a386aba1f84a36599cb87de8f8afc55e1777f367e6b4bdd159"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/CSDE_Core_Agastya_H3_7_Pack/README_Agastya_H3.7.txt",
+      "bytes": 445,
+      "sha256": "38260883dc481f7a24e0ba4471bed5b37ef7612f63a3db083d51015c8bef0a1a"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/CSDE_Engine_Core/data/agastya/H-3.7/AgastyaDictionary_H3.7.json",
+      "bytes": 1166,
+      "sha256": "e894592ae0b32dd9072d784f85a229bbb7c0963535ca08c72cb2f86929904445"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/CSDE_Engine_Core/data/agastya/H-3.7/dharma_leaf_dict.json",
+      "bytes": 466,
+      "sha256": "f06f97773de93e3c58a2d41d803c05dade0d668ee4838d9de194e8552a949591"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/CSDE_Engine_Core/data/agastya/H-3.7/karma_leaf_dict.json",
+      "bytes": 1079,
+      "sha256": "66fb413e151ec11635afa93b42bd0323599442abf2fc5f8bd8d2f31fe82ab49b"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/CSDE_Engine_Core/data/agastya/H-3.7/prophecy_leaf_dict.json",
+      "bytes": 510,
+      "sha256": "97429f8f186ec0a386aba1f84a36599cb87de8f8afc55e1777f367e6b4bdd159"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/Izumidama_Ecosystem_v3.3_Kernel_Spec.md",
+      "bytes": 1051,
+      "sha256": "d9e8e9b335458761bdeaf2837013c849c3db607fdd18d514ef59b1cb1b06615c"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/Kuzuryu_Kotodama_AllInOne_v2/README.md",
+      "bytes": 708,
+      "sha256": "341b63d9195e6e4a8c1a3347f5db0c1a213d9dd4700eeb8f61b61b33be8bb332"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/Kuzuryu_Kotodama_AllInOne_v2/config/breath_pattern.yaml",
+      "bytes": 295,
+      "sha256": "df9b457cb0f20aa316a32867f9d3fb84ca4910a0d0bd7253ff0cbc1e8f814547"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/Kuzuryu_Kotodama_AllInOne_v2/data/kuzuryu_kotodama_dict.tsv",
+      "bytes": 325,
+      "sha256": "882b6ecdc986590604cca364068984040f59854a5bc00acccc8b8eeba6d53bee"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/Kuzuryu_Kotodama_AllInOne_v2/data/miyashita_lexicon.tsv",
+      "bytes": 775,
+      "sha256": "f3baca9ad2571f3c20e9291da5df0e45e96f4f2f4b3c8ae1b0c24ef9500f7b54"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/Kuzuryu_Kotodama_AllInOne_v2/docs/USAGE.md",
+      "bytes": 342,
+      "sha256": "743bd9a082f07fdd909b8c49ff38c37f22dffd14cbb14482a3e82f4de4bb7544"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/Kuzuryu_Kotodama_AllInOne_v2/meta/license_note.txt",
+      "bytes": 168,
+      "sha256": "8434a622928ec0c23cb502ec9d5f4b288cc8ec2da1b98105adba3ce881142179"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/Kuzuryu_Kotodama_AllInOne_v2/src/kuzuryu_kotodama/__init__.py",
+      "bytes": 13,
+      "sha256": "75ad4f4c2943325f88064ad2beae890b59674be2bf0404b30afc5584dc4de4bb"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/Kuzuryu_Kotodama_AllInOne_v2/src/kuzuryu_kotodama/api.py",
+      "bytes": 577,
+      "sha256": "fe713d3d6a941e56693d0c0dbfb6620851258e6fc3de7deb915f210832c7554f"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/Kuzuryu_Kotodama_AllInOne_v2/src/kuzuryu_kotodama/fusion.py",
+      "bytes": 352,
+      "sha256": "010db69478f75594eb8416aac5288e37dc226d55adc7974a6833498f8e4d855e"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/Kuzuryu_Kotodama_AllInOne_v2/src/kuzuryu_kotodama/generator.py",
+      "bytes": 2315,
+      "sha256": "287f22c946fd5c0ba539bd5cb8edfb488e80a076d4a174150712b47208ca4e3c"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/Kuzuryu_Kotodama_AllInOne_v2/templates/chant_templates.md",
+      "bytes": 515,
+      "sha256": "11493f183abf7837501c7b025dca37ac7d5f46a470a225c7824b2aa9f07faedc"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/ModeB/mode_b_response.py",
+      "bytes": 287,
+      "sha256": "04cabecd6b7bab5afcd45711599ec751f7961a2fa863ab397e7da5eac04aa719"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/ModeB/mode_b_variation_patch.diff",
+      "bytes": 288,
+      "sha256": "3c2672eb357a799db9f888a743769a1660385d3db2c584efcd402f49e176791e"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/ModeB/response_templates.py",
+      "bytes": 410,
+      "sha256": "4f83ac1112c4b571fd8f3e83705a1b7308e1f60c59b5f1ab5b3ef7553ce57a2f"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/ModeB/style_profiles.json",
+      "bytes": 203,
+      "sha256": "fbd18879f11f56e619c4f3973501ca2795723762382c50d7e94668d5f1badcbc"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/ModeB/variation_selector.py",
+      "bytes": 236,
+      "sha256": "ffa99578c922265841d06bf77349233b7f7c6f0cc36a47291b7b88a57a46ad29"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/ModeF_Emerald_Pack/dictionaries/THOTH_DICT.json",
+      "bytes": 222,
+      "sha256": "8f3f6939487f7fda694dce3d9dd90b84b0503795e1c307073653ed2081171294"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/ModeF_Emerald_Pack/dictionaries/THOTH_EMERALD_DICT.json",
+      "bytes": 320,
+      "sha256": "9482118d101a4836be8d7372bb2d75de80b0d3340f645d2b0f18d2824825d653"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/ModeF_Emerald_Pack/modeF_thoth.py",
+      "bytes": 1042,
+      "sha256": "8cb251e4abdd3519948d67e6a38706498d30f66353ce7d266939bbf5d6abdb61"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/ModeF_Emerald_Pack/patch_v43_modeF_emerald.diff",
+      "bytes": 528,
+      "sha256": "830b669ea38aa8825af0f8926f6ea2a83b3492fc12116b8ae6dd98c933bf0445"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/ModeF_Emerald_Pack/thoth_emerald_oracle.py",
+      "bytes": 800,
+      "sha256": "2fa245cae4176072f5c7c90a17539051e56191ca936ea1369b14a267379f5ae4"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/README.txt",
+      "bytes": 125,
+      "sha256": "aa1edf04a7f60665550df2c7659ee3be951a20d1ab47b8f0b7494c7b9c321c43"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/README_AXIS_KABBALAH_KERNEL.md",
+      "bytes": 423,
+      "sha256": "ed3f675ace50ef9f24241aa2a041edec85dbf8be7d630f2506b004efd525a8da"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/README_STANDALONE_MODULES.md",
+      "bytes": 1085,
+      "sha256": "e191041bee191d64b225292bf9365560d446f95aafa6bde2e0de81f56f68370b"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/README_patch_v15.md",
+      "bytes": 291,
+      "sha256": "404146683847ba14dec25c01a07ed0482dca0d638bb1cb080c5d2b8d02e17fd0"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/RUN_ALL_MODULES.bat",
+      "bytes": 526,
+      "sha256": "36f0ba174091ad316268762c4ed3c97363d5bf00d52483f2f887316804ea05bc"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/SENJYU_Subscription_Plan_Details_v3.pdf",
+      "bytes": 3814,
+      "sha256": "63c9b1a2932f5d78f65bc482b9358d278932cf8144ba98b55f2a544fdb670c9b"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/Senjyu_MayaLogic_v1/README_AUTOCONNECT_DUAL.md",
+      "bytes": 1316,
+      "sha256": "11d45ba5b41d3eec81463958f57f0182c11be98eaa8c104660fe633668da2b38"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/Senjyu_MayaLogic_v1/data/maya_variants.yaml",
+      "bytes": 1150,
+      "sha256": "9f2b7498dc1a0e05a8e38decd6481c2cf4e98014a1674d1a8b50287b2c975ca6"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/Senjyu_MayaLogic_v1/senjyu_app/Senjyu_AddOn_Modules_v3_2/auto/auto_patch_loader.py",
+      "bytes": 1084,
+      "sha256": "4da36022f50639cb9d87bc99a78a7535f37d5d9fdded36ea71a5b899f81bbdae"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/Senjyu_Maya_AutoConnect_Dual_v1 2/senjyu_app/Senjyu_AddOn_Modules_v3_2/auto/auto_patch_loader.py",
+      "bytes": 1084,
+      "sha256": "4da36022f50639cb9d87bc99a78a7535f37d5d9fdded36ea71a5b899f81bbdae"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/Senjyu_Tantra_Ritual_Controller_Addon_v1/render/routers/rituals.py",
+      "bytes": 2330,
+      "sha256": "cb2c3d6c4d43106e3f2f08db9d221079a06ada2059dca1c2c9639aef06b85720"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/Senjyu_Tantra_Ritual_Controller_Addon_v1/tests/curl_examples.txt",
+      "bytes": 1084,
+      "sha256": "9d7cbd7655cb2d3cab2c748db7a7c8c343b82265006590437e06fc552c144e25"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/Senjyu_Tantra_Ritual_Controller_Addon_v1/tools/README_Controller_Addon.md",
+      "bytes": 1321,
+      "sha256": "c0b95673c546a924e87d655a747ffa26661dbe922de69367d95b71bcf9cf6be1"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/Senjyu_Tantra_Ritual_Controller_Addon_v1/tools/auto_integrate_controller.py",
+      "bytes": 2802,
+      "sha256": "1d553fbfdab20e2e72d61274743d4068c6f24c959428f9d172cfe37ad5745b60"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/Tantra/README_V4.3_Tantra_Thoth.md",
+      "bytes": 644,
+      "sha256": "02844a31dd685647164701de1590a5d784b3597d5689a9c7ed8968ea3cb0bad9"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/Tantra/patch_v43_TantraThoth.diff",
+      "bytes": 446,
+      "sha256": "3cbec7d685d583487c54631642cbdb8182018221297a90ee87ac261c67fc5d16"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/Tantra/tantra_module.py",
+      "bytes": 481,
+      "sha256": "583e4259e90248dc9fbd22d213d7928ba4e97d982e4e59605490509b99e0d5b1"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/Agastya_Dispatcher.py",
+      "bytes": 3217,
+      "sha256": "3b097db95a68bf741453ff4845cc1cf9a01d2e312e6b9497775f86452f2ef7b5"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/Agastya_Izumidama_Resonant_CoreTranslator_v1.1.pdf",
+      "bytes": 7011,
+      "sha256": "0b776fd3435bf30eda2d79718e8ce81f8b2ceaa4e5f3d5eaf03b08a874c749f2"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/Agastya_QuantumLayer.py",
+      "bytes": 729,
+      "sha256": "0000e3e1f6522425af5e2220493e21ada473fc913ac0d0465169948eeb25bcfe"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/Bubble_Connector_Notes.md",
+      "bytes": 337,
+      "sha256": "7df02139e734f523f8a7d3e53108063a802790157aadb7610dbc891de5a33f88"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/Epsilon_CausalityMatrix.py",
+      "bytes": 814,
+      "sha256": "36e805ded6a21a7ba86e313bc78ebd618b63d2b00bb29f7699a9ff0612131abd"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/Gamma_LanguageObserver.py",
+      "bytes": 1029,
+      "sha256": "473a569ba72df5d4a4cc33a055b8582d0f2f30ee4ee8a093f5c4ff65ca406908"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/Helios_SynthesisEngine.py",
+      "bytes": 1200,
+      "sha256": "9312ebd0ae89c8b88bc077afa30786c5825300d3db1008a1b92b6451474b972d"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/README.md",
+      "bytes": 66,
+      "sha256": "eaef03c580bf5fe00efd2b9e113c81b8a3156886e19649a805294c3e61f1ebde"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/README_CORE.md",
+      "bytes": 665,
+      "sha256": "e836a752b1eb7a1d3bf2c218bb7ccfc7ea5936c80857e2390e57d52df989489d"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/README_Rename_Kit_v2.md",
+      "bytes": 1241,
+      "sha256": "ceec57d72ffc38a009383788951ab10fff7a0ae361dbc224786301b56be8e75a"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/agastya_appraisal_output_v3.json",
+      "bytes": 1299,
+      "sha256": "017bad1b9b56988d55f33f8acaff51157ca8c97f4182fe8d4ab00e5ca73df78c"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/agastya_appraisal_output_v3.md",
+      "bytes": 898,
+      "sha256": "60fb19a7e3afb1a9cc2b0aee4e133cb0fb5dd989c2d687da61abb722518d0cad"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/agastya_corpus_references.json",
+      "bytes": 336,
+      "sha256": "7e5202037775b8a7bf0841987b60dd679261d6325ac18df2b8cee6a6717c649b"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/agastya_flask_api.py",
+      "bytes": 915,
+      "sha256": "63fe988aea4b93a07ba35ba13cd4730d4dacff4ee2941af628cc93716eba0533"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/agastya_lexicon.json",
+      "bytes": 572,
+      "sha256": "e23f5945b7edea956ebea0341006f5c5e2b888dbf2e21b24dcc89ed2e3448fa9"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/agastya_logic_core.py",
+      "bytes": 2289,
+      "sha256": "aa798673d6a63043c87f82aa203603f6fcace8ec02773abcd4012d8ca2b24d3c"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/agastya_name_bridge.py",
+      "bytes": 1008,
+      "sha256": "9a864fb424bcfa1431625885db08532220dd8a8f684431b3079969438ea7b798"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/agastya_output_diff_v2_to_v3.txt",
+      "bytes": 1816,
+      "sha256": "d58ec81a3c29b8238dff508cebfe317550c95f868088ef0c14d9d07497489001"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/agastya_resonant_formatter.py",
+      "bytes": 4736,
+      "sha256": "9103eae03857879a5c9a250ec794aefe67b9b455dd5b3af32b334b1b3d68db26"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/agastya_resonant_formatter_core.py",
+      "bytes": 9699,
+      "sha256": "ceea7d23c4c07ac5af368400381396acf58e44f90302d0f17bb840efbb90575a"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/agastya_syntax_matrix.json",
+      "bytes": 396,
+      "sha256": "a14b91d369513f7ae2b562d415b20878fb97baccb79de3315e5789752edbd3bd"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/agastya_v3_release_notes.md",
+      "bytes": 590,
+      "sha256": "4bb5fe1485657fb4ce4e2695d6f089f76ccd0157e71d9df13e9ab2a43f9dfaf7"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/backup/rename_agastia_to_agastya.py",
+      "bytes": 3714,
+      "sha256": "26cfc6b4c6f5e1dc37c1adaaada74a16ad713fd0fe4180eee69dcc9eb57e3595"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/chapter_layout_premium4.json",
+      "bytes": 403,
+      "sha256": "561c69da484a8b3234503a4d5354abb7ba5af5bf888eafe1cd78c1a0f1e5d198"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/data/README.txt",
+      "bytes": 52,
+      "sha256": "b6b8384c548a59cdecdb8f3df04bc8132c410c3ace90b0cea405550fbfef46d4"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/dictionary/agastya_core.json",
+      "bytes": 243,
+      "sha256": "81f78154ff827f4e90f8030aec443fb221e45439c7df95611f320994ab3e1941"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/dictionary_patterns.py",
+      "bytes": 778,
+      "sha256": "a0aa863609bec200cb81d0655316f637c1f1a57f4971a9b8318de42a10d435ce"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/docs/README_Agastya_Quantum_Extend_v1.md",
+      "bytes": 1097,
+      "sha256": "d5ee9ffd194ba287131a0b64c4f20bf5bbe4210348ea3b97fce6f5c92ea9b31b"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/layers/Agastya_QuantumLayer.py",
+      "bytes": 729,
+      "sha256": "0000e3e1f6522425af5e2220493e21ada473fc913ac0d0465169948eeb25bcfe"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/layers/Epsilon_CausalityMatrix.py",
+      "bytes": 814,
+      "sha256": "36e805ded6a21a7ba86e313bc78ebd618b63d2b00bb29f7699a9ff0612131abd"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/layers/Gamma_LanguageObserver.py",
+      "bytes": 1029,
+      "sha256": "473a569ba72df5d4a4cc33a055b8582d0f2f30ee4ee8a093f5c4ff65ca406908"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/layers/Helios_SynthesisEngine.py",
+      "bytes": 1200,
+      "sha256": "9312ebd0ae89c8b88bc077afa30786c5825300d3db1008a1b92b6451474b972d"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/line_json_generator.py",
+      "bytes": 901,
+      "sha256": "7b02b047d95402ad08a4265dceccab580c1a680e6aae0102b0d9749b7a0595d3"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/make_compat_links.sh",
+      "bytes": 825,
+      "sha256": "1b6c05830beb8e04077bb7f12cdd9e430bcd5600a5697b80adde43d55e20cf27"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/n8n_Workflow_Master.json",
+      "bytes": 3057,
+      "sha256": "fa9c5a94074feac8c862d0ad034826bdb172c1b372d5c1e6ebe8be4972ad7718"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/patch_folder_names_in_meta.py",
+      "bytes": 1348,
+      "sha256": "4044c2da0779479ec679a2932e0cac1f2945721101981983aa5ca076fa61c971"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/patch_meta_to_agastya.py",
+      "bytes": 1244,
+      "sha256": "882b438e0b40d020691b2abbe05ae58a696b247a73348c31e223a94851779b71"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/pdf_generator.py",
+      "bytes": 802,
+      "sha256": "a88bf81ce41a4b589ce9d5ea8c6b0397ed84a81fc3693c1b2d117747ec9f0d0a"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/plan_profile.yaml",
+      "bytes": 689,
+      "sha256": "7419694af0629465f2b3a8ac15a009641b469ba835f95351f312f0c9388de546"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/rename_agastia_to_agastya.py",
+      "bytes": 3772,
+      "sha256": "e91ba230e3848f0ccaf9de02e9daa53ee6de4586ee0de2748fc10384ff3dfeb5"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/render/routes/agastya_quantum_routes.py",
+      "bytes": 1562,
+      "sha256": "a654d98965ccb8fdc6263f2fa5aa1d8fe913829934b5983fc3a195231491b6c3"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/requirements.txt",
+      "bytes": 15,
+      "sha256": "57fc45bdf2687aa86623e5dee7a15b40e5c7bf116c5f7ff95d9bd063ecebabc8"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/sample_agastya.json",
+      "bytes": 413,
+      "sha256": "d2a6d6f0f4378ae870ba27aaa89e7663ae92605a33549afff29c28246a2a21f8"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/sample_stripe_webhook.json",
+      "bytes": 152,
+      "sha256": "57b6a73ceec3c0cd13b292fe4ba60a0241494da7cd1e4871871cf71f5495e47c"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/scan_and_patch_agastia_paths.py",
+      "bytes": 3063,
+      "sha256": "b4370cb73e42e8fdd22c06b88e3991839817d803cbb205623a7ab345991ea903"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/solo_app/controllers/solo_controller.py",
+      "bytes": 570,
+      "sha256": "cf50e935abb2606be4bbd3696e831a6939d745c47ce637eecaec4884729c9af7"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/solo_app/engine/senjyu_light_quantum.py",
+      "bytes": 1958,
+      "sha256": "e508a1896b30b02cd050de9d3a21242a089382bf6cff1d6a449cae84de0893b6"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/solo_app/launch.sh",
+      "bytes": 209,
+      "sha256": "94268f9eb44e7c758523d375dac2d9fa2fd993634623bb17ccaf6737b23fad6a"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/solo_app/main.py",
+      "bytes": 476,
+      "sha256": "66893e47c0b90c55f3807c82a63c835e3e7cd5c84c6adc5929cb6d61b12baad0"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/solo_app/requirements.txt",
+      "bytes": 64,
+      "sha256": "40b0d47dfd1f65f7feb173002e50b30084be09a486bec2f3d30736837b06ae2f"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/solo_app/runtime/config.json",
+      "bytes": 277,
+      "sha256": "ceac2ef71714b86025714352ffa5b8537e08af9679bed3594edbd2eb56ca4ea3"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/solo_app/runtime/simple_renderer.py",
+      "bytes": 666,
+      "sha256": "ea51348ced7a92226231f1c35b5447be5134bd5e32dcdaad9d4022780ca75d0d"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/solo_app/templates/thoth_hybrid_template.md",
+      "bytes": 71,
+      "sha256": "a75512d927749ed5b4680cc8a539484b20658f79824aaaf355873c40ff2218b2"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/story_mode_rules.json",
+      "bytes": 585,
+      "sha256": "2aca3063e82e27ec23429448d8f78a9fbbb886cf358eb6909c4d47412f1266ce"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/story_rules_v2.json",
+      "bytes": 817,
+      "sha256": "cfb947f86e226378e07a0f50284bc9ae65142ed2ff139306d0e10bf19a9f16d8"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/tools/agastya_test_cycle.py",
+      "bytes": 1565,
+      "sha256": "1e3c73c3d0520b5186be0abe0134a3d22ce985432d95b7d7e1776c55f1a9dbfd"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/vedanta_module.py",
+      "bytes": 279,
+      "sha256": "a900ad89b90d13f60df70dbcc4cc084ce57c48002062bd31ae3d82f5922df248"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/apis/zent_api_gateway.py",
+      "bytes": 44,
+      "sha256": "be8c52950e2ae6dd2418b39ab842becf24e070d91b0bca06a3869f84688af621"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/axis_resonance_tree/axis_resonance_tree/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/axis_resonance_tree/axis_resonance_tree/server.py",
+      "bytes": 6995,
+      "sha256": "31692c9f11c1f5d70ce7e3eae55ba1b5729780f670ded75a3107768d5b6ed79e"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/cloud_orchestrator_api.py",
+      "bytes": 114,
+      "sha256": "6c0ff8e95c31e79fbe48c546308a5ddcf3af1c443f8e248ca317c100c23a70db"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/config.json",
+      "bytes": 277,
+      "sha256": "ceac2ef71714b86025714352ffa5b8537e08af9679bed3594edbd2eb56ca4ea3"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/config/system_identity.json",
+      "bytes": 217,
+      "sha256": "0353a65ff62dd59c16e93c56d473ddedd3b01d3bd0a24e24fa6c42d0f900f42b"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/core_engine/zent_quantum_engine.py",
+      "bytes": 51,
+      "sha256": "3af08063b8da051eb0704a19319c11a86cdd19fa544e2e4263db4be3195a2f1b"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/csde_ar_overlay.py",
+      "bytes": 147,
+      "sha256": "8d432dab99f4fcf361aa2645cee76c2eff8ab40248d33483937b8abaf8e72da5"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/csde_prob_chain.py",
+      "bytes": 163,
+      "sha256": "80b98063f2ac8a602c0277d7ad5f515ccf352a29f846fd57694a902bf9d986d2"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/csde_space_scan.py",
+      "bytes": 134,
+      "sha256": "93dd688ffd89358a355ee42ac19de02d3b2bca77b08b0b8d1ab0d9d67d37d7db"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/kabbalah_tree_kernel/__init__.py",
+      "bytes": 123,
+      "sha256": "581b8b6df3fa7b7e4f72c73c651e955ac8057eb17d1e43ced84be8b3ad1c2d1f"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/kabbalah_tree_kernel/cli.py",
+      "bytes": 770,
+      "sha256": "1a8385cf2551c2bf456242a81b334ff37fcfb87c1a2ef67688d0e326ec91365f"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/kabbalah_tree_kernel/kernel.py",
+      "bytes": 3445,
+      "sha256": "4615374a61f05f6540387b37fe10e7607198453eba0730f645acf8ab0909e48a"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/kabbalah_tree_kernel/server.py",
+      "bytes": 1725,
+      "sha256": "290bdad78dfc486e8e49a3678bd1e6ebf224b4b717125f0237b2cf2408734982"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/modeF_DE_hybrid.py",
+      "bytes": 780,
+      "sha256": "a43f078eea9dd24c759891debdbc474c0ce80e84a6e9e1c7bb8d2940915191e2"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/modeF_thoth_quantum.py",
+      "bytes": 782,
+      "sha256": "e47525cbe72655da37fa067d01d5f64c24d2a1fe0d98514e8e9ba5310642850d"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/module_health/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/module_health/server.py",
+      "bytes": 2290,
+      "sha256": "beee25d17bda66acdceeb6caea76115a6d9018a58e50ddc6c7a1e8db8dce9ced"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/modules/zent_multilayer_analyzer.py",
+      "bytes": 48,
+      "sha256": "ff96c0ece4803c2b3627daee56ca3d69a8a51a399a6532b03ba982e1f91b3a5c"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/quantum_bridge.py",
+      "bytes": 2024,
+      "sha256": "1c8a72e056d51d56d197758c7eaf48a443bf6fd70ca3599b46e64bb25d69a25c"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/restructure_script.py",
+      "bytes": 1007,
+      "sha256": "5df302c734a2c1d89e57349282f841fa59709d1ff4deaa56951b5096f3e6882f"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/senjyu_light_quantum.py",
+      "bytes": 2467,
+      "sha256": "ede36faae2100663bbda41dc07eb876d7d47d45ab2251f3bc0be18d14b3c670a"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/simple_renderer.py",
+      "bytes": 666,
+      "sha256": "ea51348ced7a92226231f1c35b5447be5134bd5e32dcdaad9d4022780ca75d0d"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/solo_controller.py",
+      "bytes": 570,
+      "sha256": "cf50e935abb2606be4bbd3696e831a6939d745c47ce637eecaec4884729c9af7"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/stellar_origin_patch.py",
+      "bytes": 7501,
+      "sha256": "ea67e4f1e9f653f45681a9490b55179901fcf000a1a8d41ec6c581229c1bb4f8"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/szc_wallet.py",
+      "bytes": 288,
+      "sha256": "8e1c516f7f19881e7b20413e37cabd8887231ad760d69513c45bf21b38a74c92"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/thoth 2/dictionary/thoth_core.json",
+      "bytes": 331,
+      "sha256": "a2c84e7543e8696f322dc5400a68fd3049d5bfbc09aeb9e50693ce0e2da510e9"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/thoth_dict.json",
+      "bytes": 640,
+      "sha256": "1b22393326087637833c54bff3652c1698ebd8bf7f9ac158ff951138d45343f1"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/thoth_hybrid_template.md",
+      "bytes": 71,
+      "sha256": "a75512d927749ed5b4680cc8a539484b20658f79824aaaf355873c40ff2218b2"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG 2/SENJYU_Voynich_QuantumKit_Complete_v1/SENJYU_Voynich_QuantumKit_v1/metrics_definition.md",
+      "bytes": 75,
+      "sha256": "671c6501b12421118802d0bca883db8f085ba716e7c45e531fccd99cbc73ad55"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG 2/SENJYU_Voynich_QuantumKit_Complete_v1/SENJYU_Voynich_QuantumKit_v2/classification_template.xlsx",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG 2/SENJYU_Voynich_QuantumKit_v1/interface_docs/soul_interface_instructions.md",
+      "bytes": 34,
+      "sha256": "ae1620e7fb18e9981cf4673807c1da14e8977b9ede7a4dac7579e0376cb49b17"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG 2/SENJYU_Voynich_QuantumKit_v1/quantum_logic/quantum_overlay_core.py",
+      "bytes": 40,
+      "sha256": "c9578ab734564a7ab8dd824bea96b7bc805ac4a09adcdb40680800765cad4f7c"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG 2/SENJYU_Voynich_QuantumKit_v1/voynich_templates/voynich_seed_map.yaml",
+      "bytes": 37,
+      "sha256": "02beb1b4e618211019301a3384492c909e178675c61bea16d83c72a6fb76a885"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG 3/SENJYU_Voynich_QuantumKit_Complete_v1/SENJYU_Voynich_QuantumKit_v1/metrics_definition.md",
+      "bytes": 75,
+      "sha256": "671c6501b12421118802d0bca883db8f085ba716e7c45e531fccd99cbc73ad55"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG 3/SENJYU_Voynich_QuantumKit_v1/interface_docs/soul_interface_instructions.md",
+      "bytes": 34,
+      "sha256": "ae1620e7fb18e9981cf4673807c1da14e8977b9ede7a4dac7579e0376cb49b17"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG 3/SENJYU_Voynich_QuantumKit_v1/voynich_templates/voynich_seed_map.yaml",
+      "bytes": 37,
+      "sha256": "02beb1b4e618211019301a3384492c909e178675c61bea16d83c72a6fb76a885"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/IZUMI_V4.2_ModeG_QuantumTranslation_Package/README.md",
+      "bytes": 126,
+      "sha256": "c85233e8024436d3baa3ee6e43b30cf5728c13187efbecdf7d191d4d9ee2bff7"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/IZUMI_V4.2_ModeG_QuantumTranslation_Package/quantum_translation_matrix_G.json",
+      "bytes": 63,
+      "sha256": "c7e6beb121cca10a5a991c430de8d0b7492608add30397a2b9045a4a6d4e374d"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/IZUMI_V4.2_ModeG_QuantumTranslation_Package/sample_translation_output.txt",
+      "bytes": 45,
+      "sha256": "07795e3116c56695f3419e9f469e455f68b85d264db7335a533b209a04b9e270"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/IZUMI_V4.2_ModeG_QuantumTranslation_Package/voynich_translation_rules.md",
+      "bytes": 93,
+      "sha256": "5dfe096d4bc71a3fb09dae379d84b90668a52489843ea2f1f3b7bff49bea444a"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/ModeG_Activation_SCT_Flow_Complete 2/modeG_registry.yaml",
+      "bytes": 400,
+      "sha256": "4cd075dbd56a819870f432a6aaaf19dfb67b2cddd6753989e7d51f255321824c"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/ModeG_Activation_SCT_Flow_Complete 2/modeG_session.py",
+      "bytes": 414,
+      "sha256": "c056723ec60ad20b1a57751b5e639cc1f5812eb592841d013f658b91c23ac309"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/ModeG_Activation_SCT_Flow_Complete 2/n8n_payment_flow_readme.txt",
+      "bytes": 696,
+      "sha256": "66cc7e827344dfaea6998dad854fde38fc3958e26a714b7be21b3fe004d52219"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/SENJYU_Voynich_QuantumKit_Complete_v1/SENJYU_Voynich_QuantumKit_v1/metrics_definition.md",
+      "bytes": 75,
+      "sha256": "671c6501b12421118802d0bca883db8f085ba716e7c45e531fccd99cbc73ad55"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/SENJYU_Voynich_QuantumKit_Complete_v1/SENJYU_Voynich_QuantumKit_v2/classification_template.xlsx",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/SENJYU_Voynich_QuantumKit_Complete_v1/bubble_modeG_trigger.workflow.json",
+      "bytes": 75,
+      "sha256": "0f04d6a574059c1836aa401fd2a468c1a1fea4f23b90db20fcf6bc554cd1ad32"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/SENJYU_Voynich_QuantumKit_Complete_v1/modeG_activation_policy.yaml",
+      "bytes": 75,
+      "sha256": "ac0295b3224ba6274601db95a4de987af29963534b4ad5b76c9e9840228c8981"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/SENJYU_Voynich_QuantumKit_Complete_v1/n8n_modeG_sct_check_and_run.json",
+      "bytes": 64,
+      "sha256": "0b72aa40e1e6cca0f687a247e5581a7dd2cd2349b03eb90a12506fe5055d9033"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/SENJYU_Voynich_QuantumKit_Complete_v1/supabase_modeG_log_trigger.sql",
+      "bytes": 77,
+      "sha256": "c64494717fa7bddf3e68c4fe970eb8ed93a4e7d2fd70c38c5f736cff0f7f61bd"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/SENJYU_Voynich_QuantumKit_Complete_v1/voynich_dictionary_full.csv",
+      "bytes": 108,
+      "sha256": "2a2aa75a1f3e9706c419f496d69fabeb64dbc5826d6a4a0d418646f8ac27f15d"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/SENJYU_Voynich_QuantumKit_v1/README.txt",
+      "bytes": 58,
+      "sha256": "3728943d002d9262d5e93f32d4a9aa5844a18f474f5634b648b65b8f9db8fa78"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/SENJYU_Voynich_QuantumKit_v1/interface_docs/soul_interface_instructions.md",
+      "bytes": 34,
+      "sha256": "ae1620e7fb18e9981cf4673807c1da14e8977b9ede7a4dac7579e0376cb49b17"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/SENJYU_Voynich_QuantumKit_v1/quantum_logic/quantum_overlay_core.py",
+      "bytes": 40,
+      "sha256": "c9578ab734564a7ab8dd824bea96b7bc805ac4a09adcdb40680800765cad4f7c"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/SENJYU_Voynich_QuantumKit_v1/voynich_page_classification_template.xlsx",
+      "bytes": 30,
+      "sha256": "8739eda33caeff99f9ad1a9f2b365dd3fd67237182f42828e1ba875f65a98de6"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/SENJYU_Voynich_QuantumKit_v1/voynich_quantum_metrics_definition.md",
+      "bytes": 830,
+      "sha256": "6d429814436573fdab9470020cb71117c8b7bafca4b11250082ee71403919c05"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/SENJYU_Voynich_QuantumKit_v1/voynich_templates/voynich_seed_map.yaml",
+      "bytes": 37,
+      "sha256": "02beb1b4e618211019301a3384492c909e178675c61bea16d83c72a6fb76a885"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/SENJYU_Voynich_QuantumKit_v2 2/README.md",
+      "bytes": 109,
+      "sha256": "f7d308b46293fea882863eb101681e32821e2ea821b9e83f2a9a904493efbd32"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/SENJYU_Voynich_QuantumKit_v2 2/chakra_color_map.json",
+      "bytes": 147,
+      "sha256": "2cc4a30c90111c1597b8bdc6cf4a39e3c3a4acff0ed6a63ed43307ddd2667db4"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/SENJYU_Voynich_QuantumKit_v2 2/quantum_seed_mapper.py",
+      "bytes": 79,
+      "sha256": "8adffbef37356ec0323fceb241641c93fcb92c45bc2ccccd28aec59b3627110e"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/SENJYU_Voynich_QuantumKit_v2 2/voynich_dictionary_extended.csv",
+      "bytes": 65,
+      "sha256": "87fb66cc16bf1b1ed6b160c7cd3699c9d3f4b43e44a512fe863f46a0cc3419df"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/SENJYU_Voynich_QuantumKit_v2 2/voynich_modeG_binding.yaml",
+      "bytes": 70,
+      "sha256": "6b3df368a8f322eaee1f23db69b3e658205aaf69b3eb413741915e0e9f656d01"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/SENJYU_Voynich_QuantumKit_v2 2/voynich_page_classification_template_v2.xlsx",
+      "bytes": 4764,
+      "sha256": "c0f18a2e9b5a31ae1b94ebbd1d50a51e9039fea90afddfc506f8659fe24cf183"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/SENJYU_Voynich_QuantumKit_v2 2/voynich_quantum_metrics_definition_v2.md",
+      "bytes": 65,
+      "sha256": "c6b48fcf3bfbadfe69bfabe5a3bbc3a2ca7d475577821c924fdabe3f0f1d53a6"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/SENJYU_Voynich_QuantumKit_v2/README.md",
+      "bytes": 109,
+      "sha256": "f7d308b46293fea882863eb101681e32821e2ea821b9e83f2a9a904493efbd32"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/SENJYU_Voynich_QuantumKit_v2/chakra_color_map.json",
+      "bytes": 147,
+      "sha256": "2cc4a30c90111c1597b8bdc6cf4a39e3c3a4acff0ed6a63ed43307ddd2667db4"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/SENJYU_Voynich_QuantumKit_v2/quantum_seed_mapper.py",
+      "bytes": 79,
+      "sha256": "8adffbef37356ec0323fceb241641c93fcb92c45bc2ccccd28aec59b3627110e"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/SENJYU_Voynich_QuantumKit_v2/voynich_dictionary_extended.csv",
+      "bytes": 65,
+      "sha256": "87fb66cc16bf1b1ed6b160c7cd3699c9d3f4b43e44a512fe863f46a0cc3419df"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/SENJYU_Voynich_QuantumKit_v2/voynich_modeG_binding.yaml",
+      "bytes": 70,
+      "sha256": "6b3df368a8f322eaee1f23db69b3e658205aaf69b3eb413741915e0e9f656d01"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/SENJYU_Voynich_QuantumKit_v2/voynich_page_classification_template_v2.xlsx",
+      "bytes": 4764,
+      "sha256": "c0f18a2e9b5a31ae1b94ebbd1d50a51e9039fea90afddfc506f8659fe24cf183"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/SENJYU_Voynich_QuantumKit_v2/voynich_quantum_metrics_definition_v2.md",
+      "bytes": 65,
+      "sha256": "c6b48fcf3bfbadfe69bfabe5a3bbc3a2ca7d475577821c924fdabe3f0f1d53a6"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/V4.2_ModeG_Voynich_Extension/README.txt",
+      "bytes": 77,
+      "sha256": "0cdc1d47019a0b17e6fe34b6f7dc09f0478ed1f29d12c498b9f16ecd95f20352"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/V4.2_ModeG_Voynich_Extension/chakra_classification_table.csv",
+      "bytes": 64,
+      "sha256": "1f888c5c29a863e8385dca53670b95749a43434988eecaa86dfa0348149a6870"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/V4.2_ModeG_Voynich_Extension/quantum_observation_matrices.json",
+      "bytes": 80,
+      "sha256": "a3b2c830143d83a83883099790dbfe3aa896325296d26c3a81b4940114426e01"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/V4.2_ModeG_Voynich_Extension/voynich_dictionary_full.csv",
+      "bytes": 56,
+      "sha256": "f926e4fdde22bed0a5597137af05110a92634a2e29e6e21d6af967fd23d749de"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/V4.2_ModeG_Voynich_Extension/voynich_modeG_extension.md",
+      "bytes": 77,
+      "sha256": "53648d5e0405f743362b6ec6491d65f44ac3cf3f5ddcaaa9da6111ba4e771c46"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/V4.4+Voynich_Dictionary_expension/quantum_label_overlay.yaml",
+      "bytes": 3500,
+      "sha256": "4b31870542d9e6c4d4759bacc5830ba2ef79f90ac9ccfb2421f82ea7527e7ba0"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/V4.4+Voynich_Dictionary_expension/voynich_chakra_labels.json",
+      "bytes": 3602,
+      "sha256": "0445218890cfc84822bdd49e39a3feb709b339802a01a1c80a58817e4b7183ee"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/V4.4+Voynich_Dictionary_expension/voynich_classification_map.yaml",
+      "bytes": 2800,
+      "sha256": "111e95f7bee663277480d0c279a56dd116d257226fa1ec4cc5e1efc2bc3d25cd"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/V4.4+Voynich_Dictionary_expension/voynich_dictionary_expansion_v4.4.csv",
+      "bytes": 1913,
+      "sha256": "7825a8dd8f1be0698c1e56b0c743c0fbab8c85ad585af0365a528d0098d5446a"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/V4.4+Voynich_Dictionary_expension/voynich_dictionary_full.csv",
+      "bytes": 1258000,
+      "sha256": "cfcb10c1e1376242906b33161b262c8fea1152cad226e02e35480fbef39ef1b5"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/V4.4G_Voynich_Reconstruction/README.txt",
+      "bytes": 170,
+      "sha256": "1d6f489c3ed6b3dfb2e5d58bec61bec1a751911c43e7371d5dc7da9caacc5bae"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/V4.4G_Voynich_Reconstruction/chakra_labeling_advanced.csv",
+      "bytes": 55,
+      "sha256": "32167e7b2034c58d84e75bfa5c66c77c29e44f4d30a69725ecd955c9213e4f95"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/V4.4G_Voynich_Reconstruction/modeG_specification.md",
+      "bytes": 124,
+      "sha256": "b2c175e69948a5eb2035eef198b9f97cbc727d1dc64a9483b6b26250ebd1ac51"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/V4.4G_Voynich_Reconstruction/quantum_matrix_G.json",
+      "bytes": 123,
+      "sha256": "b209ce1175ab20899bb471965d9ee8cb9f4afec707602b78802c999b4b663c94"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/V4.4G_Voynich_Reconstruction/voynich_reconstructed_dict.csv",
+      "bytes": 69,
+      "sha256": "8673df63b18882a3ace06ca545b4f7bc3fe0b711a357f1f0e8da3a1e2a444f42"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/V4.4_QLE_Integration_Starter/integration_readme.md",
+      "bytes": 92,
+      "sha256": "0d31882acc1aba93da9ecf15e5e17ae19b31252ab0fd43d0e7293c0ad09c0592"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/V4.4_QLE_Integration_Starter/qle_core_engine_stub.py",
+      "bytes": 61,
+      "sha256": "e09a21281dd5525f405fcf930d91cdf8a2ea2aa16e55ff653ef1b68a45e8de72"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/V4.4_QLE_Integration_Starter/qle_modeG_config.json",
+      "bytes": 91,
+      "sha256": "a7c630e0dac3353cfdbee191e42d6503891e658904ea69f32eede2c1f14eda32"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/V4.4_QLE_Integration_Starter/sample_query.txt",
+      "bytes": 37,
+      "sha256": "db2d76183451ef7660b3f8c079226bcef82f4f8d36f8ebcc05737dd014661b7c"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/V4.4_Voynich_IzumiFusion_Core/fusion_engine_core.py",
+      "bytes": 42,
+      "sha256": "c61588b323006f42ed95ec1a16d4674f24410fcd29991405ae2dd821a78680fa"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/V4.4_Voynich_IzumiFusion_Core/fusion_readme.md",
+      "bytes": 88,
+      "sha256": "ebab3000a374d682f5596db892b32380d9c1abda087d421b01176e9571744dbb"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/V4.4_Voynich_ModeG_Extended/README.txt",
+      "bytes": 102,
+      "sha256": "fa0b50efce3befaa51bfaa78b5734bf3b8a99c9e4833a7ef66c23d1143cbcfd6"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/V4.4_Voynich_ModeG_Extended/chakra_classification_table.csv",
+      "bytes": 64,
+      "sha256": "969e478a683e1bb2041dd61188455a3b68780ac42b33a7e5a97f079c7a7e8d25"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/V4.4_Voynich_ModeG_Extended/quantum_observation_matrices.json",
+      "bytes": 79,
+      "sha256": "646e29fb92419aa90d96c2d9c4d9ba7073c849bb10878c1ba768155a27e20f12"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/V4.4_Voynich_ModeG_Extended/voynich_dictionary_full.csv",
+      "bytes": 69,
+      "sha256": "852f6ad364df8ef9f5c7bc60e4425da9746c9a5bd64c0d987d0d90ada0d617d5"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/voynichi-modeG/V4.4_Voynich_ModeG_Extended/voynich_modeG_extension.md",
+      "bytes": 161,
+      "sha256": "f5f674462a3d444a2a62d4314c2e299aaad848ab13bff1510660a2139eaa1c9d"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/zent_engine.py",
+      "bytes": 415,
+      "sha256": "202259eb784032e72ddf9aa2b50f0662229ba8a54c4fc0081dfe3c0a30a577f2"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/zent_launcher.py",
+      "bytes": 470,
+      "sha256": "911a99279235b2db5b68b9553231d340da736657e671cb3bb010791ec735d6c2"
+    },
+    {
+      "path": "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/zent_mypage_ui_spec.md",
+      "bytes": 169,
+      "sha256": "55a0f57d95019b556f55bcb5d15d561b0371ce5c7c313044f46dc9650e8397b0"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/01_Pilot_Protocol/HSRE_Agriculture_Pilot_Protocol_v1.md",
+      "bytes": 659,
+      "sha256": "99c64a5dab719928457d1a658cedb86c0ee5936901d369c9a075ede2017078e6"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/02_Consent_and_Legal/Consent_Template.md",
+      "bytes": 385,
+      "sha256": "cf26c7bc5694fa3cc5f095f4f45140b8e6d522bbbf6a3026b37ded040123bce3"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/03_Interview_Sheets/HSRE_Agriculture_Interview_Sheet.md",
+      "bytes": 486,
+      "sha256": "cde89e433b5c700b1c9cb33b0c627b0882b89ee9746b6d208313190906253cb2"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/04_Reporting_Templates/HSRE_Agriculture_Report_Template.md",
+      "bytes": 318,
+      "sha256": "2d04a7d13fca92e486a5f2b6ea15cdfd300fe698658eb9355095f74b7cd563f4"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/05_AI_Prompt_Collection/HSRE_Agriculture_AI_Prompts.md",
+      "bytes": 930,
+      "sha256": "3c57359ff9a3d213620cca70a4b987ee7f4f426383668a87c613788ed2a166c6"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/AXIS_Drift_Index_ModulePack_v1_0_0/README.md",
+      "bytes": 896,
+      "sha256": "c1d12c94029a949167e0a5a3f154bd620c75018c73e0dcf9a68b55cfdb47f2b0"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/AXIS_Drift_Index_ModulePack_v1_0_0/axis_drift_index/__init__.py",
+      "bytes": 573,
+      "sha256": "185d45369479a457ae7a112ea8702bed899801f0a850dd3f7111221e6d99e5c5"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/AXIS_Drift_Index_ModulePack_v1_0_0/axis_drift_index/classify.py",
+      "bytes": 1060,
+      "sha256": "fbcb24368ee0952f981061b1536fde16fd28ec79f2daa2677a53356a4f0915e0"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/AXIS_Drift_Index_ModulePack_v1_0_0/axis_drift_index/cli.py",
+      "bytes": 1312,
+      "sha256": "23fb448cf9729836327837d40f1994763d3db68700fd679dc45d5af0e4c4a87f"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/AXIS_Drift_Index_ModulePack_v1_0_0/axis_drift_index/features.py",
+      "bytes": 2897,
+      "sha256": "7074bbec3b734ca76823dcc6c62a3b0559f4dd46ab1264d9aaa0ed5e2215faeb"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/AXIS_Drift_Index_ModulePack_v1_0_0/axis_drift_index/models.py",
+      "bytes": 3503,
+      "sha256": "bbc64fe7dfa781ad84d93eea0b6afe94d30f8a3a9c524e8ec48540477420026f"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/AXIS_Drift_Index_ModulePack_v1_0_0/axis_drift_index/pipeline.py",
+      "bytes": 1619,
+      "sha256": "12451f0e3cdb51bc004fbddd037774f023ffb96fc0f00f53f79d751431b1f25d"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/AXIS_Drift_Index_ModulePack_v1_0_0/axis_drift_index/report.py",
+      "bytes": 5587,
+      "sha256": "94248b6dd6c3d7b6363e6a400462328b0636b8c837c6eb9573e5cd1977f34136"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/AXIS_Drift_Index_ModulePack_v1_0_0/axis_drift_index/scoring.py",
+      "bytes": 1426,
+      "sha256": "9cf0b64d370e6dc7d1433b2528fdf5778b537108216ef4b279ea89eb9ae46785"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/AXIS_Drift_Index_ModulePack_v1_0_0/examples/input_demo.json",
+      "bytes": 1462,
+      "sha256": "208b116432aef22fe510987ad9ae7f7ec84770ff2a227d74176e26c2629b41b6"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/AXIS_Drift_Index_ModulePack_v1_0_0/pyproject.toml",
+      "bytes": 423,
+      "sha256": "73f5805e895d1655644ccc8d245f4ce4ad1949d7339aaa7cd434057e44029564"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/AXIS_Drift_Index_ModulePack_v1_0_0/schema/axis_drift_index.schema.json",
+      "bytes": 7228,
+      "sha256": "06174fcfca0336821fcc740cb681181e66db53555e62da78c8c3d74c72a8a650"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/BUSINESS_PROFILE.md",
+      "bytes": 531,
+      "sha256": "d3f91344a609d8cbdb8712dd2b04d19d8ee6f15a4a99183e20c42b4b5d73c61a"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/Data_Governance_Policy.md",
+      "bytes": 439,
+      "sha256": "c34fa773a7602f1c7447499014974c8c4f670963b5ea6468ebb7068b949267dd"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/Institutional_Overview.md",
+      "bytes": 407,
+      "sha256": "a3a928fdf62a4868166e688e1fb9fa62d4161a8c321a04e4fae0ff0efbdf6ddb"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/Internal_Control_Mapping.md",
+      "bytes": 378,
+      "sha256": "958f31bae76c98795a96cd91bcdba8d11bee4aa846c9aebc8a934f0fbf9cb2ea"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/MANIFEST_SHA256.json",
+      "bytes": 19249,
+      "sha256": "600d9fb12792690f4042d712a173c0f3db5c8360cbec295fc54a73b1cf0c9f97"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/MRM_Framework.md",
+      "bytes": 822,
+      "sha256": "43375d0d5d6932f4da1d32545b98f908457f780a45bd7024c27bd756c2daa0a4"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/OMEGA_QCS_BANK_DD_READY_INTEGRATED.md",
+      "bytes": 1532,
+      "sha256": "8fa6768937af47af54202fc77697e9d749bd69bd9bba606cb13f407e6922d512"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/OMEGA_QCS_BASEL_ALIGNMENT.md",
+      "bytes": 1029,
+      "sha256": "9888213fe506c343addd36fbaed30406dca4800b1f9aaf5c2037af5d47a91ee3"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/OMEGA_QCS_DD_REPORT_TEMPLATE.md",
+      "bytes": 757,
+      "sha256": "a0fea8ec7ba9432d4434a5c98c346540c8f2a1218d85e9df56fcb84f43aca66a"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/OMEGA_QCS_FINANCIAL_INTEGRATION_SPEC.md",
+      "bytes": 587,
+      "sha256": "2721fefeabf92569c35c85c923ca9a9b386c13440c6e9b67965e0f21ae263aaf"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/OMEGA_QCS_V2_0_COMMERCIAL_README.md",
+      "bytes": 909,
+      "sha256": "7e2b5355699919064f5f8eac7eee8e3cbe5faf375d5689eb3f03132047ad1135"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/OMEGA_QCS_V2_9_UNIFIED_OVERVIEW.md",
+      "bytes": 565,
+      "sha256": "ec7f1286076a54beb736e7b38f3bccac29cd1abef29d1ef18cc90e27b3d13790"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/PROMPTS_COLLECTION/01_internal_structure_analysis_prompt.txt",
+      "bytes": 355,
+      "sha256": "05fb065dffd76a8ac9492a48f15fc5cfd3a6f888cd4e3e5c94dc51976d45a783"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/PROMPTS_COLLECTION/02_market_context_injector_prompt.txt",
+      "bytes": 265,
+      "sha256": "2ccb8c9f311255432919394fb586264831e252bc4e4c95716d2c27803e5fa37b"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/PROMPTS_COLLECTION/03_collision_analysis_prompt.txt",
+      "bytes": 296,
+      "sha256": "aee9c38a6ac97a1bfe1da4b50a517e0a525d47f13bcb2751613dd92e730ab189"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/PROMPTS_COLLECTION/04_strategic_collision_map_prompt.txt",
+      "bytes": 252,
+      "sha256": "c9bdb8bcba719cc959693f9e65a5e3b4593f4ce952eff084f8d45b4a00d682f3"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/PROMPTS_COLLECTION/05_market_context_injector_advanced_prompt.txt",
+      "bytes": 920,
+      "sha256": "c27731f10a770fc74072f4670d7493281424dee2b60323ff6c693a8e7cf6ba69"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/PROMPTS_COLLECTION/06_portfolio_mode_prompt.txt",
+      "bytes": 517,
+      "sha256": "f1d1499a00b9135446fdbbe17480068d542b8224063000ae9051590ba18328c8"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/PROMPTS_COLLECTION/07_hsre_agriculture_mapping_prompt.txt",
+      "bytes": 675,
+      "sha256": "cbc21039cf9f3884c85d6e43bc67e0063c81a59ae51a78b141a2412e4c99db11"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/PROMPTS_COLLECTION/08_external_factor_injection_algorithms_prompt.txt",
+      "bytes": 898,
+      "sha256": "a2376063c57a3ada289dc475dfe0b26318090cb67767067625eed1ca0c26ba14"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/PROMPTS_COLLECTION/09_auto_industry_injection_policy_prompt.txt",
+      "bytes": 878,
+      "sha256": "24a49031b9b7bbede92e98dc674be6679d613101432f619967bfcbd9af2c8001"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/RCSA_Integration_Guide.md",
+      "bytes": 326,
+      "sha256": "e3f405b602f80200206e3a3d1f88bcb1e8c2507d0ab2b9516b69e05a05b28cc8"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/UNIFIED_README.md",
+      "bytes": 1147,
+      "sha256": "be80e359ea01780abdc23caf70f83869b9e980f0366de5470b53a6bb26e69e4e"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/Validation_Protocol.md",
+      "bytes": 507,
+      "sha256": "c2def1bf5be2b697f7426844e83e9b596a88a3e43a93f6ee4b19bd12ea9daf80"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/EXTRACTED_LOGIC_MAP.md",
+      "bytes": 2486,
+      "sha256": "a11ddfa817d2e2d6ecc672df755a214ae72beb90187bb743302baa2b67affdfb"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/README.md",
+      "bytes": 2612,
+      "sha256": "94bfed188018df747e53457e6fcc882c0741490436da42d1f923cebaa64d5fd5"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/README_FINANCIALS.md",
+      "bytes": 971,
+      "sha256": "13a76651bf2f21506648e244cf8fe10fdaa211ac12861ee43bc9aa030f495efd"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/README_OPTION_SPACE.md",
+      "bytes": 929,
+      "sha256": "759776c7d973246b57e056b3976d447830de3818f6dd6ed5c6bf40c9973d0704"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/README_V0_9_BUSINESS_MODULES.md",
+      "bytes": 578,
+      "sha256": "1c8de6c52c8ffafd174f98a8c815c5007e2e65ca763b5de97f387a1d021f129b"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/app.py",
+      "bytes": 5923,
+      "sha256": "9e39b3892f3adb547dce8b70071d8b6d90f08c07baa8600989c3e53a3d4f4680"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/axis_drift_assets/README_AXIS_Drift_Index.md",
+      "bytes": 896,
+      "sha256": "c1d12c94029a949167e0a5a3f154bd620c75018c73e0dcf9a68b55cfdb47f2b0"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/axis_drift_assets/examples/input_demo.json",
+      "bytes": 1462,
+      "sha256": "208b116432aef22fe510987ad9ae7f7ec84770ff2a227d74176e26c2629b41b6"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/axis_drift_assets/pyproject.toml",
+      "bytes": 423,
+      "sha256": "73f5805e895d1655644ccc8d245f4ce4ad1949d7339aaa7cd434057e44029564"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/axis_drift_assets/schema/axis_drift_index.schema.json",
+      "bytes": 7228,
+      "sha256": "06174fcfca0336821fcc740cb681181e66db53555e62da78c8c3d74c72a8a650"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/demo_local.py",
+      "bytes": 1954,
+      "sha256": "084894ab593efdbaf5e83a1b914df85b62ae70beaad53f2e9ee16b8c990d4776"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/hsre_pilot/agriculture_v1_0/01_Pilot_Protocol/HSRE_Agriculture_Pilot_Protocol_v1.md",
+      "bytes": 659,
+      "sha256": "99c64a5dab719928457d1a658cedb86c0ee5936901d369c9a075ede2017078e6"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/hsre_pilot/agriculture_v1_0/02_Consent_and_Legal/Consent_Template.md",
+      "bytes": 385,
+      "sha256": "cf26c7bc5694fa3cc5f095f4f45140b8e6d522bbbf6a3026b37ded040123bce3"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/hsre_pilot/agriculture_v1_0/03_Interview_Sheets/HSRE_Agriculture_Interview_Sheet.md",
+      "bytes": 486,
+      "sha256": "cde89e433b5c700b1c9cb33b0c627b0882b89ee9746b6d208313190906253cb2"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/hsre_pilot/agriculture_v1_0/04_Reporting_Templates/HSRE_Agriculture_Report_Template.md",
+      "bytes": 318,
+      "sha256": "2d04a7d13fca92e486a5f2b6ea15cdfd300fe698658eb9355095f74b7cd563f4"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/hsre_pilot/agriculture_v1_0/05_AI_Prompt_Collection/HSRE_Agriculture_AI_Prompts.md",
+      "bytes": 930,
+      "sha256": "3c57359ff9a3d213620cca70a4b987ee7f4f426383668a87c613788ed2a166c6"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/POLICY_FIXED.txt",
+      "bytes": 1766,
+      "sha256": "3e5a0ea85cfd0fed78bbc89535ced83aafbbc5949f8ee194596ffa14ea00bf4f"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/__init__.py",
+      "bytes": 22,
+      "sha256": "7cc6cd80826ac6264469204b69d2c1b78ad9a421ea6abcdbe0e92df9a5aca761"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/agastya_adapter.py",
+      "bytes": 3357,
+      "sha256": "7bac8b70e5c0e7b6eb92124cf6ea8a459f711da4559fa6150c20c7ef31deb35e"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/audit_trail.py",
+      "bytes": 1175,
+      "sha256": "7a236ecb9fb4b5ea92bebd9e9f51d964f6ae588d137f10546fb152a530e36465"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/axis_drift_adapter.py",
+      "bytes": 1122,
+      "sha256": "e3d86ec9383c40ba2d5e874a6617b0c896e93b72830cb211a616642a13b8791c"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/axis_drift_index/__init__.py",
+      "bytes": 573,
+      "sha256": "185d45369479a457ae7a112ea8702bed899801f0a850dd3f7111221e6d99e5c5"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/axis_drift_index/classify.py",
+      "bytes": 1060,
+      "sha256": "fbcb24368ee0952f981061b1536fde16fd28ec79f2daa2677a53356a4f0915e0"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/axis_drift_index/cli.py",
+      "bytes": 1312,
+      "sha256": "23fb448cf9729836327837d40f1994763d3db68700fd679dc45d5af0e4c4a87f"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/axis_drift_index/features.py",
+      "bytes": 2897,
+      "sha256": "7074bbec3b734ca76823dcc6c62a3b0559f4dd46ab1264d9aaa0ed5e2215faeb"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/axis_drift_index/models.py",
+      "bytes": 3503,
+      "sha256": "bbc64fe7dfa781ad84d93eea0b6afe94d30f8a3a9c524e8ec48540477420026f"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/axis_drift_index/pipeline.py",
+      "bytes": 1619,
+      "sha256": "12451f0e3cdb51bc004fbddd037774f023ffb96fc0f00f53f79d751431b1f25d"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/axis_drift_index/report.py",
+      "bytes": 5587,
+      "sha256": "94248b6dd6c3d7b6363e6a400462328b0636b8c837c6eb9573e5cd1977f34136"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/axis_drift_index/scoring.py",
+      "bytes": 1426,
+      "sha256": "9cf0b64d370e6dc7d1433b2528fdf5778b537108216ef4b279ea89eb9ae46785"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/axis_independence_check.py",
+      "bytes": 1262,
+      "sha256": "a96ad1ffbabf86b56cb1aa6815656553fdff9867f59bf70734bcd41f81b8956a"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/collision_model.py",
+      "bytes": 3360,
+      "sha256": "524e0f66d20adc87b22a1cd4eb64ebdd866044f7ce00eafc7d7240566bcabf03"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/commercial_runner.py",
+      "bytes": 5893,
+      "sha256": "9c57b0495dbf2be21346a6c5691fbdd76f2f19bd8fb47828fcf10113c0d0b622"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/config.py",
+      "bytes": 449,
+      "sha256": "4dc2088fd2369173c225c3e00bf810a11944b8dd7d93aae12c6db3c3829e5ccb"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/engine_pipeline.py",
+      "bytes": 3240,
+      "sha256": "2e4954cf18989b115c363dbeab81a23fff2765a6d6ed47054828ea43c413207a"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/execution_capacity.py",
+      "bytes": 1853,
+      "sha256": "5dbaa23a196f9a50d6b3e518d8935cd9b4c2862b7ce15e076439ea2513d60e08"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/external_factor_sensitivity_defaults.py",
+      "bytes": 697,
+      "sha256": "b0982dbec7a538a2332cf7f0658e1fd7d172647892f06db3c1ff6bd97a06cb3c"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/external_market_context.py",
+      "bytes": 270,
+      "sha256": "652d0d10fb0ee80313e9c2630173fe479690954e6d39be49dd50c2659635524e"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/external_view_simulator.py",
+      "bytes": 1616,
+      "sha256": "0bafde0188c4447c527c005bb4485ecb65047413cae42ad6ce7d84618d217c7c"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/financial_impact_range.py",
+      "bytes": 2389,
+      "sha256": "fd44cf77d239b1d94c3a8090969399bfa3b5b4e041a262d3133b628e89c206a5"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/financial_snapshot.py",
+      "bytes": 891,
+      "sha256": "2926cc63565e4440f6709fa6069a5947b028a82d2aba84dc67f2ac3764d95a95"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/growth_driver.py",
+      "bytes": 1758,
+      "sha256": "183db48af69c9c45f92ff151017f315524b6597038f0e06cd203fe3211fe4617"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/industry_injection_router.py",
+      "bytes": 4197,
+      "sha256": "bd69e6b9f5e630223e6f62dea6f0705ffe4dd0817e19e2cf2a05cb628008dc9d"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/industry_risk_dictionary_extended.py",
+      "bytes": 1154,
+      "sha256": "77b906801f13d9453edd677c9cb76f58d21f403573ba60d33d05cf2d5850a0bf"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/industry_risk_library.py",
+      "bytes": 531,
+      "sha256": "28142467ec7f02982c965642f5df79dc73400ec90597b0d4bc9c7f50cb71e986"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/industry_template_autogen.py",
+      "bytes": 3179,
+      "sha256": "9ecc3daadc4e46b38deafc4a518dd42606c7b27b890a2345918a1f75cf8fbd9c"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/integrated_market_pipeline.py",
+      "bytes": 1088,
+      "sha256": "57cf38e892ae7a4e09b8044c98c639296c516947fb08a24978cbb44c07adb6ad"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/integrated_tendency_engine.py",
+      "bytes": 128,
+      "sha256": "13ff2fc54c68160ec1aa2e9b7ae046b49c164248f485c0d3a8b8ab7438c52b30"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/kpi_monitoring.py",
+      "bytes": 1504,
+      "sha256": "9c1d0c68f7f8b9dab044f142451765b95f34809e3fe5b1745be179d9aa29ff0b"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/kpi_profile_axis.py",
+      "bytes": 1383,
+      "sha256": "c520f0c32feb91b244b64cab53ee463be5d156b065678ed2340c738098ca971d"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/language_business.py",
+      "bytes": 1644,
+      "sha256": "86cdc74a2bc481cd7310ce504667871634239321fb9c9708d19d3a62d11bee08"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/market_context_injector.py",
+      "bytes": 4587,
+      "sha256": "86a07506b265b68163a291d9e4d6e91420233a270e98c1a50abb21414305664b"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/market_data_connector.py",
+      "bytes": 1590,
+      "sha256": "1bc7505f1b95c58ca9175e75123a95de15cd1314e3874e80587e7d8ed2b3b86e"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/market_sensitivity_model.py",
+      "bytes": 251,
+      "sha256": "ca5713636095726439bcbf6d6b2def8303c780168b03d1a3a0a153b6199792d2"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/models.py",
+      "bytes": 2480,
+      "sha256": "ab0a9b501ced9a17aea925337f93b4f0656a7ba9c83b4c0f4362de9c331d1eac"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/normalize_financials.py",
+      "bytes": 1170,
+      "sha256": "4df850f3e62192ddeade7d1b35b5e532fc6be9eb3516d5bce3d584d597d1f788"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/omega_bridge_suite.py",
+      "bytes": 248,
+      "sha256": "10eabe9b692b14c888c1813483ccebd63946b2001d9686c26882d835fe3fbf6a"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/omega_case_registry.py",
+      "bytes": 891,
+      "sha256": "fee4839d3037e09955a7d71efa762a7da2caacc5cdb5ecd6fae7741e5731b2a2"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/omega_contract_pack.py",
+      "bytes": 1136,
+      "sha256": "f043ce7d1edf91e747a5fc644a97db4692c733a7a7adc35f2bdbbf582f14fb05"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/omega_deliverables_pack.py",
+      "bytes": 1358,
+      "sha256": "7f02a522291d23048b351d17e0bd6d13d0561ebe780430894da996c96d169c71"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/omega_intake.py",
+      "bytes": 816,
+      "sha256": "cdbed288e2933b749ca51d5c40382dcbf5632e60606828ac6378cd91228d0e25"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/omega_meditation_micro.py",
+      "bytes": 1188,
+      "sha256": "5566d9754eb2b10a522a9182f1fdf3bcd2e760eba54e20f46747ac7b3db30e16"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/omega_quantum_analyzer.py",
+      "bytes": 4702,
+      "sha256": "109a1c4485c28c1e38ab23836d9dcecbc6476918d897419dfbf2162e6c787826"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/omega_report_builder.py",
+      "bytes": 6272,
+      "sha256": "1f8d6e6cb8a1cf1b9aee6dad4ea02945a565736a1192fae7f18eb392eb319d01"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/omega_session_orchestrator.py",
+      "bytes": 2216,
+      "sha256": "2cb0c2f79e187a1631ca30a579c55cc08fc8dc30d6c6f87a17ca868b671ab81e"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/option_space.py",
+      "bytes": 4549,
+      "sha256": "04300c7daf7ad9ca57d27d90270598a969932caea6c82c96cb20fc1e059aeab1"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/portfolio_mode.py",
+      "bytes": 3501,
+      "sha256": "1629fec6696f99307f3b78777af6657e5219774191e36ecf5c259c50b0df4b8d"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/quality_guard.py",
+      "bytes": 2451,
+      "sha256": "f59360ac5a746cb2626088fd5acd3484221766fffb231ac9111b078e5ed7b0d3"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/qway_adapter.py",
+      "bytes": 2145,
+      "sha256": "d3aace4047b9bc1fe18ead89e8adc293ddcc130cf2d2db086d0aef98b6e69624"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/report_generator.py",
+      "bytes": 2506,
+      "sha256": "068861627cbf627c461439b166aa4d1773c2dde9188e90fd1168d139e365daff"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/resources/qway/memory_policy.json",
+      "bytes": 137,
+      "sha256": "e1f7061ad8978b1bb67fa4091ec7d2b67d9a2d792fd88c7a647aa25c4503889d"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/resources/qway/omega_mode.json",
+      "bytes": 175,
+      "sha256": "0a49541c8a2877c555ab2335742e9d1613bba30770e411f8d9beb621aeb07b66"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/resources/qway/omega_ring_map.json",
+      "bytes": 1040,
+      "sha256": "0d9d9c9556c7ca21b66d108522f526dd287c536fbb4d8589aafc47aad0c1bb44"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/resources/qway/qway_kernel.json",
+      "bytes": 278,
+      "sha256": "7f1a37cfa86358af44822a94341a55a4b0cc6720fb96c7d8314531cfae118f31"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/risk_taxonomy.py",
+      "bytes": 1758,
+      "sha256": "8d174b86ad1246e1d967a662a5d056fdb73f8f3d74b09cd12fd9c3e6091751d7"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/schemas/financials_input_schema.json",
+      "bytes": 2820,
+      "sha256": "1bc1cae9f2715e787d7530aa683c8f9e0fe92826bedb3522e73de83bfed92dea"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/scoring_utils.py",
+      "bytes": 640,
+      "sha256": "5e524bac4ddbae0bacb17e3a6e271f018616a59c8f7565e538afd177e2e2c41a"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/stakeholder_matrix.py",
+      "bytes": 1344,
+      "sha256": "2e9952930f71ccb6b998f5d90a834d5095306d6b8d339209a5ce9f91693a5697"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/storage.py",
+      "bytes": 450,
+      "sha256": "3feb6d4847fb07568670bd996d1f50b7100c39645ded4dfe892dfc21eeb95bdb"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/strategic_priority_generator.py",
+      "bytes": 1026,
+      "sha256": "d0baddf6ad327199e306f78d1adece41aff2549a79c1f3f03d7fea8e80182b78"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/structure_indices.py",
+      "bytes": 357,
+      "sha256": "d2f05b7d951b0b9018dcb6d7b0d8aabd00e1a448bc6f64f29b3018bb21daa8b5"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/templates/audit_summary_template.md",
+      "bytes": 1110,
+      "sha256": "95fd87b1224870373a6d309224a0bdf6c5b5da2c2c0c8359cdd6612c30b86cd3"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/templates/board_submission_template.md",
+      "bytes": 506,
+      "sha256": "b46ca48b193cc388dff48d7469b79b53697d5ed538d4a795e09053febe5eb83a"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/templates/business_competition_summary_template.md",
+      "bytes": 1045,
+      "sha256": "f04df701e831f0e8ca608a2bd3f91e238984379a7320414e050e057f7557fe3e"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/templates/executive_summary_template.md",
+      "bytes": 634,
+      "sha256": "689d08212053b56dba292f1a3b3243bddb12c28ff0bfaf2fd91011c521edd868"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/templates/investor_briefing_template.md",
+      "bytes": 482,
+      "sha256": "4691199415ec30924ce48657b447858fbcb6d7f49b41e6a9b5f17cdff2040a11"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/templates/market_context_section.md",
+      "bytes": 290,
+      "sha256": "aa8fd4b40c6b4ae7a3df68f0d478b70ffd7d844a97faf51028ca760f38ba33e2"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/templates/option_space_template.md",
+      "bytes": 597,
+      "sha256": "c08bc5594f912928c7a34efab2e809ad30ddce938859e857c3b6f41c6d3f2f8e"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/templates/portfolio_summary_template.md",
+      "bytes": 405,
+      "sha256": "aa36b170ad15ea37ea62066b991e0e008283a1d140baf451bda7856609d3a878"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/tendency_model.py",
+      "bytes": 3756,
+      "sha256": "939f76de0a3cd5375fd8bcac892900a41bdfca2057487a96975260e903552c0a"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/utils.py",
+      "bytes": 1150,
+      "sha256": "711aaefc2367ec25e1d2432e71256b79592d8e9f8ffb5937e1a862ec5e811673"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/v1_1_pipeline.py",
+      "bytes": 698,
+      "sha256": "b48bfff6d088fcc95cdd876931edb8d2766d4d25909a82b69c069d3063b8cab1"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/vedanta_adapter.py",
+      "bytes": 509,
+      "sha256": "763e7ed715b90b164d0b264c7ddd12e16f65e3d8c2e0b8d65901e3fed1249abc"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/omega_qcs/voynich_adapter.py",
+      "bytes": 978,
+      "sha256": "fd24699b8898f0217e493b848a2f224839c2825598f0fc03ef5c2b2710051c98"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/out/omega_delivery_882875032a8e.zip",
+      "bytes": 5023,
+      "sha256": "f594dc9f61b041128bd27df89258560629f0b8c654169c1a023f43bc0196388b"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/out/omega_delivery_fae46eaea7fe.zip",
+      "bytes": 4619,
+      "sha256": "71b69645f0bd23d5c0526e3797aa38f511c592678c1800a37d97deff7f1f352f"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/out/omega_report_882875032a8e.md",
+      "bytes": 5775,
+      "sha256": "ea4202734e875e6acb2ea423619a8fa8ee0ae50f01914792977dfc2e7bfd4541"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/out/omega_report_882875032a8e.pdf",
+      "bytes": 2951,
+      "sha256": "74dade30f29271059c93ab79f68f3112fcd8f11c10d873e5a0ed472e71d0a7c8"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/out/omega_report_fae46eaea7fe.md",
+      "bytes": 4839,
+      "sha256": "af18f4e2b7eec2cfefc136e34c860d5ab6746df7efb175bfe6b1c2444a6f6561"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/out/omega_report_fae46eaea7fe.pdf",
+      "bytes": 2874,
+      "sha256": "b1b9077d8dc1e4f8fd6e9338dbb12ae710700afda6a611e7e4628e536f8ec20f"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/out/omega_summary_882875032a8e.txt",
+      "bytes": 434,
+      "sha256": "8d622d2228a85ca1eb971b82e2e91ce83947c9bc60d66165e52e81fb8b9f74f5"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/out/omega_summary_fae46eaea7fe.txt",
+      "bytes": 294,
+      "sha256": "de6aa80066a93a108e76f899dcc41928316267601aa5c29f0e14a59553a0c31d"
+    },
+    {
+      "path": "04_BUSINESS_ENGINE_QCS_CORE/OMEGA_QCS_V2_9/omega_quantum_consulting_scheme_mode_v0_1/requirements.txt",
+      "bytes": 82,
+      "sha256": "6f30d6c467d9f274fcc00cdd05a75557e11bbf52756a8c568e07c0c79d8f77ef"
+    },
+    {
+      "path": "05_STRATOSYNC_RELEASE_DEMO/STRATOSYNC_V1_RELEASE_COMPLETE/MODE6_7_STRATEGIC_SYNTHESIS_SPEC_v1.md",
+      "bytes": 1527,
+      "sha256": "ba60f4df919ba6cf72b8db1bd1d9aec6cd78b3795bc7403ae09b87c257c252d0"
+    },
+    {
+      "path": "05_STRATOSYNC_RELEASE_DEMO/STRATOSYNC_V1_RELEASE_COMPLETE/RELEASE_MANIFEST_v1.0.json",
+      "bytes": 1845,
+      "sha256": "6f27a5d91854e5b7743001667420ccdb23931ce82442e65fe5e9df337726f2cf"
+    },
+    {
+      "path": "05_STRATOSYNC_RELEASE_DEMO/STRATOSYNC_V1_RELEASE_COMPLETE/STRATOSYNC_Executive_Report_v1.0.pdf",
+      "bytes": 4686,
+      "sha256": "1d7a0f72a760c5e2995a94e6bc99e6039bddacae31d23d8e83087cbe2f58da40"
+    },
+    {
+      "path": "05_STRATOSYNC_RELEASE_DEMO/STRATOSYNC_V1_RELEASE_COMPLETE/STRATOSYNC_MASTER_ARCHITECTURE_v0.2.md",
+      "bytes": 7105,
+      "sha256": "8da94aa8112317076660edaed3a5713084eef0ce82fd6d5dd0f342bd14f84e2b"
+    },
+    {
+      "path": "05_STRATOSYNC_RELEASE_DEMO/STRATOSYNC_V1_RELEASE_COMPLETE/audit_trace.json",
+      "bytes": 386,
+      "sha256": "816d73c504f0719bc2c4cc277449e7398e04d1e25c6f6e2428ad2ef3e1b3e4e5"
+    },
+    {
+      "path": "05_STRATOSYNC_RELEASE_DEMO/STRATOSYNC_V1_RELEASE_COMPLETE/integrated_case.v1.0.json",
+      "bytes": 21151,
+      "sha256": "9885e66593aa81b94a7e94277d49a9e8e6dc7f58ada1193d1646e830e7e85f87"
+    },
+    {
+      "path": "05_STRATOSYNC_RELEASE_DEMO/STRATOSYNC_V1_RELEASE_COMPLETE/manifest.json",
+      "bytes": 308,
+      "sha256": "61f6d3b51419007ed15847b20a0cb9a700c935f8af42f047efe893be7edfbe8a"
+    },
+    {
+      "path": "05_STRATOSYNC_RELEASE_DEMO/STRATOSYNC_V1_RELEASE_COMPLETE/report_exec_v1.0.md",
+      "bytes": 3233,
+      "sha256": "fa03a89a8df2848e6f11b06793c3afbfc9612ffab87e70384bf528a384690c17"
+    },
+    {
+      "path": "05_STRATOSYNC_RELEASE_DEMO/STRATOSYNC_V1_RELEASE_COMPLETE/report_people.md",
+      "bytes": 1017,
+      "sha256": "af27b5d0919aef50fdaeced8cf3f141aaa096aca055e47eb704e56846223a6c6"
+    },
+    {
+      "path": "07_DOCS/QUICKSTART.md",
+      "bytes": 780,
+      "sha256": "c79a408466165eea40ec8f9c35be2cdacf7c14f3d223f578fe5687db54070587"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 368,
+      "sha256": "cd994c0e3bcdcbd9d56f2b22a5482648678b81c794c5082b6b4f59f8d8ec3e6b"
+    },
+    {
+      "path": "DEMO/ARTIFACTS_SILVERCARE/Executive_Report_SilverCare_demo.md",
+      "bytes": 1156,
+      "sha256": "8f87b811d3b6cdd5b356fe775598dd4be2bf573a1a6942f1253135b4a8e8ddf9"
+    },
+    {
+      "path": "DEMO/ARTIFACTS_SILVERCARE/Executive_Report_SilverCare_demo.v3.pdf",
+      "bytes": 3572,
+      "sha256": "ba8a9f645e5fc0175dd86581a8d93eb768ba90f1b78eb5779a87de79e72e4924"
+    },
+    {
+      "path": "DEMO/ARTIFACTS_SILVERCARE/integrated_case.updated.json",
+      "bytes": 23628,
+      "sha256": "186fbb09944525feb89360d5fad76b0a09d2c28b1e3d10991051723a4a7bd233"
+    },
+    {
+      "path": "DEMO/integrated_case.silvercare.v1_0.json",
+      "bytes": 19773,
+      "sha256": "908afbc0216e037482c2ca19efa12e2c4486b98693f8d5500c47f87f46f1d51d"
+    },
+    {
+      "path": "LICENSE_PLACEHOLDER.md",
+      "bytes": 179,
+      "sha256": "ffed0c239943250b40d04daa88143c1a86e1b5af603c4dec9dc14dad8c0d759f"
+    },
+    {
+      "path": "Makefile",
+      "bytes": 1599,
+      "sha256": "d5dbcc4f5f2fe518acd7024358468dad2183a45e7dba71b226d46d3894fb3ab1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 772,
+      "sha256": "f7a5c1a2602b82ab72e0cc38f44e9b808a1f6e3f7009c10a6b795cf797c2748d"
+    },
+    {
+      "path": "REQUIREMENTS_OPTIONAL.txt",
+      "bytes": 43,
+      "sha256": "63f9cfaa0343efa36287f952c562be5e86bdd9ed8d0cc9b1361cd52b4930fb0e"
+    },
+    {
+      "path": "RUN_DEMO.md",
+      "bytes": 2153,
+      "sha256": "fed78cbbbfdce6ebdd77a37da7a965eb92ccc729ad9dc2dcc2e19fec18576fe7"
+    },
+    {
+      "path": "TEMPLATE_PACKS/INDUSTRY_MODULES/qcs_dental_module_v1_1/qcs_dental_module_v1/LICENSE_NOTE.txt",
+      "bytes": 112,
+      "sha256": "1dc1f490f444018545efbdf32ad3117a3f9f6fe829171a2061c5e8ac3e56fae5"
+    },
+    {
+      "path": "TEMPLATE_PACKS/INDUSTRY_MODULES/qcs_dental_module_v1_1/qcs_dental_module_v1/README.md",
+      "bytes": 1082,
+      "sha256": "f1e8731b2372b5880d7a8ac7e78749d9ea63814ce84089f3fc211a4c70473415"
+    },
+    {
+      "path": "TEMPLATE_PACKS/INDUSTRY_MODULES/qcs_dental_module_v1_1/qcs_dental_module_v1/api/app.py",
+      "bytes": 547,
+      "sha256": "33c7714199f9a92c5a0cda0a128402419feb37f80e879fe327c4c38ba7a01fe0"
+    },
+    {
+      "path": "TEMPLATE_PACKS/INDUSTRY_MODULES/qcs_dental_module_v1_1/qcs_dental_module_v1/configs/weights.v1.json",
+      "bytes": 844,
+      "sha256": "6b808719e2a5d3b766d9896b11422e94d3e86e16f5ff76648c8897be9beaa1da"
+    },
+    {
+      "path": "TEMPLATE_PACKS/INDUSTRY_MODULES/qcs_dental_module_v1_1/qcs_dental_module_v1/docs/partner_onepager_tax_ja.md",
+      "bytes": 1084,
+      "sha256": "287d9f8578f930efa223f5d0cfd2cdb67abaf4086dc60d6d0c0acbbf0934c312"
+    },
+    {
+      "path": "TEMPLATE_PACKS/INDUSTRY_MODULES/qcs_dental_module_v1_1/qcs_dental_module_v1/docs/scoring_rubric_ja_v1_1.md",
+      "bytes": 7046,
+      "sha256": "36abca3605b54304320ae09089d93bba16920c4473a159108afe6b90578257a7"
+    },
+    {
+      "path": "TEMPLATE_PACKS/INDUSTRY_MODULES/qcs_dental_module_v1_1/qcs_dental_module_v1/engine/__init__.py",
+      "bytes": 31,
+      "sha256": "088df97661019405e47e20622fbf0b2754a39c64045354a612a7f714a07a6f50"
+    },
+    {
+      "path": "TEMPLATE_PACKS/INDUSTRY_MODULES/qcs_dental_module_v1_1/qcs_dental_module_v1/engine/run_sample.py",
+      "bytes": 1712,
+      "sha256": "79374567de2193108b671ea0f04ead8ad96353e66bde9f4b3af542a01f9ca8e1"
+    },
+    {
+      "path": "TEMPLATE_PACKS/INDUSTRY_MODULES/qcs_dental_module_v1_1/qcs_dental_module_v1/engine/scoring.py",
+      "bytes": 8231,
+      "sha256": "d14830ced37474d7a326e672cd7935cae27acd091e0939d0605b49fc4089b436"
+    },
+    {
+      "path": "TEMPLATE_PACKS/INDUSTRY_MODULES/qcs_dental_module_v1_1/qcs_dental_module_v1/reports/deck_outline_ja_10slides_v1_1.md",
+      "bytes": 2552,
+      "sha256": "2ed952501bf460d2b8d3fe8938000e92329d0ad9d6a49beb83d97e0ae421329a"
+    },
+    {
+      "path": "TEMPLATE_PACKS/INDUSTRY_MODULES/qcs_dental_module_v1_1/qcs_dental_module_v1/reports/template_report.md",
+      "bytes": 1248,
+      "sha256": "8dcb7acffcf09fc11a45bd902cb90b622757b79e69ce79026c3a2229c60eb444"
+    },
+    {
+      "path": "TEMPLATE_PACKS/INDUSTRY_MODULES/qcs_dental_module_v1_1/qcs_dental_module_v1/requirements.txt",
+      "bytes": 25,
+      "sha256": "340716524df4c28a080f547d3bdde49e461883d1eda0be721879a9d94c2e593b"
+    },
+    {
+      "path": "TEMPLATE_PACKS/INDUSTRY_MODULES/qcs_dental_module_v1_1/qcs_dental_module_v1/samples/sample_clinic.json",
+      "bytes": 975,
+      "sha256": "8c3da8c3953b5f532bd75b87183f6405ff0eae19f2618a42c38147f860d0af51"
+    },
+    {
+      "path": "TEMPLATE_PACKS/INDUSTRY_MODULES/qcs_dental_module_v1_1/qcs_dental_module_v1/schemas/dental_intake.schema.json",
+      "bytes": 2924,
+      "sha256": "e422fab958d6a36518ddc2f588c8a6d257572c5cf8dc19522c77a7130a106b34"
+    },
+    {
+      "path": "TEMPLATE_PACKS/INDUSTRY_MODULES/qcs_medical_basic_v1/qcs_medical_basic_v1/README.md",
+      "bytes": 454,
+      "sha256": "d66b541a67428bd8a55c913865fe0c47250cd7eadec5dd90768afb822d321594"
+    },
+    {
+      "path": "TEMPLATE_PACKS/INDUSTRY_MODULES/qcs_medical_basic_v1/qcs_medical_basic_v1/medical_kpi_schema.json",
+      "bytes": 949,
+      "sha256": "7b78d94562add7ae83b8629b03869bdf1265be3b6a3fea171febb1f3e9af67a4"
+    },
+    {
+      "path": "TEMPLATE_PACKS/INDUSTRY_MODULES/qcs_medical_basic_v1/qcs_medical_basic_v1/run_sample.py",
+      "bytes": 218,
+      "sha256": "8175c147c008d4776480d577613c130b3002a217feee01c29d1de392dc50f9ff"
+    },
+    {
+      "path": "TEMPLATE_PACKS/INDUSTRY_MODULES/qcs_medical_basic_v1/qcs_medical_basic_v1/sample_medical_data.json",
+      "bytes": 903,
+      "sha256": "2e1d783e456f3646d4af254d60e3372440c68579e2b612aec5790b86cbd78a1c"
+    },
+    {
+      "path": "TEMPLATE_PACKS/INDUSTRY_MODULES/qcs_medical_basic_v1/qcs_medical_basic_v1/scoring_criteria_medical_v1.md",
+      "bytes": 899,
+      "sha256": "2ece7dee76b051bf2d855b16936d0595b0159ceca154d0f039d972823794f8c9"
+    },
+    {
+      "path": "TEMPLATE_PACKS/INDUSTRY_MODULES/qcs_silvercare_module_v1_0/README.md",
+      "bytes": 99,
+      "sha256": "d1a3cb8e2866b1028cce8084ec1be6a0b74c3cd48246d87e5d5e77886d32a03d"
+    },
+    {
+      "path": "TEMPLATE_PACKS/INDUSTRY_MODULES/qcs_silvercare_module_v1_0/run_sample.py",
+      "bytes": 354,
+      "sha256": "41f449a99cc513cfc04733adfe3a62163fc962f9c149ddb24f243cb3f566cd04"
+    },
+    {
+      "path": "TEMPLATE_PACKS/INDUSTRY_MODULES/qcs_silvercare_module_v1_0/sample_silvercare_data.json",
+      "bytes": 449,
+      "sha256": "518060e1bf788750f4bc70cc26a0eb6f551c27aa6e998b6b851b59226ee1413e"
+    },
+    {
+      "path": "TEMPLATE_PACKS/INDUSTRY_MODULES/qcs_silvercare_module_v1_0/scoring_criteria_silvercare_v1_0.md",
+      "bytes": 927,
+      "sha256": "0a4f23863a9d9a98f1e3d67334c8fb7bc58f0a46c942bd2141ffbaf0438a1760"
+    },
+    {
+      "path": "TEMPLATE_PACKS/INDUSTRY_MODULES/qcs_silvercare_module_v1_0/silvercare_kpi_schema.json",
+      "bytes": 2558,
+      "sha256": "3db53d45369b6ca9d73cb4571ec94cbfcf39a5fa7730f7e30334727ccc56e1d5"
+    },
+    {
+      "path": "TEMPLATE_PACKS/README.md",
+      "bytes": 967,
+      "sha256": "344a1d96740a386a2d207ece9eadc1ce4a319a7bd1932a6f892d1db298131b70"
+    },
+    {
+      "path": "TEMPLATE_PACKS/REPORT_TEMPLATES/report_template_silvercare_v1_0.md",
+      "bytes": 629,
+      "sha256": "01dc5a6561199023a4b982e596156bb27de0b7fdde903425b9d2936d59617c68"
+    },
+    {
+      "path": "TEMPLATE_PACKS/SAMPLE_DATA/sample_kpi_dental_clinic_v1_1.json",
+      "bytes": 523,
+      "sha256": "2a9c14d1e8f5506aadf67389fe87aaca2a0b5da98e778e60a0c01c2b6f3c5920"
+    },
+    {
+      "path": "TEMPLATE_PACKS/SAMPLE_DATA/sample_kpi_medical_clinic_v1.json",
+      "bytes": 533,
+      "sha256": "316a4216ecc2172bb546a433d92e98595280998b5600e262cd66443d803fcac7"
+    },
+    {
+      "path": "TEMPLATE_PACKS/SAMPLE_DATA/sample_kpi_silvercare_corp_v1_0.json",
+      "bytes": 449,
+      "sha256": "518060e1bf788750f4bc70cc26a0eb6f551c27aa6e998b6b851b59226ee1413e"
+    },
+    {
+      "path": "TEMPLATE_PACKS/TemplatePack_JP_DentalClinic_v1_1.json",
+      "bytes": 2600,
+      "sha256": "38ec18bce70d146dab5823ed87fe836c50b6c07a177faa3a867fbe669ba04615"
+    },
+    {
+      "path": "TEMPLATE_PACKS/TemplatePack_JP_FoodService_v1_skeleton.json",
+      "bytes": 2445,
+      "sha256": "5139fc5ad1bd03c91d5713387267d6eded7d7db1645c133c1aa63056a197d0aa"
+    },
+    {
+      "path": "TEMPLATE_PACKS/TemplatePack_JP_MedicalClinic_v1.json",
+      "bytes": 2595,
+      "sha256": "4012339b6c7bd09925732631417d756cbd72d6e9159c1310262813217d82dc06"
+    },
+    {
+      "path": "TEMPLATE_PACKS/TemplatePack_JP_SilverCare_v1_0.json",
+      "bytes": 4166,
+      "sha256": "4853c27eac8624d4472931ed32ca56c53b62f0fe7166015805ebd812fb97d725"
+    },
+    {
+      "path": "VERSION",
+      "bytes": 23,
+      "sha256": "ab48c760e0cc01eb7e9c58840700fc3b89d20b298894e3774cfcbf3ce429b9a3"
+    },
+    {
+      "path": "__pycache__/run_demo.cpython-311.pyc",
+      "bytes": 55446,
+      "sha256": "9cd2a2423a5e24292691080495a679766e5349cb5cb2a8ede041ee7aec09b544"
+    },
+    {
+      "path": "out_silvercare_demo/Executive_Report.demo.md",
+      "bytes": 1156,
+      "sha256": "8f87b811d3b6cdd5b356fe775598dd4be2bf573a1a6942f1253135b4a8e8ddf9"
+    },
+    {
+      "path": "out_silvercare_demo/Executive_Report.demo.v3.pdf",
+      "bytes": 3572,
+      "sha256": "ba8a9f645e5fc0175dd86581a8d93eb768ba90f1b78eb5779a87de79e72e4924"
+    },
+    {
+      "path": "out_silvercare_demo/integrated_case.updated.json",
+      "bytes": 23628,
+      "sha256": "186fbb09944525feb89360d5fad76b0a09d2c28b1e3d10991051723a4a7bd233"
+    },
+    {
+      "path": "run_demo.py",
+      "bytes": 35587,
+      "sha256": "397ca5f88886cdd36a2327f11dc20e69d28de160a8b217cec5ad408962e59021"
+    },
+    {
+      "path": "run_demo.sh",
+      "bytes": 468,
+      "sha256": "de38cc33b59130d68674ca94138157335ed142c05d1af0eaf1ff12bf27340057"
+    }
+  ],
+  "notes": {
+    "cleaned_removed_count": 24,
+    "cleaned_removed_examples": [
+      "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/.DS_Store",
+      "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/Tantra/.DS_Store",
+      "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/.app/core/oracle/__pycache__/thoth_oracle_engine.cpython-311.pyc",
+      "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/Senjyu_Maya_AutoConnect_Dual_v1 2/.DS_Store",
+      "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/Senjyu_Maya_AutoConnect_Dual_v1 2/senjyu_app/.DS_Store",
+      "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/Senjyu_Maya_AutoConnect_Dual_v1 2/senjyu_app/Senjyu_AddOn_Modules_v3_2/.DS_Store",
+      "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/Kuzuryu_Kotodama_AllInOne_v2/.DS_Store",
+      "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/agastya/.DS_Store",
+      "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/.app 3/core/oracle/__pycache__/thoth_oracle_engine.cpython-311.pyc",
+      "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/Senjyu_Tantra_Ritual_Controller_Addon_v1/.DS_Store",
+      "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/Senjyu_Tantra_Ritual_Controller_Addon_v1/render/.DS_Store",
+      "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/ModeF_Emerald_Pack/.DS_Store",
+      "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/.app 2/core/oracle/__pycache__/thoth_oracle_engine.cpython-311.pyc",
+      "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/CSDE_Core_Agastya_H3_7_Pack/.DS_Store",
+      "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/CSDE_Core_Agastya_H3_7_Pack/CSDE_Engine_Core/.DS_Store",
+      "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/CSDE_Core_Agastya_H3_7_Pack/CSDE_Engine_Core/data/.DS_Store",
+      "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/CSDE_Core_Agastya_H3_7_Pack/CSDE_Engine_Core/data/agastya/.DS_Store",
+      "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/Senjyu_MayaLogic_v1/.DS_Store",
+      "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/Senjyu_MayaLogic_v1/senjyu_app/.DS_Store",
+      "03_HUMAN_ENGINE_AXIS_CORE/AXIS_CORE_V4_1_1/AxisCore_Engine_v4.1.1_v15P_Package_Rebuild/Senjyu_MayaLogic_v1/senjyu_app/Senjyu_AddOn_Modules_v3_2/.DS_Store"
+    ],
+    "runner_added": true,
+    "runner_path": "run_demo.py",
+    "enhancements_added": [
+      "run_demo.sh",
+      "Makefile",
+      "TEMPLATE_PACKS/*"
+    ],
+    "templatepack_supported": true,
+    "templatepack_fields": [
+      "role_catalog",
+      "scenario_demands",
+      "weights.decision_vector"
+    ],
+    "medical_dental_templatepacks_added": true,
+    "industry_modules_bundled": [
+      "qcs_medical_basic_v1",
+      "qcs_dental_module_v1_1"
+    ],
+    "mode1_demo_from_sample_kpi": true,
+    "sample_data_files": [
+      "TEMPLATE_PACKS/SAMPLE_DATA/sample_kpi_medical_clinic_v1.json",
+      "TEMPLATE_PACKS/SAMPLE_DATA/sample_kpi_dental_clinic_v1_1.json"
+    ],
+    "mode3_demo_from_templatepack": true,
+    "mode4_demo_composite": true,
+    "demo_report_generator": true,
+    "styled_pdf_report_v1": true,
+    "styled_pdf_report_v2": true,
+    "styled_pdf_report_v3_full_brand": true,
+    "silvercare_demo_report_added": true
+  }
+}

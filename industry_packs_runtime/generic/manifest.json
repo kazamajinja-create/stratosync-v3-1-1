@@ -1,0 +1,6 @@
+{
+  "industry_id": "generic",
+  "name": "Generic Business",
+  "version": "1.0.0",
+  "description": "Fallback template pack used when no industry-specific pack exists."
+}

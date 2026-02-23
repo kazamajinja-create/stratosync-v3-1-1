@@ -1,0 +1,11 @@
+services:
+  stratosync:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - AUDIT_LOG_PATH=data/audit_log.jsonl
+      - STATE_DB_PATH=data/state_db.json
+      - ADMIN_TOKEN=CHANGE_ME
+    volumes:
+      - ./data:/app/data

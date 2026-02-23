@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "kind": "enterprise",
+  "meta": {
+    "industry_id": "franchise",
+    "title": "franchise Enterprise Report",
+    "language": "ja"
+  },
+  "sections": [
+    {
+      "id": "exec",
+      "title": "経営要約",
+      "blocks": [
+        {
+          "type": "text",
+          "data_path": "report_summary"
+        },
+        {
+          "type": "rcl_summary",
+          "data_path": "outputs.rcl"
+        }
+      ]
+    },
+    {
+      "id": "appendix",
+      "title": "付録（詳細）",
+      "blocks": [
+        {
+          "type": "kpi_table",
+          "data_path": "outputs.mode1.metrics"
+        },
+        {
+          "type": "kpi_table",
+          "data_path": "outputs.mode3.metrics"
+        }
+      ]
+    }
+  ]
+}

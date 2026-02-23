@@ -1,0 +1,34 @@
+{
+  "clinic_profile": {
+    "clinic_name": "string",
+    "region": "string",
+    "period_start": "date",
+    "period_end": "date"
+  },
+  "kpis": {
+    "patients_per_day": "number",
+    "avg_receipt_unit": "number",
+    "self_pay_ratio": "0-1",
+    "revisit_rate": "0-1",
+    "monthly_growth_rate": "number",
+    "fixed_cost_ratio": "0-1",
+    "labor_cost_ratio": "0-1",
+    "cash_runway_months": "number",
+    "reimbursement_revision_risk": "0-1",
+    "depreciation_ratio": "0-1",
+    "area_population_trend": "number",
+    "competitor_change": "number",
+    "referral_rate_trend": "number",
+    "cancel_rate": "0-1",
+    "physician_dependency_ratio": "0-1",
+    "nurse_retention_rate": "0-1",
+    "standardization_level": "0-5",
+    "delegation_level": "0-5",
+    "succession_readiness": "0-5",
+    "kpi_visibility": "0-5",
+    "meeting_structure": "0-5",
+    "role_clarity": "0-5",
+    "data_sharing": "0-5",
+    "initiative_tracking": "0-5"
+  }
+}

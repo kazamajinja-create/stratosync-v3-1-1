@@ -1,0 +1,13 @@
+--- old/modeF_thoth.py
++++ new/modeF_thoth.py
+@@
+-# ModeF (Thoth Oracle) – Original
++# ModeF (Thoth Oracle) 強化版 - Emerald Tablet 統合対応
++from dictionaries import THOTH_EMERALD_DICT
++
++    def consult(self, query, mode="integrated"):
++        if mode == "emerald":
++            return self._search_dict(query, self.emerald_dict)
++        elif mode == "integrated":
++            return {"thoth": self._search_dict(query, self.thoth_dict),
++                    "emerald": self._search_dict(query, self.emerald_dict)}

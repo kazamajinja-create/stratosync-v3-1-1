@@ -1,0 +1,36 @@
+{
+  "schema_id": "silvercare_tier1_executive_schema_v1",
+  "industry": "SilverCare",
+  "tier": "Tier1",
+  "description": "Executive / Board level structured input schema for STRATOSYNC SilverCare Tier1",
+  "sections": {
+    "executive_profile": [
+      "role",
+      "tenure_years",
+      "decision_authority_scope",
+      "ownership_ratio",
+      "succession_plan_status"
+    ],
+    "decision_pattern_assessment": [
+      "risk_tolerance_score (0-100)",
+      "short_term_bias_score (0-100)",
+      "delegation_index (0-100)",
+      "conflict_avoidance_score (0-100)",
+      "data_vs_intuition_ratio (0-100)"
+    ],
+    "organizational_perception": [
+      "perceived_team_alignment_score",
+      "leadership_trust_index",
+      "change_readiness_score",
+      "key_person_dependency_estimate"
+    ],
+    "strategic_intent": [
+      "3_year_growth_target_percent",
+      "mna_interest_flag",
+      "facility_expansion_interest_flag",
+      "capital_investment_capacity_million_yen"
+    ]
+  },
+  "version": "1.0",
+  "created_at": "2026-02-18"
+}

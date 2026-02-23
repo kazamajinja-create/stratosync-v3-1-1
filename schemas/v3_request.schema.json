@@ -1,0 +1,205 @@
+{
+  "$defs": {
+    "OmegaInputs": {
+      "properties": {
+        "connections": {
+          "default": 5.0,
+          "minimum": 0.0,
+          "title": "Connections",
+          "type": "number"
+        },
+        "cross_roles": {
+          "default": 2.0,
+          "minimum": 0.0,
+          "title": "Cross Roles",
+          "type": "number"
+        },
+        "info_flow": {
+          "default": 0.5,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Info Flow",
+          "type": "number"
+        },
+        "flexibility": {
+          "default": 0.5,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Flexibility",
+          "type": "number"
+        }
+      },
+      "title": "OmegaInputs",
+      "type": "object"
+    },
+    "SDLInputs": {
+      "properties": {
+        "channels": {
+          "default": 3.0,
+          "minimum": 0.0,
+          "title": "Channels",
+          "type": "number"
+        },
+        "frequency": {
+          "default": 2.0,
+          "minimum": 0.0,
+          "title": "Frequency",
+          "type": "number"
+        },
+        "quality": {
+          "default": 0.6,
+          "minimum": 0.0,
+          "title": "Quality",
+          "type": "number"
+        },
+        "api_count": {
+          "default": 0.0,
+          "minimum": 0.0,
+          "title": "Api Count",
+          "type": "number"
+        },
+        "partners": {
+          "default": 0.0,
+          "minimum": 0.0,
+          "title": "Partners",
+          "type": "number"
+        },
+        "sns_factor": {
+          "default": 0.4,
+          "minimum": 0.0,
+          "title": "Sns Factor",
+          "type": "number"
+        },
+        "brand_exposure": {
+          "default": 0.4,
+          "minimum": 0.0,
+          "title": "Brand Exposure",
+          "type": "number"
+        },
+        "volume_proxy": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Volume Proxy"
+        }
+      },
+      "title": "SDLInputs",
+      "type": "object"
+    }
+  },
+  "description": "Unified v3.0 analysis request.\n\nThis is designed to be *industry-template-first* and future-proof.\n- RCL uses the existing integrated case fields.\n- SDL/ΩCL can be provided explicitly or left default for demos.",
+  "properties": {
+    "case_id": {
+      "minLength": 1,
+      "title": "Case Id",
+      "type": "string"
+    },
+    "industry_template": {
+      "default": "generic",
+      "title": "Industry Template",
+      "type": "string"
+    },
+    "degrees_of_freedom": {
+      "default": 12,
+      "maximum": 500,
+      "minimum": 1,
+      "title": "Degrees Of Freedom",
+      "type": "integer"
+    },
+    "data_coverage": {
+      "default": 0.6,
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Data Coverage",
+      "type": "number"
+    },
+    "kpi_timeseries": {
+      "items": {
+        "type": "number"
+      },
+      "title": "Kpi Timeseries",
+      "type": "array"
+    },
+    "interventions": {
+      "items": {
+        "type": "object"
+      },
+      "title": "Interventions",
+      "type": "array"
+    },
+    "political_score": {
+      "anyOf": [
+        {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Political Score"
+    },
+    "capital_score": {
+      "anyOf": [
+        {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Capital Score"
+    },
+    "execution_score": {
+      "anyOf": [
+        {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Execution Score"
+    },
+    "noise": {
+      "anyOf": [
+        {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Noise"
+    },
+    "sdl": {
+      "$ref": "#/$defs/SDLInputs"
+    },
+    "omega": {
+      "$ref": "#/$defs/OmegaInputs"
+    }
+  },
+  "required": [
+    "case_id"
+  ],
+  "title": "V3AnalyzeRequest",
+  "type": "object"
+}

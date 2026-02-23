@@ -1,0 +1,22 @@
+{
+  "generic": {
+    "bei_alpha": 0.08,
+    "ece_prior": {
+      "financial": 1.2,
+      "human": 1.1,
+      "organization": 1.1,
+      "market": 1.0
+    },
+    "rsm_threshold": 0.15
+  },
+  "silvercare": {
+    "bei_alpha": 0.085,
+    "ece_prior": {
+      "financial": 1.1,
+      "human": 1.25,
+      "organization": 1.25,
+      "market": 0.9
+    },
+    "rsm_threshold": 0.12
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kit_id": "AGASTYA_SOLO_SENJYU_LIGHT",
+  "version": "1.0",
+  "active_modes": [
+    "thoth",
+    "modeG",
+    "voynich",
+    "qpl"
+  ],
+  "plan_defaults": {
+    "A": {
+      "qpl": "lite"
+    },
+    "B": {
+      "qpl": "std"
+    },
+    "C": {
+      "qpl": "full"
+    }
+  }
+}

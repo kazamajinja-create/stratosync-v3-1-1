@@ -1,0 +1,1 @@
+INSERT INTO translation_log (user_id, mode, used_sct) VALUES (:user, 'G', 3);

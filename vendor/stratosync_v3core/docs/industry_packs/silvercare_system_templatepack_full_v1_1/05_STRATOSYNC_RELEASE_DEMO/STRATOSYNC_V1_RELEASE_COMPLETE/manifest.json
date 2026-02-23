@@ -1,0 +1,12 @@
+{
+  "spec_version": "v0.2",
+  "created_at": "2026-02-18",
+  "note": "Demo case pack (synthetic data).",
+  "files": [
+    "integrated_case.json",
+    "report_exec.md",
+    "report_people.md",
+    "audit_trace.json"
+  ],
+  "manifest_sha256": "db2cc084f4f4e4dc3560647b1fd2157d9268f7d692aa870fe00ba6881af420a3"
+}

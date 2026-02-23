@@ -1,0 +1,40 @@
+{
+  "document_id": "silvercare_tier1_management_interview_v1",
+  "purpose": "Structured interview guide for executive / management layer",
+  "sections": [
+    {
+      "section": "Strategy & Vision",
+      "questions": [
+        "What is the organization's 5-year strategic direction?",
+        "What external risks concern you most?",
+        "Where do you see structural bottlenecks?"
+      ]
+    },
+    {
+      "section": "Human & Organizational Dynamics",
+      "questions": [
+        "Which departments show recurring friction?",
+        "Are there individuals whose absence would critically impact operations?",
+        "How is knowledge transfer handled?"
+      ]
+    },
+    {
+      "section": "Financial & Risk",
+      "questions": [
+        "How resilient is the organization to reimbursement revisions?",
+        "What is the real cash runway under stress?",
+        "What investment decisions are currently postponed?"
+      ]
+    },
+    {
+      "section": "Succession & Governance",
+      "questions": [
+        "Is there a defined successor?",
+        "Is governance board oversight active or symbolic?",
+        "How transparent is decision rationale within leadership?"
+      ]
+    }
+  ],
+  "version": "1.0",
+  "created_at": "2026-02-18"
+}

@@ -1,0 +1,131 @@
+{
+  "name": "Agastia Master – Subscription & Session",
+  "nodes": [
+    {
+      "id": "StripeWebhook",
+      "name": "Stripe Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "parameters": {
+        "path": "agastia/stripe",
+        "httpMethod": "POST"
+      }
+    },
+    {
+      "id": "PlanSwitch",
+      "name": "Plan Switch",
+      "type": "n8n-nodes-base.switch",
+      "parameters": {
+        "value1": "={{$json[\"plan\"]}}",
+        "rules": [
+          {
+            "operation": "equal",
+            "value2": "lite"
+          },
+          {
+            "operation": "equal",
+            "value2": "standard"
+          },
+          {
+            "operation": "equal",
+            "value2": "premium"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RunDispatcher",
+      "name": "Run Agastia Dispatcher",
+      "type": "n8n-nodes-base.executeCommand",
+      "parameters": {
+        "command": "python3 /workspace/Agastia_Dispatcher_Pack/Agastia_Dispatcher.py --mode subscription --payload /workspace/tmp/payload.json"
+      }
+    },
+    {
+      "id": "SessionWebhook",
+      "name": "Session Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "parameters": {
+        "path": "agastia/session",
+        "httpMethod": "POST"
+      }
+    },
+    {
+      "id": "RunDispatcherSession",
+      "name": "Run Dispatcher (Session)",
+      "type": "n8n-nodes-base.executeCommand",
+      "parameters": {
+        "command": "python3 /workspace/Agastia_Dispatcher_Pack/Agastia_Dispatcher.py --mode session --plan={{$json[\"plan\"]}} --birth={{$json[\"birth\"]}} --latlon={{$json[\"latlon\"]}}"
+      }
+    },
+    {
+      "id": "LineNotify",
+      "name": "LINE Notify",
+      "type": "n8n-nodes-base.httpRequest",
+      "parameters": {
+        "url": "https://api.line.me/v2/bot/message/push",
+        "options": {
+          "bodyContentType": "json"
+        },
+        "jsonParameters": true,
+        "authentication": "predefinedCredentialType",
+        "requestMethod": "POST",
+        "jsonBody": {
+          "to": "={{$json[\"line_user_id\"]}}",
+          "messages": [
+            {
+              "type": "text",
+              "text": "PDF生成完了：={{$json[\"pdf\"]}}"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "connections": {
+    "StripeWebhook": {
+      "main": [
+        {
+          "node": "PlanSwitch",
+          "type": "main",
+          "index": 0
+        }
+      ]
+    },
+    "PlanSwitch": {
+      "main": [
+        {
+          "node": "RunDispatcher",
+          "type": "main",
+          "index": 0
+        }
+      ]
+    },
+    "SessionWebhook": {
+      "main": [
+        {
+          "node": "RunDispatcherSession",
+          "type": "main",
+          "index": 0
+        }
+      ]
+    },
+    "RunDispatcher": {
+      "main": [
+        {
+          "node": "LineNotify",
+          "type": "main",
+          "index": 0
+        }
+      ]
+    },
+    "RunDispatcherSession": {
+      "main": [
+        {
+          "node": "LineNotify",
+          "type": "main",
+          "index": 0
+        }
+      ]
+    }
+  }
+}

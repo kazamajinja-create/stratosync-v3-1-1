@@ -1,0 +1,1 @@
+This package contains the Mode G extension for SENJYU Voynich QuantumKit v4.2

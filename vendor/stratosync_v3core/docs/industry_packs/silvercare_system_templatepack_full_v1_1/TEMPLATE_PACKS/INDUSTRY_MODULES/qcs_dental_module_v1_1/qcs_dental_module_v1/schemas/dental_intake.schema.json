@@ -1,0 +1,133 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "QCS Dental Intake",
+  "type": "object",
+  "required": [
+    "clinic_profile",
+    "kpis"
+  ],
+  "properties": {
+    "clinic_profile": {
+      "type": "object",
+      "required": [
+        "clinic_name",
+        "region",
+        "period_start",
+        "period_end"
+      ],
+      "properties": {
+        "clinic_name": {
+          "type": "string"
+        },
+        "region": {
+          "type": "string"
+        },
+        "period_start": {
+          "type": "string",
+          "format": "date"
+        },
+        "period_end": {
+          "type": "string",
+          "format": "date"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "kpis": {
+      "type": "object",
+      "required": [
+        "visits_per_day",
+        "avg_ticket_ins",
+        "avg_ticket_oop",
+        "oop_ratio",
+        "new_patient_rate",
+        "ltv_oop",
+        "unit_utilization",
+        "depr_burden_ratio",
+        "fixed_cost_ratio",
+        "cash_runway_months",
+        "booking_fill_rate",
+        "cancel_rate",
+        "rev_per_staff",
+        "competitor_change",
+        "review_rating_trend",
+        "hygienist_retention_rate",
+        "owner_dependency_ratio"
+      ],
+      "properties": {
+        "visits_per_day": {
+          "type": "number"
+        },
+        "avg_ticket_ins": {
+          "type": "number"
+        },
+        "avg_ticket_oop": {
+          "type": "number"
+        },
+        "oop_ratio": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "new_patient_rate": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "ltv_oop": {
+          "type": "number"
+        },
+        "unit_utilization": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "depr_burden_ratio": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "fixed_cost_ratio": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "cash_runway_months": {
+          "type": "number",
+          "minimum": 0
+        },
+        "booking_fill_rate": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "cancel_rate": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "rev_per_staff": {
+          "type": "number"
+        },
+        "competitor_change": {
+          "type": "number"
+        },
+        "review_rating_trend": {
+          "type": "number"
+        },
+        "hygienist_retention_rate": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "owner_dependency_ratio": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      }
+    }
+  }
+}

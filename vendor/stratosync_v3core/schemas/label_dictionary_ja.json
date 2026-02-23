@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "language": "ja"
+  },
+  "financial_stability_index": "財務安定指数",
+  "growth_sustainability_index": "成長持続性指数",
+  "market_dependency_index": "市場依存度",
+  "key_person_dependency_index": "属人依存度",
+  "branch_explosion_index": "分岐爆発指数",
+  "decision_confidence": "収束信頼度",
+  "twin_cause_alert": "多重原因警報",
+  "residual_structure_index": "残差構造指数",
+  "risk_posture_index": "リスク姿勢指数",
+  "overconfidence_score": "過信スコア",
+  "loss_aversion_index": "損失回避指数",
+  "short_term_bias_level": "短期志向バイアス",
+  "strategy_person_fit_score": "戦略-人物適合度",
+  "organizational_resilience_index": "組織レジリエンス指数"
+}

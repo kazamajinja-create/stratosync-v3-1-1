@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "axis-drift-index"
+version = "1.0.0"
+description = "AXIS Drift Index™ — drift detection model module pack"
+authors = [{name="AXIS", email="noreply@example.com"}]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["axis_drift_index*"]

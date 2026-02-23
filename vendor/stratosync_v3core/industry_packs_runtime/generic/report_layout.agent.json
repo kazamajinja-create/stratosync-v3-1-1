@@ -1,0 +1,20 @@
+{
+  "title": "STRATOSYNC — Agent Sheet (Generic)",
+  "sections": [
+    {
+      "heading": "Action Summary",
+      "items": [
+        {"label": "System State", "path": "outputs.system_state", "fmt": "str"},
+        {"label": "Top Reason #1", "path": "outputs.reasons.0", "fmt": "str"},
+        {"label": "Top Reason #2", "path": "outputs.reasons.1", "fmt": "str"}
+      ]
+    },
+    {
+      "heading": "RCL Snapshot",
+      "items": [
+        {"label": "BEI Level", "path": "outputs.rcl.branch_explosion.risk_level", "fmt": "str"},
+        {"label": "ECE Next Questions", "path": "outputs.rcl.convergence.next_best_questions", "fmt": "str"}
+      ]
+    }
+  ]
+}

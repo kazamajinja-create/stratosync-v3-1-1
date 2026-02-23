@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>デモ入力 | STRATOSYNC v3.1.1</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main class="wrap">
+    <h1>デモ入力 → PDF出力</h1>
+    <p class="muted">最小入力で v3.1.1 標準レポートを生成します（Likert 1〜5）。</p>
+
+    <form method="post" action="/demo/run" class="form">
+      <fieldset>
+        <legend>基本</legend>
+        <div class="row">
+          <label>企業名</label>
+          <input name="company_name" value="DEMO Inc." />
+        </div>
+        <div class="row">
+          <label>プラン</label>
+          <select name="plan">
+            <option value="professional" selected>Professional</option>
+            <option value="enterprise">Enterprise</option>
+          </select>
+        </div>
+        <div class="row">
+          <label>人員規模Index (0-100)</label>
+          <input name="headcount_index" type="number" step="1" value="50"/>
+        </div>
+        <div class="row">
+          <label>資金余力Index (0-100)</label>
+          <input name="cash_buffer_index" type="number" step="1" value="50"/>
+        </div>
+        <div class="row">
+          <label>Market Risk (0-100)</label>
+          <input name="market_risk" type="number" step="1" value="45"/>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>部門（Ω：簡易）</legend>
+        <div class="row">
+          <label>Departments（カンマ区切り）</label>
+          <input name="departments" value="営業,現場,経理,採用,総務"/>
+        </div>
+        <p class="muted">連携がある部門ペアにチェックしてください（最大5部門想定の簡易UI）。</p>
+        <div class="grid2">
+          <label><input type="checkbox" name="link_0_1" checked> 営業↔現場</label>
+          <label><input type="checkbox" name="link_0_2"> 営業↔経理</label>
+          <label><input type="checkbox" name="link_0_3"> 営業↔採用</label>
+          <label><input type="checkbox" name="link_0_4"> 営業↔総務</label>
+          <label><input type="checkbox" name="link_1_2" checked> 現場↔経理</label>
+          <label><input type="checkbox" name="link_1_3"> 現場↔採用</label>
+          <label><input type="checkbox" name="link_1_4"> 現場↔総務</label>
+          <label><input type="checkbox" name="link_2_3" checked> 経理↔採用</label>
+          <label><input type="checkbox" name="link_2_4"> 経理↔総務</label>
+          <label><input type="checkbox" name="link_3_4"> 採用↔総務</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Surface（CT/AL/PN/BE/DC）と PM/MT（各1〜5）</legend>
+        <p class="muted">簡易版：各軸の代表3問/5問をまとめて入力できます（詳細版はJSONから拡張可能）。</p>
+        <div class="grid3">
+          <div class="mini">
+            <h3>CT</h3>
+            <label>CT1 <input name="CT1" type="number" min="1" max="5" value="3"></label>
+            <label>CT2 <input name="CT2" type="number" min="1" max="5" value="3"></label>
+            <label>CT3 <input name="CT3" type="number" min="1" max="5" value="3"></label>
+          </div>
+          <div class="mini">
+            <h3>AL</h3>
+            <label>AL1 <input name="AL1" type="number" min="1" max="5" value="2"></label>
+            <label>AL2 <input name="AL2" type="number" min="1" max="5" value="2"></label>
+            <label>AL3 <input name="AL3" type="number" min="1" max="5" value="2"></label>
+          </div>
+          <div class="mini">
+            <h3>PN</h3>
+            <label>PN1 <input name="PN1" type="number" min="1" max="5" value="3"></label>
+            <label>PN2 <input name="PN2" type="number" min="1" max="5" value="3"></label>
+            <label>PN3 <input name="PN3" type="number" min="1" max="5" value="3"></label>
+          </div>
+          <div class="mini">
+            <h3>BE</h3>
+            <label>BE1 <input name="BE1" type="number" min="1" max="5" value="3"></label>
+            <label>BE2 <input name="BE2" type="number" min="1" max="5" value="3"></label>
+            <label>BE3 <input name="BE3" type="number" min="1" max="5" value="3"></label>
+          </div>
+          <div class="mini">
+            <h3>DC</h3>
+            <label>DC1 <input name="DC1" type="number" min="1" max="5" value="3"></label>
+            <label>DC2 <input name="DC2" type="number" min="1" max="5" value="3"></label>
+            <label>DC3 <input name="DC3" type="number" min="1" max="5" value="3"></label>
+          </div>
+          <div class="mini">
+            <h3>PM/MT</h3>
+            <label>PM1 <input name="PM1" type="number" min="1" max="5" value="3"></label>
+            <label>PM2 <input name="PM2" type="number" min="1" max="5" value="3"></label>
+            <label>PM3 <input name="PM3" type="number" min="1" max="5" value="3"></label>
+            <label>PM4 <input name="PM4" type="number" min="1" max="5" value="3"></label>
+            <label>PM5 <input name="PM5" type="number" min="1" max="5" value="3"></label>
+            <label>MT1 <input name="MT1" type="number" min="1" max="5" value="3"></label>
+            <label>MT2 <input name="MT2" type="number" min="1" max="5" value="3"></label>
+            <label>MT3 <input name="MT3" type="number" min="1" max="5" value="3"></label>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Decision（RA/BI/SV/SP 各1〜5）</legend>
+        <div class="grid3">
+          <div class="mini">
+            <h3>RA</h3>
+            <label>RA1 <input name="RA1" type="number" min="1" max="5" value="4"></label>
+            <label>RA2 <input name="RA2" type="number" min="1" max="5" value="4"></label>
+            <label>RA3 <input name="RA3" type="number" min="1" max="5" value="3"></label>
+            <label>RA4 <input name="RA4" type="number" min="1" max="5" value="3"></label>
+            <label>RA5 <input name="RA5" type="number" min="1" max="5" value="4"></label>
+          </div>
+          <div class="mini">
+            <h3>BI</h3>
+            <label>BI1 <input name="BI1" type="number" min="1" max="5" value="3"></label>
+            <label>BI2 <input name="BI2" type="number" min="1" max="5" value="3"></label>
+            <label>BI3 <input name="BI3" type="number" min="1" max="5" value="3"></label>
+            <label>BI4 <input name="BI4" type="number" min="1" max="5" value="3"></label>
+            <label>BI5 <input name="BI5" type="number" min="1" max="5" value="3"></label>
+          </div>
+          <div class="mini">
+            <h3>SV/SP</h3>
+            <label>SV1 <input name="SV1" type="number" min="1" max="5" value="2"></label>
+            <label>SV2 <input name="SV2" type="number" min="1" max="5" value="2"></label>
+            <label>SV3 <input name="SV3" type="number" min="1" max="5" value="2"></label>
+            <label>SV4 <input name="SV4" type="number" min="1" max="5" value="2"></label>
+            <label>SV5 <input name="SV5" type="number" min="1" max="5" value="2"></label>
+            <label>SP1 <input name="SP1" type="number" min="1" max="5" value="4"></label>
+            <label>SP2 <input name="SP2" type="number" min="1" max="5" value="4"></label>
+            <label>SP3 <input name="SP3" type="number" min="1" max="5" value="4"></label>
+            <label>SP4 <input name="SP4" type="number" min="1" max="5" value="4"></label>
+            <label>SP5 <input name="SP5" type="number" min="1" max="5" value="4"></label>
+          </div>
+        </div>
+      </fieldset>
+
+      <div class="actions">
+        <button class="btn" type="submit">PDFを生成</button>
+        <a class="btn ghost" href="/">戻る</a>
+      </div>
+    </form>
+  </main>
+</body>
+</html>

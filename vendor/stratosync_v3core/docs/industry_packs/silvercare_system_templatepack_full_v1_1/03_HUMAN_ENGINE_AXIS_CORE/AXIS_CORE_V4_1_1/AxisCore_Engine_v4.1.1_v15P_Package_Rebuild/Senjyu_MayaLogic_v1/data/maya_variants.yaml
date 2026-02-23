@@ -1,0 +1,28 @@
+
+version: 1.0
+tones:
+  11:
+    tag: release
+    poetic_ja: "十一の音のもと、太陽〈Ahau〉は道の記憶をひらく。"
+    explanation_ja: ["十一＝解放：手放す→軽くなる。","先に“やめる”を決めると選択が見える。"]
+  12:
+    tag: understanding
+    poetic_ja: "十二の音のもと、太陽〈Ahau〉は共鳴の環をひらく。"
+    explanation_ja: ["十二＝理解：違いを受け入れ、共に歩む。","対話の中に調和の核を探す。"]
+  13:
+    tag: presence
+    poetic_ja: "十三の音のもと、太陽〈Ahau〉は成就の静けさを敷く。"
+    explanation_ja: ["十三＝超越：大きな流れに委ねる。","完成は静けさと共に来る。"]
+seals:
+  Ahau:
+    tag: sun
+    keywords_ja: ["明晰","中心","統合"]
+    tip_ja: "「誰を照らすか」より「どう照らすか」。"
+  Ik:
+    tag: wind
+    keywords_ja: ["言霊","循環","コミュニケーション"]
+    tip_ja: "呼吸を整え、伝える前に聴く。"
+  Kawak:
+    tag: storm
+    keywords_ja: ["刷新","浄化","急展開"]
+    tip_ja: "大きな動きの前に余白を確保。"

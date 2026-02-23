@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "STRATOSYNC RCLResponse",
+  "type": "object",
+  "required": [
+    "case_id",
+    "industry_template",
+    "branch_explosion",
+    "convergence",
+    "twin_cause",
+    "residual"
+  ],
+  "properties": {
+    "case_id": {"type": "string"},
+    "industry_template": {"type": "string"},
+    "branch_explosion": {"type": "object"},
+    "convergence": {"type": "object"},
+    "twin_cause": {"type": "object"},
+    "residual": {"type": "object"},
+    "notes": {
+      "type": "array",
+      "items": {"type": "string"}
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "industry": "DentalClinic",
+  "period_months": 12,
+  "monthly_revenue": [
+    6500000,
+    6400000,
+    6550000,
+    6700000,
+    6900000,
+    7050000,
+    7150000,
+    7250000,
+    7350000,
+    7300000,
+    7450000,
+    7600000
+  ],
+  "monthly_patients": [
+    520,
+    510,
+    525,
+    540,
+    560,
+    575,
+    585,
+    595,
+    610,
+    605,
+    620,
+    635
+  ],
+  "top_referral_share": 0.22,
+  "top_doctor_revenue_share": 0.55,
+  "fixed_cost_ratio": 0.62,
+  "cash_months": 3.2,
+  "notes": "Sample data (demo)"
+}

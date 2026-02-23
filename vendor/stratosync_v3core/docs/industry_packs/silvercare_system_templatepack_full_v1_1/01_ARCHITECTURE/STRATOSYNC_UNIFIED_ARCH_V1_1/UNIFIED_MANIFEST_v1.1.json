@@ -1,0 +1,14 @@
+{
+  "release": "STRATOSYNC Unified Architecture v1.1",
+  "date": "2026-02-18",
+  "files": [
+    {
+      "name": "STRATOSYNC_UNIFIED_ARCHITECTURE_v1.1.md",
+      "sha256": "3e5e5afdd962e2662d2a9833c4d06a1a62d65722f8b7f10c8fd0b48c5c67e8d2"
+    },
+    {
+      "name": "STRATOSYNC_DEPENDENCY_DIAGRAM_v1.1.md",
+      "sha256": "231218dd6b67f7f484b521449a6d94cb650ef963f0d28c22f06202f28db191f3"
+    }
+  ]
+}

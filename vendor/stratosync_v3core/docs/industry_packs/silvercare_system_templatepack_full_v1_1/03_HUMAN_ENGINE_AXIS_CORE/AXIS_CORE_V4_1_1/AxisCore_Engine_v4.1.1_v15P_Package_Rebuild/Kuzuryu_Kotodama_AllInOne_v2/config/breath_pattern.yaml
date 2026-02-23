@@ -1,0 +1,22 @@
+breath_patterns:
+  default:
+    exhale: 6
+    hold: 1
+    inhale: 4
+    repeat: 3
+  quiet:
+    exhale: 8
+    hold: 0
+    inhale: 4
+    repeat: 2
+  ritual:
+    exhale: 7
+    hold: 2
+    inhale: 5
+    repeat: 3
+phonation:
+  belly_voice: true
+  fade_out_suffix:
+  - なり
+  - 現はる
+  - 清む

@@ -1,0 +1,6 @@
+{
+  "memory": "none",
+  "history_tracking": false,
+  "learning": false,
+  "reason": "prevent cognitive dependency and outcome fixation"
+}
