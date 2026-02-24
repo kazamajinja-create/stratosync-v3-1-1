@@ -2,14 +2,33 @@ services:
   - type: web
     name: stratosync-v3-1-1
     runtime: docker
-    plan: standard
-    region: singapore
+    region: oregon
+    plan: pro
+    healthCheckPath: /health
     envVars:
       - key: ENV
-        value: production
-      # Zero-config demo mode (no-code): billing disabled by default.
+        value: prod
       - key: ENABLE_BILLING
-        value: "0"
-      # Optional: set API_KEY if you want to protect endpoints.
-      # - key: API_KEY
-      #   generateValue: true
+        value: "false"
+      - key: STRICT_DB_BOOT
+        value: "false"
+      - key: API_KEY
+        generateValue: true
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: TZ
+        value: Asia/Tokyo
+      - key: DATABASE_URL
+        fromDatabase:
+          name: stratosync-db
+          property: connectionString
+    disk:
+      name: stratosync-data
+      mountPath: /app/data
+      sizeGB: 1
+
+databases:
+  - name: stratosync-db
+    region: oregon
+    plan: basic-1gb
+    # diskSizeGB: 15  # optional on flexible plans; omit to use default

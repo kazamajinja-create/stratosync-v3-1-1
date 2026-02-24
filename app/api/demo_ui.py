@@ -114,40 +114,41 @@ def _pdf_bytes(title: str, payload: dict, result: dict) -> bytes:
 
     y -= 8
     c.setFont("Helvetica-Bold", 10)
+    # Key scores
+    y -= 8
+    c.setFont("Helvetica-Bold", 10)
+    c.drawString(40, y, "Key Scores")
+    y -= 14
+    c.setFont("Helvetica", 9)
 
-# Key scores
-y -= 8
-c.setFont("Helvetica-Bold", 10)
-c.drawString(40, y, "Key Scores")
-y -= 14
-c.setFont("Helvetica", 9)
+    fusion = result.get("mode_fusion", {}) or {}
+    surface = result.get("omega_surface", {}) or {}
+    omega = result.get("omega_combination", {}) or {}
 
-fusion = result.get("mode_fusion", {}) or {}
-surface = result.get("omega_surface", {}) or {}
-omega = result.get("omega_combination", {}) or {}
+    def sline(k, v):
+        nonlocal y
+        if y < 70:
+            c.showPage()
+            y = height - 48
+            c.setFont("Helvetica", 9)
+        c.drawString(44, y, f"{k}: {v}")
+        y -= 12
 
-def sline(k, v):
-    nonlocal y
-    if y < 70:
-        c.showPage()
-        y = height - 48
-        c.setFont("Helvetica", 9)
-    c.drawString(44, y, f"{k}: {v}")
-    y -= 12
+    sline("SOS (Strategic Output Score)", fusion.get("SOS", "n/a"))
+    sline("BI / HI / OI", f'{fusion.get("BI","n/a")} / {fusion.get("HI","n/a")} / {fusion.get("OI","n/a")}')
+    sline("SE (Surface Efficiency, normalized)", fusion.get("SE", "n/a"))
+    sline("OPI (ln(Omega), normalized)", fusion.get("OPI", "n/a"))
+    sline("Surface A / V / SE_raw", f'{surface.get("A_surface","n/a")} / {surface.get("V_volume","n/a")} / {surface.get("SE_surface_efficiency","n/a")}')
+    sline("Omega_pairs / n_effective", f'{omega.get("Omega_pairs","n/a")} / {omega.get("n_effective","n/a")}')
 
-sline("SOS (Strategic Output Score)", fusion.get("SOS", "n/a"))
-sline("BI / HI / OI", f'{fusion.get("BI","n/a")} / {fusion.get("HI","n/a")} / {fusion.get("OI","n/a")}')
-sline("SE (Surface Efficiency, normalized)", fusion.get("SE", "n/a"))
-sline("OPI (ln(Omega), normalized)", fusion.get("OPI", "n/a"))
-sline("Surface A / V / SE_raw", f'{surface.get("A_surface","n/a")} / {surface.get("V_volume","n/a")} / {surface.get("SE_surface_efficiency","n/a")}')
-sline("Omega_pairs / n_effective", f'{omega.get("Omega_pairs","n/a")} / {omega.get("n_effective","n/a")}')
-
+    # JSON excerpt
+    y -= 8
+    c.setFont("Helvetica-Bold", 10)
     c.drawString(40, y, "Analysis Result (JSON excerpt)")
     y -= 14
     c.setFont("Helvetica", 8)
 
     pretty = json.dumps(result, ensure_ascii=False, indent=2)
-    # draw first ~120 lines to keep it safe
     for ln in pretty.splitlines()[:120]:
         if y < 60:
             c.showPage()
