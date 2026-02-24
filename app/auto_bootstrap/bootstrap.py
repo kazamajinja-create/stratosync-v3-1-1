@@ -2,6 +2,12 @@ import os
 
 from app.db.init_db import init_db
 from app.config import settings
+
+
+def _bool_env(key: str, default: str = "false") -> bool:
+    v = os.getenv(key, default)
+    return str(v).strip().lower() in {"1", "true", "yes", "on"}
+
 from app.auto_bootstrap.registry import build_runtime_registry
 from app.auto_bootstrap.template_installer import install_template_archives
 
@@ -15,7 +21,15 @@ def bootstrap():
     install_template_archives()
 
     # Create tables and validate env
-    init_db()
+    strict_db = _bool_env("STRICT_DB_BOOT", "false")
+    try:
+        init_db()
+    except Exception as e:
+        # In non-strict mode, allow boot even if DB is temporarily unavailable.
+        # This prevents Render deploy failures while Postgres is still coming up.
+        if strict_db:
+            raise
+        print(f"[BOOT] init_db skipped (non-strict). Reason: {type(e).__name__}: {e}")
 
     # Build runtime registries for no-code template growth.
     # Dropping a new folder under industry_packs_runtime/<id>/ with manifest.json
